@@ -4,14 +4,16 @@ type HeroCardProps = {
   name?: string;
   role?: string;
   archetype?: string;
-  id?: number;
+  id?: string;
+  portrait?: string | null
 };
 
 export const HeroCard = ({
   name = "Nombre del héroe",
   role = "Rol",
   archetype = "archetype",
-  id = -1,
+  id = "",
+  portrait = null
 }: HeroCardProps) => {
   return (
     <Link href={"/hero/" + id}>
@@ -29,11 +31,13 @@ export const HeroCard = ({
             </span>
           </div>
         </header>
-
         <div className="flex aspect-square items-center justify-center bg-slate-100">
+          {portrait?
+          <img src={portrait} alt={"Portrait of " + name} />:
           <span className="text-7xl font-bold text-slate-300">
             {name.charAt(0)}
           </span>
+          }
         </div>
       </article>
     </Link>

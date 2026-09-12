@@ -36,6 +36,7 @@ const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
                 role={h.role}
                 archetype={h.archetype}
                 id={h.id}
+                portrait={h.image_url}
               />
             </li>
           ))}
