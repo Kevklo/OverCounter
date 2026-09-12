@@ -8,4 +8,4 @@ INSERT OR IGNORE INTO heroes (name, role, archetype, description, image_url)
 VALUES('3heroenombre', 'support', 'brawl', 'description3', 'noUrlYet');
 
 INSERT OR IGNORE INTO heroes (name, role, archetype, description, image_url)
-VALUES('4heroenombre', 'tank', 'dive', 'description4', 'noUrlYet');
+VALUES('4heroenombre', 'tank', 'poke', 'description4', 'noUrlYet');
