@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --brand-orange: #f99e1a;
+  --mesh-base: #f3e4d0;
+  --mesh-line: rgba(249, 158, 26, 0.35);
+  --mesh-vignette: rgba(120, 80, 40, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --mesh-base: #341a0b;
+    --mesh-line: rgba(255, 150, 60, 0.5);
+    --mesh-vignette: rgba(0, 0, 0, 0.2);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes mesh-drift {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(48px, 0);
+  }
+}
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.65;
+  }
+}
+
+.mesh-base {
+  background-color: var(--mesh-base);
+}
+
+.mesh-bg {
+  background-image:
+    linear-gradient(var(--mesh-line) 2px, transparent 2px),
+    linear-gradient(90deg, var(--mesh-line) 2px, transparent 2px);
+  background-size: 48px 48px;
+  animation: mesh-drift 6s linear infinite;
+  will-change: transform;
+}
+
+.mesh-vignette {
+  background-image: linear-gradient(
+    to bottom,
+    var(--mesh-vignette),
+    transparent,
+    var(--mesh-vignette)
+  );
+}
+
+.glow-pulse {
+  animation: glow-pulse 6s ease-in-out infinite;
+}
+
+.logo-text {
+  font-family: var(--font-chakra), sans-serif;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 1px black);
+}
+
+.logo-text-over {
+  background-color: var(--brand-orange);
+}
+
+.logo-text-rest {
+  background-color: rgba(0, 0, 0, 0.945);
+}
