@@ -59,7 +59,6 @@ export interface Hero {
   story: Story;
 }
 
-// Types derived from Hero so every field is declared once (single source of truth).
 export type HeroData = Omit<Hero, "id" | "archetype">;
 
 export type FetchedHero = HeroData & { key: string; archetype: null };
@@ -69,3 +68,22 @@ export type Serialized<T> = {
 };
 
 export type HeroRow = Serialized<Hero>;
+
+
+export interface RelationData {
+  hero: string;
+  strength: number;
+}
+
+export type RelationsData = Record<
+  string,
+  { counters: RelationData[]; synergies: RelationData[] }
+>;
+
+
+export interface RelationEntry {
+  id: string;
+  name: string;
+  strength: number;
+  image_url: string | null;
+}

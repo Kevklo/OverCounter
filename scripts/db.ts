@@ -14,6 +14,8 @@ switch (command) {
     console.log("seed ok");
     break;
   case "reset":
+    db.exec("DROP TABLE IF EXISTS synergies");
+    db.exec("DROP TABLE IF EXISTS counters");
     db.exec("DROP TABLE IF EXISTS heroes");
     migrate();
     seed();

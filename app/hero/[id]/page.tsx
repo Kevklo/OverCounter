@@ -1,7 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getHeroById } from "@/lib/heroes";
-import type { Hero, Perk } from "@/lib/types";
+import { getSynergies, getWeakAgainst } from "@/lib/relations";
+import type { Hero, Perk, RelationEntry } from "@/lib/types";
 import Pills from "@/app/components/Pills";
 
 const PerkItem = ({ perk }: { perk: Perk }) => (
@@ -24,13 +26,52 @@ const PerkItem = ({ perk }: { perk: Perk }) => (
   </p>
 );
 
+const RelationRow = ({ entry }: { entry: RelationEntry }) => (
+  <li className="flex items-center gap-3">
+    <Link
+      href={`/hero/${entry.id}`}
+      className="flex w-40 shrink-0 items-center gap-2"
+    >
+      {entry.image_url ? (
+        <Image
+          src={entry.image_url}
+          alt={`Portrait of ${entry.name}`}
+          width={32}
+          height={32}
+          sizes="32px"
+          className="h-8 w-8 shrink-0 rounded-full object-cover"
+        />
+      ) : (
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-200 text-xs font-bold text-slate-500 dark:bg-slate-700 dark:text-slate-300">
+          {entry.name.charAt(0)}
+        </span>
+      )}
+      <span className="truncate font-semibold text-slate-900 hover:underline dark:text-slate-100">
+        {entry.name}
+      </span>
+    </Link>
+    <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700">
+      <div
+        className="h-full rounded-full bg-linear-to-r from-orange-400 to-orange-600"
+        style={{ width: `${entry.strength * 100}%` }}
+      />
+    </div>
+    <span className="w-10 shrink-0 text-right text-sm tabular-nums text-slate-600 dark:text-slate-300">
+      {(entry.strength * 100).toFixed(0)}%
+    </span>
+  </li>
+);
+
 const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
   const { id } = await props.params;
   const hero: Hero | undefined = getHeroById(id);
   if (!hero) notFound();
 
+  const synergies = getSynergies(id);
+  const counters = getWeakAgainst(id);
+
   return (
-    <div className="flex flex-col mx-auto w-full max-w-5xl px-4 py-8 gap-20">
+    <div className="mx-auto flex w-full max-w-5xl flex-col gap-20 px-4 py-8">
       <div className="flex flex-col items-center gap-8 md:flex-row md:items-start">
         <div className="w-full max-w-[320px] shrink-0">
           {hero.image_url ? (
@@ -53,9 +94,7 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
           <h1 className="text-center text-6xl text-slate-900 md:text-left md:text-8xl dark:text-slate-100">
             {hero.name}
           </h1>
-          <p className="text-3xl">
-            {hero.description}
-          </p>
+          <p className="text-3xl">{hero.description}</p>
           <div className="flex flex-row gap-4 text-3xl">
             <Pills kind="role" value={hero.role} />
             <Pills kind="archetype" value={hero.archetype} />
@@ -77,11 +116,43 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
           </div>
         </div>
       </div>
-      <div className="text-5xl self-center">
-        SYNERGIES: WIP
-      </div>
-      <div className="text-5xl self-center">
-        BEST COUNTERS: WIP
+
+      <div className="border-t border-slate-300 pt-10 dark:border-slate-700">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <section className="flex flex-col gap-4 rounded-xl border border-slate-300 bg-white/60 p-6 shadow-sm backdrop-blur-sm dark:border-slate-700 dark:bg-slate-900/40">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+              Synergies
+            </h2>
+            {synergies.length === 0 ? (
+              <p className="text-slate-600 dark:text-slate-300">
+                No synergies recorded yet.
+              </p>
+            ) : (
+              <ul className="flex flex-col gap-3">
+                {synergies.slice(0, 4).map((entry) => (
+                  <RelationRow key={entry.id} entry={entry} />
+                ))}
+              </ul>
+            )}
+          </section>
+
+          <section className="flex flex-col gap-4 rounded-xl border border-slate-300 bg-white/60 p-6 shadow-sm backdrop-blur-sm dark:border-slate-700 dark:bg-slate-900/40">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+              Best counters
+            </h2>
+            {counters.length === 0 ? (
+              <p className="text-slate-600 dark:text-slate-300">
+                No counters recorded yet.
+              </p>
+            ) : (
+              <ul className="flex flex-col gap-3">
+                {counters.slice(0, 4).map((entry) => (
+                  <RelationRow key={entry.id} entry={entry} />
+                ))}
+              </ul>
+            )}
+          </section>
+        </div>
       </div>
     </div>
   );
