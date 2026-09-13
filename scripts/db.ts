@@ -1,10 +1,10 @@
-import { migrate } from "../lib/migrate";
-import { seed } from "../lib/seed";
-import { db } from "../lib/db";
+import { migrate } from "@/lib/migrate";
+import { seed } from "@/lib/seed";
+import { db } from "@/lib/db";
 
-const command = process.argv[2]
+const command = process.argv[2];
 
-switch(command) {
+switch (command) {
   case "migrate":
     migrate();
     console.log("migrate ok");
@@ -23,6 +23,6 @@ switch(command) {
     console.table(db.prepare("SELECT * FROM heroes").all());
     break;
   default:
-    console.error("Comando no reconocido");
-    process.exit(1)
+    console.error("Unknown command");
+    process.exit(1);
 }

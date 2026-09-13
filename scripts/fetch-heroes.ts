@@ -1,46 +1,26 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { HeroRole, Hitpoints, Perks, Story } from "../lib/types";
+import type { FetchedHero, Hero, HeroData } from "@/lib/types";
 
 const BASE_URL = "https://overfast-api.tekrop.fr";
 const DELAY_MS = 100;
 
-type ApiHeroSummary = {
+type ApiHeroSummary = Pick<Hero, "name" | "role" | "subrole"> & {
   key: string;
-  name: string;
   portrait: string;
-  role: HeroRole;
-  subrole: string;
 };
 
-type ApiHeroDetail = {
-  description: string;
-  age: number | null;
-  hitpoints: Hitpoints;
-  perks: Perks;
-  story: Story;
-};
-
-type FetchedHero = {
-  key: string;
-  name: string;
-  role: HeroRole;
-  subrole: string;
-  archetype: null;
-  image_url: string;
-  description: string;
-  age: number | null;
-  hitpoints: Hitpoints;
-  perks: Perks;
-  story: Story;
-};
+type ApiHeroDetail = Pick<
+  HeroData,
+  "description" | "age" | "hitpoints" | "perks" | "story"
+>;
 
 const sleep = (ms: number): Promise<void> =>
   new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getJson<T>(url: string): Promise<T> {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`API respondio ${res.status} en ${url}`);
+  if (!res.ok) throw new Error(`API responded ${res.status} at ${url}`);
   return (await res.json()) as T;
 }
 
@@ -71,7 +51,7 @@ async function main() {
 
   const out = path.join(process.cwd(), "lib", "heroes-data.json");
   fs.writeFileSync(out, JSON.stringify(heroes, null, 2));
-  console.log(`Escritos ${heroes.length} heroes en ${out}`);
+  console.log(`Wrote ${heroes.length} heroes to ${out}`);
 }
 
 main().catch((err) => {

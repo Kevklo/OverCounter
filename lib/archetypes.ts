@@ -1,7 +1,7 @@
-import type { HeroArchetype } from "./types";
+import type { HeroArchetype } from "@/lib/types";
 
-// Completa el arquetipo de cada héroe: "dive" | "brawl" | "poke".
-// El seed falla si algún héroe queda en null.
+// Fill in each hero's archetype: "dive" | "brawl" | "poke".
+// The seed fails if any hero is left as null.
 export const ARCHETYPES: Record<string, HeroArchetype | null> = {
   "ana": "poke",
   "anran": "dive",

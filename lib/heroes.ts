@@ -1,12 +1,5 @@
-import type {
-  Hero,
-  HeroArchetype,
-  HeroRole,
-  Hitpoints,
-  Perks,
-  Story,
-} from "./types";
-import { db } from "./db";
+import type { Hero, HeroArchetype, HeroRole, HeroRow } from "@/lib/types";
+import { db } from "@/lib/db";
 
 type HeroFilters = {
   role?: HeroRole;
@@ -14,26 +7,12 @@ type HeroFilters = {
   archetype?: HeroArchetype;
 };
 
-type HeroRow = {
-  id: string;
-  name: string;
-  role: HeroRole;
-  archetype: HeroArchetype;
-  subrole: string;
-  description: string;
-  image_url: string | null;
-  age: number;
-  hitpoints: string;
-  perks: string;
-  story: string;
-};
-
 function toHero(row: HeroRow): Hero {
   return {
     ...row,
-    hitpoints: JSON.parse(row.hitpoints) as Hitpoints,
-    perks: JSON.parse(row.perks) as Perks,
-    story: JSON.parse(row.story) as Story,
+    hitpoints: JSON.parse(row.hitpoints),
+    perks: JSON.parse(row.perks),
+    story: JSON.parse(row.story),
   };
 }
 

@@ -3,8 +3,8 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
 import type { Hero } from "@/lib/types";
-import SearchBar from "./SearchBar";
-import { HeroCard } from "./HeroCard";
+import SearchBar from "@/app/components/SearchBar";
+import { HeroCard } from "@/app/components/HeroCard";
 
 type ExplorerProps = {
   heroes?: Hero[];
@@ -26,9 +26,9 @@ const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
       </div>
 
       {filtered.length === 0 ? (
-        <p className="text-center text-slate-500">No se encontraron héroes.</p>
+        <p className="text-center text-slate-500">No heroes found.</p>
       ) : (
-        <ul className="flex flex-row flex-wrap items-center justify-center gap-25">
+        <ul className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-3 px-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
           {filtered.map((h) => (
             <li key={h.id}>
               <HeroCard

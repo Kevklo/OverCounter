@@ -1,13 +1,10 @@
-import Link from 'next/link';
-import '../styles/styles.css'
-import NavBar from '../components/NavBar';
+import Logo from "@/app/components/Logo";
 
-
-const LandingPage = (): React.JSX.Element => {
+const LandingPage = () => {
   return (
-    <>
-      <NavBar></NavBar>
-    </>
+    <main className="flex flex-1 items-center justify-center">
+      <Logo size="lg" />
+    </main>
   );
 };
 

@@ -1,51 +1,17 @@
 import fs from "node:fs";
 import path from "node:path";
-import { db } from "./db";
-import { ARCHETYPES } from "./archetypes";
-import type {
-  HeroArchetype,
-  HeroRole,
-  Hitpoints,
-  Perks,
-  Story,
-} from "./types";
-
-type FetchedHero = {
-  key: string;
-  name: string;
-  role: HeroRole;
-  archetype: null;
-  subrole: string;
-  image_url: string;
-  description: string;
-  age: number | null;
-  hitpoints: Hitpoints;
-  perks: Perks;
-  story: Story;
-};
-
-type SeedRow = {
-  id: string;
-  name: string;
-  role: HeroRole;
-  archetype: HeroArchetype;
-  subrole: string;
-  description: string;
-  image_url: string;
-  age: number | null;
-  hitpoints: string;
-  perks: string;
-  story: string;
-};
+import { db } from "@/lib/db";
+import { ARCHETYPES } from "@/lib/archetypes";
+import type { FetchedHero, HeroRow } from "@/lib/types";
 
 export const seed = (): void => {
   const file = path.join(process.cwd(), "lib", "heroes-data.json");
   const fetched: FetchedHero[] = JSON.parse(fs.readFileSync(file, "utf8"));
 
-  const heroes: SeedRow[] = fetched.map((hero) => {
+  const heroes: HeroRow[] = fetched.map((hero) => {
     const archetype = ARCHETYPES[hero.key];
     if (!archetype) {
-      throw new Error(`Falta el arquetipo de "${hero.key}" en lib/archetypes.ts`);
+      throw new Error(`Missing archetype for "${hero.key}" in lib/archetypes.ts`);
     }
 
     return {
@@ -81,7 +47,7 @@ export const seed = (): void => {
       story = excluded.story
   `);
 
-  db.transaction((rows: SeedRow[]) => {
+  db.transaction((rows: HeroRow[]) => {
     for (const row of rows) upsert.run(row);
   })(heroes);
 };

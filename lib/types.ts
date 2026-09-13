@@ -1,5 +1,14 @@
-export type HeroRole = "tank" | "damage" | "support";
-export type HeroArchetype = "dive" | "brawl" | "poke";
+export const HERO_ROLES = ["tank", "damage", "support"] as const;
+export const HERO_ARCHETYPES = ["dive", "brawl", "poke"] as const;
+
+export type HeroRole = (typeof HERO_ROLES)[number];
+export type HeroArchetype = (typeof HERO_ARCHETYPES)[number];
+
+export const isHeroRole = (value: unknown): value is HeroRole =>
+  typeof value === "string" && (HERO_ROLES as readonly string[]).includes(value);
+
+export const isHeroArchetype = (value: unknown): value is HeroArchetype =>
+  typeof value === "string" && (HERO_ARCHETYPES as readonly string[]).includes(value);
 
 export interface Hitpoints {
   health: number;
@@ -49,3 +58,14 @@ export interface Hero {
   perks: Perks;
   story: Story;
 }
+
+// Types derived from Hero so every field is declared once (single source of truth).
+export type HeroData = Omit<Hero, "id" | "archetype">;
+
+export type FetchedHero = HeroData & { key: string; archetype: null };
+
+export type Serialized<T> = {
+  [K in keyof T]: T[K] extends object ? string : T[K];
+};
+
+export type HeroRow = Serialized<Hero>;
