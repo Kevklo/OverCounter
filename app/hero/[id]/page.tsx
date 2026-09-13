@@ -5,6 +5,7 @@ import { getHeroById } from "@/lib/heroes";
 import { getSynergies, getWeakAgainst } from "@/lib/relations";
 import type { Hero, Perk, RelationEntry } from "@/lib/types";
 import Pills from "@/app/components/Pills";
+import { LifeBar } from "@/app/components/LifeBar";
 
 const PerkItem = ({ perk }: { perk: Perk }) => (
   <p className="flex flex-col gap-1">
@@ -30,7 +31,7 @@ const RelationRow = ({ entry }: { entry: RelationEntry }) => (
   <li className="flex items-center gap-3">
     <Link
       href={`/hero/${entry.id}`}
-      className="flex w-40 shrink-0 items-center gap-2"
+      className="flex w-28 shrink-0 items-center gap-2 sm:w-40"
     >
       {entry.image_url ? (
         <Image
@@ -71,7 +72,7 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
   const counters = getWeakAgainst(id);
 
   return (
-    <div className="mx-auto flex w-full max-w-5xl flex-col gap-20 px-4 py-8">
+    <div className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-4 py-8 md:gap-20">
       <div className="flex flex-col items-center gap-8 md:flex-row md:items-start">
         <div className="w-full max-w-[320px] shrink-0">
           {hero.image_url ? (
@@ -91,11 +92,16 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
         </div>
 
         <div className="flex flex-1 flex-col items-center gap-6 md:items-start">
-          <h1 className="text-center text-6xl text-slate-900 md:text-left md:text-8xl dark:text-slate-100">
-            {hero.name}
-          </h1>
-          <p className="text-3xl">{hero.description}</p>
-          <div className="flex flex-row gap-4 text-3xl">
+          <div className="flex w-full flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
+            <h1 className="min-w-0 text-center text-4xl text-slate-900 sm:text-5xl md:text-left md:text-7xl dark:text-slate-100">
+              {hero.name}
+            </h1>
+            <div className="w-full shrink-0 md:w-64 lg:w-80">
+              <LifeBar hps={hero.hitpoints}></LifeBar>
+            </div>
+          </div>
+          <p className="text-lg sm:text-xl md:text-2xl">{hero.description}</p>
+          <div className="flex flex-row gap-3 text-xl md:gap-4 md:text-2xl">
             <Pills kind="role" value={hero.role} />
             <Pills kind="archetype" value={hero.archetype} />
           </div>
@@ -116,7 +122,6 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
           </div>
         </div>
       </div>
-
       <div className="border-t border-slate-300 pt-10 dark:border-slate-700">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <section className="flex flex-col gap-4 rounded-xl border border-slate-300 bg-white/60 p-6 shadow-sm backdrop-blur-sm dark:border-slate-700 dark:bg-slate-900/40">

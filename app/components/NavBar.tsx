@@ -3,7 +3,7 @@ import Logo from "@/app/components/Logo";
 
 const NavBar = () => {
   return (
-    <nav className="flex flex-col items-center gap-2 bg-orange-500 px-4 py-3 md:flex-row md:justify-between">
+    <nav className="flex flex-col items-center gap-2 bg-orange-500 px-4 py-3 md:flex-row md:justify-between mb-5">
       <Link href="/landing" className="shrink-0">
         <Logo size="sm" />
       </Link>
