@@ -1,5 +1,16 @@
 import { db } from "@/lib/db";
-import type { RelationEntry } from "@/lib/types";
+import type { RelationEntry, Hero, HeroRole } from "@/lib/types";
+import { listHeroes } from "@/lib/heroes";
+
+type ScoreType = Record<string, {h: Hero, total: number}>;
+
+const getBestByRole = (heroes: ScoreType, role: HeroRole, amount: number): Hero[] => {
+  const evaluatedHeroes = Object.values(heroes);
+  return evaluatedHeroes.filter((item) => item.h.role === role)
+  .sort((a,b) => b.total - a.total)
+  .slice(0, amount)
+  .map((item) => item.h)
+}
 
 // Heroes this hero counters (outgoing: `id` is the winner).
 export const getStrongAgainst = (id: string): RelationEntry[] =>
@@ -36,3 +47,26 @@ export const getSynergies = (id: string): RelationEntry[] =>
       ORDER BY s.strength DESC
     `)
     .all(id, id, id) as RelationEntry[];
+
+
+export const getTeamStrongAgainst = (ids: string[]): Hero[] => {
+
+  const counters: ScoreType = {};
+
+  const heroes: Hero[] = listHeroes();
+  for(const h of heroes){
+    counters[h.id] = {h, total: 0}; 
+  }
+  for(const id of ids){
+    const counts = getWeakAgainst(id);
+    for(const c of counts){
+      counters[c.id].total += c.strength;
+    }
+  }
+
+  const bestTank = getBestByRole(counters ,'tank', 1);
+  const bestDamage = getBestByRole(counters ,'damage', 2);
+  const bestSupport = getBestByRole(counters ,'support', 2);
+  
+  return [...bestTank, ...bestDamage, ...bestSupport];
+}

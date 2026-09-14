@@ -18,8 +18,9 @@ export const HeroCard = ({
   portrait = null,
 }: HeroCardProps) => {
   return (
-    <Link href={`/hero/${id}`}>
-      <article className="flex flex-col overflow-hidden rounded-xl border border-slate-300 bg-linear-to-b from-slate-50 via-slate-200 to-slate-400 shadow-md transition-transform duration-100 hover:scale-105">
+    <Link href={`/hero/${id}`} className="card-laser block rounded-xl">
+      <article className="flex flex-col overflow-hidden rounded-xl border border-slate-300 
+        bg-linear-to-b from-slate-50 via-slate-200 to-slate-400">
         <header className="flex flex-col items-center justify-between gap-2 px-3 py-1.5">
           <h2 className="truncate text-base font-semibold text-black">{name}</h2>
           <div className="flex flex-row gap-1">
