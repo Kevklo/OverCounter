@@ -23,9 +23,8 @@ const ARCHETYPE_LABELS: Record<HeroArchetype, string> = {
   poke: "Poke",
 };
 
-function buildHref(role?: string, archetype?: string): string {
+function buildHref(archetype?: string): string {
   const params = new URLSearchParams();
-  if (role) params.set("role", role);
   if (archetype) params.set("archetype", archetype);
   const qs = params.toString();
   return qs ? `/heroesList?${qs}` : "/heroesList";
@@ -39,25 +38,14 @@ function buttonClass(active: boolean): string {
     : `${base} border-slate-300 bg-linear-to-b from-slate-50 via-slate-200 to-slate-400 text-slate-700 hover:from-slate-100 hover:to-slate-500`;
 }
 
-const FilterButtons = ({ role, archetype }: FilterButtonsProps) => {
+const FilterButtons = ({ archetype }: FilterButtonsProps) => {
   return (
     <div className="flex flex-col flex-nowrap gap-3">
-      <div className="flex flex-row flex-nowrap justify-center gap-5">
-        {HERO_ROLES.map((value) => (
-          <Link
-            key={value}
-            href={buildHref(role === value ? undefined : value, archetype)}
-            className={buttonClass(role === value)}
-          >
-            {ROLE_LABELS[value]}
-          </Link>
-        ))}
-      </div>
       <div className="flex flex-row flex-nowrap justify-center gap-5">
         {HERO_ARCHETYPES.map((value) => (
           <Link
             key={value}
-            href={buildHref(role, archetype === value ? undefined : value)}
+            href={buildHref( archetype === value ? undefined : value)}
             className={buttonClass(archetype === value)}
           >
             {ARCHETYPE_LABELS[value]}

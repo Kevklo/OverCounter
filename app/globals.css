@@ -4,18 +4,11 @@
   --background: #ffffff;
   --foreground: #171717;
   --brand-orange: #f99e1a;
-  --mesh-base: #f3e4d0;
-  --mesh-line: rgba(249, 158, 26, 0.35);
-  --mesh-vignette: rgba(120, 80, 40, 0.08);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --mesh-base: #341a0b;
-    --mesh-line: rgba(255, 150, 60, 0.5);
-    --mesh-vignette: rgba(0, 0, 0, 0.2);
+    --background: #000000;
   }
 }
 
@@ -25,14 +18,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes mesh-drift {
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(48px, 0);
-  }
-}
 
 @keyframes glow-pulse {
   0%,
@@ -56,62 +41,9 @@ body {
   }
 }
 
-.mesh-base {
-  background-color: var(--mesh-base);
-}
-
-.mesh-bg {
-  background-image:
-    linear-gradient(var(--mesh-line) 2px, transparent 2px),
-    linear-gradient(90deg, var(--mesh-line) 2px, transparent 2px);
-  background-size: 48px 48px;
-  animation: mesh-drift 6s linear infinite;
-  will-change: transform;
-}
-
-.mesh-vignette {
-  background-image: linear-gradient(
-    to bottom,
-    var(--mesh-vignette),
-    transparent,
-    var(--mesh-vignette)
-  );
-}
 
 .glow-pulse {
   animation: glow-pulse 6s ease-in-out infinite;
-}
-
-.card-laser {
-  position: relative;
-  isolation: isolate;
-}
-
-.card-laser::before {
-  content: "";
-  position: absolute;
-  inset: -2px;
-  z-index: -1;
-  border-radius: inherit;
-  padding: 2px;
-  background: conic-gradient(
-    from var(--card-angle),
-    transparent 0deg,
-    transparent 300deg,
-    var(--brand-orange) 330deg,
-    #ff7b00 345deg,
-    var(--brand-orange) 360deg
-  );
-  animation: card-laser-spin 3s linear infinite;
-}
-
-.card-laser::after {
-  content: "";
-  position: absolute;
-  inset: -3px;
-  z-index: -2;
-  border-radius: inherit;
-  opacity: 0.9;
 }
 
 .logo-text {
@@ -128,6 +60,6 @@ body {
 }
 
 .logo-text-rest {
-  background-color: rgba(0, 0, 0, 0.945);
+  background-color: rgba(255, 255, 255, 0.945);
 }
 

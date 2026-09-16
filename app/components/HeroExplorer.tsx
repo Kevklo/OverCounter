@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { ReactNode } from "react";
-import type { Hero } from "@/lib/types";
+import type { Hero, HeroRole } from "@/lib/types";
 import SearchBar from "@/app/components/SearchBar";
 import { HeroCard } from "@/app/components/HeroCard";
 
@@ -17,6 +17,20 @@ const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
   const filtered = heroes.filter((h) =>
     h.name.toLowerCase().includes(query.trim().toLowerCase())
   );
+  
+  const filterByRole = (heroes: Hero[] = [], role: HeroRole = "damage") => {
+    const heroesRole = heroes.filter((h) => h.role == role);
+    return heroesRole.map((h) => (
+      <HeroCard
+        key={h.id}
+        name={h.name}
+        role={h.role}
+        archetype={h.archetype}
+        id={h.id}
+        description={h.description}
+        portrait={h.image_url}
+      />
+    ))}
 
   return (
     <>
@@ -24,26 +38,27 @@ const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
         <SearchBar value={query} onChange={setQuery} />
         {filters}
       </div>
+      <div className="mx-8">
+        <ul className="text-white grid grid-cols-3 gap-4">
 
-      {filtered.length === 0 ? (
-        <p className="text-center text-slate-500">No heroes found.</p>
-      ) : (
-        <ul className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-3 px-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
-          {filtered.map((h) => (
-            <li key={h.id}>
-              <HeroCard
-                name={h.name}
-                role={h.role}
-                archetype={h.archetype}
-                id={h.id}
-                portrait={h.image_url}
-              />
-            </li>
-          ))}
+          <ul className="flex flex-col gap-4">
+            <h2 className="font-bold text-2xl">Damage</h2>
+            {filterByRole(heroes, "damage")}
+          </ul>
+
+          <ul className="flex flex-col gap-4">
+            <h2 className="font-extrabold text-2xl">Support</h2>
+            {filterByRole(heroes, "support")}
+          </ul>
+
+          <ul className="flex flex-col gap-4">
+            <h2 className="font-bolder text-2xl">Tank</h2>
+            {filterByRole(heroes, "tank")}
+          </ul>
         </ul>
-      )}
+      </div>
     </>
-  );
-};
+)
+}
 
 export default HeroExplorer;

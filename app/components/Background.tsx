@@ -8,8 +8,8 @@ export const Background = () => {
         <div className="mesh-bg absolute inset-0" />
       </div>
 
-      <div className="glow-pulse absolute left-1/2 top-0 h-[70vh] w-[120vw] -translate-x-1/2 -translate-y-1/3 rounded-full bg-orange-400/35 blur-[120px]" />
-      <div className="glow-pulse absolute bottom-0 left-1/4 h-[60vh] w-[70vw] rounded-full bg-amber-500/25 blur-[120px]" />
+      <div className="glow-pulse absolute left-1/2 top-0 h-[70vh] w-[120vw] -translate-x-1/2 -translate-y-1/3 rounded-full bg-gray-400/35 blur-[120px]" />
+      <div className="glow-pulse absolute bottom-0 left-1/4 h-[60vh] w-[70vw] rounded-full bg-[hsl(215_14%_34%/_0.25)] blur-[120px]" />
 
       <div className="mesh-vignette absolute inset-0" />
     </div>

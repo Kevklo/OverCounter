@@ -11,7 +11,7 @@ const Pills = ({ kind, value }: PillsProps) => {
 
   return (
     <span
-      className="rounded-full px-[0.8em] py-[0.2em] text-[0.625em] font-medium uppercase tracking-wide"
+      className="rounded-full px-[0.8em] py-[0.2em] text-[0.625em] font-medium uppercase flex items-center h-fit"
       style={{ backgroundColor: background, color: text }}
     >
       {value}
