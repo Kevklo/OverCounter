@@ -39,20 +39,20 @@ const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
         {filters}
       </div>
       <div className="mx-8">
-        <ul className="text-white grid grid-cols-3 gap-4">
+        <ul className="text-white grid grid-cols-3 gap-16">
 
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-3">
             <h2 className="font-bold text-2xl">Damage</h2>
             {filterByRole(heroes, "damage")}
           </ul>
 
-          <ul className="flex flex-col gap-4">
-            <h2 className="font-extrabold text-2xl">Support</h2>
+          <ul className="flex flex-col gap-3">
+            <h2 className="font-bold text-2xl">Support</h2>
             {filterByRole(heroes, "support")}
           </ul>
 
-          <ul className="flex flex-col gap-4">
-            <h2 className="font-bolder text-2xl">Tank</h2>
+          <ul className="flex flex-col gap-3">
+            <h2 className="font-bold text-2xl">Tank</h2>
             {filterByRole(heroes, "tank")}
           </ul>
         </ul>
