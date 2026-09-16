@@ -24,7 +24,6 @@ const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
       <HeroCard
         key={h.id}
         name={h.name}
-        role={h.role}
         archetype={h.archetype}
         id={h.id}
         description={h.description}
@@ -39,21 +38,21 @@ const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
         {filters}
       </div>
       <div className="mx-8">
-        <ul className="text-white grid grid-cols-3 gap-16">
+        <ul className="text-[var(--text)] grid grid-cols-3 gap-16">
 
           <ul className="flex flex-col gap-3">
             <h2 className="font-bold text-2xl">Damage</h2>
-            {filterByRole(heroes, "damage")}
+            {filterByRole(filtered, "damage")}
           </ul>
 
           <ul className="flex flex-col gap-3">
             <h2 className="font-bold text-2xl">Support</h2>
-            {filterByRole(heroes, "support")}
+            {filterByRole(filtered, "support")}
           </ul>
 
           <ul className="flex flex-col gap-3">
             <h2 className="font-bold text-2xl">Tank</h2>
-            {filterByRole(heroes, "tank")}
+            {filterByRole(filtered, "tank")}
           </ul>
         </ul>
       </div>

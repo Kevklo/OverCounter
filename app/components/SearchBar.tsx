@@ -17,8 +17,8 @@ const SearchBar = ({
         Search
       </label>
 
-      <div className="flex items-center gap-2 rounded-full border border-slate-300 bg-linear-to-b from-slate-50 via-slate-200 to-slate-400 p-1.5 shadow-md">
-        <span className="pointer-events-none flex items-center pl-3 text-slate-500">
+      <div className="flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--surface)] p-1.5 shadow-md transition-colors focus-within:border-orange-300/60 focus-within:bg-[var(--surface-strong)]">
+        <span className="pointer-events-none flex items-center pl-3 text-[var(--muted)]">
           <svg
             className="h-4 w-4"
             aria-hidden="true"
@@ -40,7 +40,7 @@ const SearchBar = ({
           value={value}
           placeholder={placeholder}
           onChange={(e) => onChange(e.target.value)}
-          className="m-1 w-full min-w-0 bg-transparent px-2 py-2 text-sm text-black focus:outline-none"
+          className="m-1 w-full min-w-0 bg-transparent px-2 py-2 text-sm text-[var(--text)] placeholder:text-[var(--muted)] focus:outline-none"
         />
       </div>
     </div>

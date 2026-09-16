@@ -100,7 +100,7 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
               <LifeBar hps={hero.hitpoints}></LifeBar>
             </div>
           </div>
-          <p className="text-lg sm:text-xl md:text-2xl">{hero.description}</p>
+          <p className="text-lg sm:text-xl md:text-2xl text-[var(--muted)] font-[200]">{hero.description}</p>
           <div className="flex flex-row gap-3 text-xl md:gap-4 md:text-2xl">
             <Pills kind="role" value={hero.role} />
             <Pills kind="archetype" value={hero.archetype} />
