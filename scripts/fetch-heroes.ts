@@ -12,7 +12,7 @@ type ApiHeroSummary = Pick<Hero, "name" | "role" | "subrole"> & {
 
 type ApiHeroDetail = Pick<
   HeroData,
-  "description" | "age" | "hitpoints" | "perks" | "story"
+  "description" | "age" | "hitpoints" | "perks" | "story" | "abilities"
 >;
 
 const sleep = (ms: number): Promise<void> =>
@@ -31,6 +31,11 @@ async function main() {
 
   for (const summary of summaries) {
     const detail = await getJson<ApiHeroDetail>(`${BASE_URL}/heroes/${summary.key}`);
+    const abilities = detail.abilities.map((a) => ({
+      name: a.name,
+      description: a.description,
+      icon: a.icon,
+    }))
 
     heroes.push({
       key: summary.key,
@@ -44,6 +49,7 @@ async function main() {
       hitpoints: detail.hitpoints,
       perks: detail.perks,
       story: detail.story,
+      abilities: abilities,
     });
 
     await sleep(DELAY_MS);

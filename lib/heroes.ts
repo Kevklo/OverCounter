@@ -13,6 +13,7 @@ function toHero(row: HeroRow): Hero {
     hitpoints: JSON.parse(row.hitpoints),
     perks: JSON.parse(row.perks),
     story: JSON.parse(row.story),
+    abilities: JSON.parse(row.abilities),
   };
 }
 

@@ -6,6 +6,7 @@ import { getSynergies, getWeakAgainst } from "@/lib/relations";
 import type { Hero, Perk, RelationEntry } from "@/lib/types";
 import Pills from "@/app/components/Pills";
 import { LifeBar } from "@/app/components/LifeBar";
+import AbilityBar from "@/app/components/AbilityBar";
 
 const PerkItem = ({ perk }: { perk: Perk }) => (
   <p className="flex flex-col gap-1">
@@ -105,6 +106,13 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
             <Pills kind="role" value={hero.role} />
             <Pills kind="archetype" value={hero.archetype} />
           </div>
+
+          <section className="flex w-full flex-col gap-3">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+              Abilities
+            </h2>
+            <AbilityBar abilities={hero.abilities} />
+          </section>
 
           <div className="flex w-full flex-col gap-6">
             {(["minor", "major"] as const).map((tier) => (

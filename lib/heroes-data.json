@@ -9,8 +9,8 @@
     "description": "One of the founding members of Overwatch, Ana uses her skills and expertise to defend her home and the people she cares for.",
     "age": 62,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -68,7 +68,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Biotic Rifle",
+        "description": "Long-range rifle that heals allies and damages enemies.  Hold to zoom in.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/db33c39f25d96a2cabcacb778cf784535279180f6d9119ef56311bdcdf6077df.png"
+      },
+      {
+        "name": "Sleep Dart",
+        "description": "Fires a dart that puts an enemy to sleep.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/620a97282b81ea178951b565e8249361e67c868387e61a4297261ffa11bace13.png"
+      },
+      {
+        "name": "Biotic Grenade",
+        "description": "Throws a grenade that heals and increases healing on allies, while damaging and preventing healing on enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/886454bdb7df9ad8a47c4a3a8fa5dd488f5b2996e311f16d42a5f022942c4d18.png"
+      },
+      {
+        "name": "Nano Boost",
+        "description": "Increases an ally's damage, while reducing damage taken.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/726f2fa5b149e5ac58310f11893db1850a7312270db4f88c164bb43a84f962cf.png"
+      }
+    ]
   },
   {
     "key": "anran",
@@ -80,8 +102,8 @@
     "description": "The star graduate of Wuxing University’s Fire College, Anran is always burning to push her limits.",
     "age": 22,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -139,7 +161,44 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Zhuque Fans",
+        "description": "Hand fans that shoot fiery projectiles.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b575eb7daebdb64b81b0942c466b00117b31925678d10ab8739781e0ccf1bd69.png"
+      },
+      {
+        "name": "Fan the Flames",
+        "description": "Hot wind blast that amplifies burning damage.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/66ed3af8219952edc022c4ef08c65191cdd6839aae0a2c451f70f8f61d2bc7de.png"
+      },
+      {
+        "name": "Dancing Blaze",
+        "description": "Dodge all damage while striking nearby enemies, healing yourself for each enemy hit.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c8a106a2acae1b9edf47495af102cf17fd7e8320c76b201d533f5723afc45d14.png"
+      },
+      {
+        "name": "Inferno Rush",
+        "description": "Propel yourself forward and damage enemies you impact.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/92cd63b84d95581dfbe8c3974be31c9f303db4d25bfd117474f93ab5bc9cca4b.png"
+      },
+      {
+        "name": "Vermillion Ascent",
+        "description": "Charge forward, exploding on impact and instantly igniting enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a7f971f4e0c7c898e634d0787f4a0da48ae78b7adbdc7b71149efa0352319c76.png"
+      },
+      {
+        "name": "Vermillion Revival",
+        "description": "When dead, revive yourself in a fiery explosion.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9060d9e2e407a31ab95948e6512373a4318ebd8883aefa91e9f2fa9bbffb7076.png"
+      },
+      {
+        "name": "Ignition",
+        "description": "Hit enemies with fire attacks to burn them.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f4a70d5eacbfa0f6e8290ad352df6e06e72e5dc755ecc650e120697bf59fa7ad.png"
+      }
+    ]
   },
   {
     "key": "ashe",
@@ -151,8 +210,8 @@
     "description": "Ashe is the ambitious and calculating leader of the Deadlock Rebels Gang and a respected figure in the criminal underworld.",
     "age": 41,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -205,7 +264,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "The Viper",
+        "description": "Semi-automatic rifle.  Hold to zoom in, increasing damage and accuracy but slowing rate of fire.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1e5c0d3360d2357d28d4c5eacb6727589ac3d4ca99b09e3f8fd67846b6b2ef4e.png"
+      },
+      {
+        "name": "Coach Gun",
+        "description": "Blast enemies in front of you and knock yourself backwards.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/834538cfbc7c2eb7f9fd18aea7ba91264446af706199d716526060e6e34b48ed.png"
+      },
+      {
+        "name": "Dynamite",
+        "description": "Throw an explosive that detonates after a short delay or immediately when shot.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0e2cc18253fc824f3eac3df4623dfb03210937e27901cc868a8694a4a65e68ad.png"
+      },
+      {
+        "name": "B.O.B.",
+        "description": "Deploy Bob. He charges forward and knocks enemies into the air, then attacks with his arm cannons.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/224dd7fd039ee71e2633520cac81186fddabe4d399a64650263514829b936295.png"
+      }
+    ]
   },
   {
     "key": "baptiste",
@@ -217,8 +298,8 @@
     "description": "An elite combat medic and ex-Talon operative, Baptiste now uses his skills to help those whose lives have been impacted by war.",
     "age": 38,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -276,7 +357,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Biotic Launcher",
+        "description": "Three-round burst gun.  Lob a healing projectile that heals all allies near the impact.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3c6e635c598b687805163bd2173624d18e3c989ca3c0f7b37e7dadd5179a59c1.png"
+      },
+      {
+        "name": "Regenerative Burst",
+        "description": "Activate to heal yourself and nearby allies instantly, with additional healing over time. Instant heal is doubled for targets less than half health.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/995d4c830cd4d6d458333a645561fefb75aab4f5228fe6b7923ea55b29f0496d.png"
+      },
+      {
+        "name": "Immortality Field",
+        "description": "Toss a device that prevents allies from dying. The device can be destroyed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8e586114b79ae8281255d8e5a5a48d3a855be6e88b3d7abeda93288f4fffe909.png"
+      },
+      {
+        "name": "Amplification Matrix",
+        "description": "Project a matrix that doubles the damage and healing effects of allied projectiles.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/35311fd3b5a6bdd90d9e58101685675e0ee3562b2d63eb0c5775dd1f7b86cc3b.png"
+      },
+      {
+        "name": "Exo Boots",
+        "description": "Hold crouch to jump higher.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b3451a608be2eea1a38669721c9cd96ef9114172cec10b06c27e8048f42614bd.png"
+      }
+    ]
   },
   {
     "key": "bastion",
@@ -288,8 +396,8 @@
     "description": "Once a frontline combatant in the devastating Omnic Crisis, this curious Bastion unit now explores the world, fascinated by nature but wary of a fearful humanity.",
     "age": 32,
     "hitpoints": {
-      "shields": 0,
       "armor": 100,
+      "shields": 0,
       "health": 250,
       "total": 350
     },
@@ -342,7 +450,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Configuration: Assault",
+        "description": "A slow-moving tank with a powerful rotary cannon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c3391c7eb4ce0ac2483d1821299fa684072e2ace043ac6ae7839f81f09c187f9.png"
+      },
+      {
+        "name": "Configuration: Recon",
+        "description": "Mobile, with a lightweight and highly accurate weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9febc039b8d8f7743539e8743f78b15495e3ea619615ab763dc747acd29b9615.png"
+      },
+      {
+        "name": "A-36 Tactical Grenade",
+        "description": "Fire a bomb that bounces off walls and explodes when it impacts enemies or the ground.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80deb4f0bd0d41f4f9747c3728e31758dee523821abded024b6c242c659ff454.png"
+      },
+      {
+        "name": "Reconfigure",
+        "description": "Switch between weapon configurations.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/eb87350ce8e74c06df5b7fb33cfc2904cbb918777d3740f9e0ee87ff5260265f.png"
+      },
+      {
+        "name": "Configuration: Artillery",
+        "description": "Become immobile and fire up to 3 powerful artillery shells.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/891396b354d31ef404bf525651f8f95048da8f8816a381021ce8d6e8ccabfafa.png"
+      }
+    ]
   },
   {
     "key": "brigitte",
@@ -354,8 +489,8 @@
     "description": "No longer sitting on the sidelines, Brigitte Lindholm has taken up arms to defend those in need of protection.",
     "age": 25,
     "hitpoints": {
-      "shields": 0,
       "armor": 50,
+      "shields": 0,
       "health": 200,
       "total": 250
     },
@@ -408,7 +543,44 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Rocket Flail",
+        "description": "Melee weapon with extended range.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e75775c837abbf4aa1ec944fb08f3978819699a27242c64e27f3d52201dee5dc.png"
+      },
+      {
+        "name": "Repair Pack",
+        "description": "Heals an ally for a short duration.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6a2c40a4d0a87dfb1d07dada2a3aa4bc46e8361e76f10294585fcb28008903b8.png"
+      },
+      {
+        "name": "Whip Shot",
+        "description": "Launch your flail forward to knock an enemy away from you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b1f72a2f8c1c8df901af39ec7fa33ab69d79c8b92d7bf3319e4a2081e4712dac.png"
+      },
+      {
+        "name": "Barrier Shield",
+        "description": "Hold  to deploy a frontal energy barrier.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d90077573a1495f77345c56ea9231366bac05d3750053e26ccf0b733225ea4c1.png"
+      },
+      {
+        "name": "Shield Bash",
+        "description": "Available when Barrier Shield is deployed. Dash forward to knock back an enemy.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/da7bcc6cd41e74adbe68450d5afc7809745717e8bdac3fd9cba22f12d6419297.png"
+      },
+      {
+        "name": "Rally",
+        "description": "Gain armor, empower Barrier Shield, and provide extra health to nearby allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/28664c18171b484aefc61836b34d749dac8971f1393c6a17c88ccb60b8c2d0b3.png"
+      },
+      {
+        "name": "Inspire",
+        "description": "Dealing damage to enemies heals nearby allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2d239f8ca1265f4c5f7be415edc5568481ca347e70a6e2dbf5790551fe63ea9b.png"
+      }
+    ]
   },
   {
     "key": "cassidy",
@@ -420,8 +592,8 @@
     "description": "Armed with his Peacekeeper revolver, the outlaw Cole Cassidy doles out justice on his own terms.",
     "age": 39,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -474,7 +646,24 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Peacekeeper",
+        "description": "Accurate, powerful revolver.  Wildly fire remaining rounds.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/96aadaed5019913a61810e895d9c17d38d369f7c3a3213ced78ef562147a83a5.png"
+      },
+      {
+        "name": "Combat Roll",
+        "description": "Roll in the direction you're moving to take reduced damage and reload.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b22144e644a4a63963e063fc8cc969cfb9061e29993d713b0c64a89b1ac9f280.png"
+      },
+      {
+        "name": "Deadeye",
+        "description": "Face off against your enemies. Press Q to lock on, then Q or ABILITY 3 to fire.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6b78a5cb96040a70e6b41e767a6ea59c2af4e773521b8b4e0bf2c6fd642a3824.png"
+      }
+    ]
   },
   {
     "key": "dmon",
@@ -486,8 +675,8 @@
     "description": "As MEKA’s new leader, D.Mon uses unmatched game sense to call the shots and keep her team united through any fight.",
     "age": 28,
     "hitpoints": {
-      "shields": 0,
       "armor": 325,
+      "shields": 0,
       "health": 325,
       "total": 650
     },
@@ -540,7 +729,54 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt7a9c4fd98042ea54/6a73d8d8f42b955a562fa775/OVR_S4_H53DMon_Web_Beauty_PilotDMon_001_1.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Plasma Saber ",
+        "description": "Fast energy melee weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b8ae7f23071c20d472d55243ddebe666c361bab598c18e12161b8415ee058de.png"
+      },
+      {
+        "name": "Portable Fusion Repeater",
+        "description": "Heavy machine gun.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bedcca9c4d45135065757cd2f5ff48137b9694159ea5929959efa63e9a45dac7.png"
+      },
+      {
+        "name": "Power Barrier",
+        "description": "Hold  to deploy a frontal energy barrier.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fc4fc3dc561102b6469a81771190f915f07ac7186b1c9597451018f885c6b99c.png"
+      },
+      {
+        "name": "Surging Strike",
+        "description": "While Power Barrier is deployed, strike forward to damage and push enemies back.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2027a7ba82448e64bf82f5714adaaeafea76d9c6c8ef461e226300a060a7fa8.png"
+      },
+      {
+        "name": "Fusion Repeater",
+        "description": "Activate a rapid-fire machine gun.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/db227e82342a3b2f97f3223616ffc5923999ea9d3badf019a341f2ba1b38843f.png"
+      },
+      {
+        "name": "Propulsors",
+        "description": "Consume fuel to surge in any horizontal direction.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ea768e2c364167941c4b0a3bc8bc65d959274e1c0439ab5f6073611aff8c4e37.png"
+      },
+      {
+        "name": "Eject!",
+        "description": "Eject out of your mech when it is destroyed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/caeb745949c69cdc2c088c2f77827ca1485ef13e19b06fa4353c4f18fb219ac2.png"
+      },
+      {
+        "name": "Limit Break",
+        "description": "Unleash a sweeping slash that grants self overhealth and amplifies damage taken by enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1dba45b4791b7de30f525eb4a4ab38e605c14d93bc5a5a4e4d121186b3d71020.png"
+      },
+      {
+        "name": "Call Mech",
+        "description": "Reassemble mech.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/751219a659df8c345ade932ed66dea60bdc844c71c2c185d64bcea83ea8c1ae2.png"
+      }
+    ]
   },
   {
     "key": "domina",
@@ -552,8 +788,8 @@
     "description": "As Vishkar Corporation’s most prized negotiator, Domina uses her masterful command of hard-light to take control of every situation.",
     "age": 32,
     "hitpoints": {
-      "shields": 400,
       "armor": 0,
+      "shields": 400,
       "health": 250,
       "total": 650
     },
@@ -606,7 +842,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt5421b9fecc12c56a/69864e6b9fc491d75c9a1663/domina3.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Photon Magnum",
+        "description": "Medium-range beam that culminates in a high impact shot.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6a661b5275bfbc67f584a80c080b17b7cb4d91d665294b9bbb364e9bcf31812b.png"
+      },
+      {
+        "name": "Barrier Array",
+        "description": "Construct a segmented barrier.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/909e0bb235934d7961a51fe41f90fadafaee33784b8199f62c92f3dd946da76f.png"
+      },
+      {
+        "name": "Sonic Repulsors",
+        "description": "Push enemies back, stunning them if they hit a wall.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7f54ab0fa0be464fe670b61ee5665e5b3b562909f2e9afa7ad1b95e568e91b1f.png"
+      },
+      {
+        "name": "Crystal Charge",
+        "description": "Project an explosive crystal and reactivate to detonate it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2a15136441c63461f9c187e39d902fd64710aebc7e87d8430839cc083ca9b45.png"
+      },
+      {
+        "name": "Panopticon",
+        "description": "Fire a hard-light barrier that imprisons enemies and detonates on expiration.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5685ed099de9b6438a493e6060d692bd10ce08424cff88a767dc5b13a7edcb5e.png"
+      }
+    ]
   },
   {
     "key": "doomfist",
@@ -618,8 +881,8 @@
     "description": "Doomfist was the calculating leader of Talon, a terrorist organization and paramilitary force that works in direct opposition to Overwatch.",
     "age": 47,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 525,
       "total": 525
     },
@@ -672,7 +935,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Hand Cannon",
+        "description": "Short-range weapon with spread. Reloads automatically.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3b3a99fadfbd19067a787782d7152ae500ada480f40ae773b9c6d5f8909dd80f.png"
+      },
+      {
+        "name": "Rocket Punch",
+        "description": "Hold to charge then release to launch forward and knock an enemy back. Damage increases if the enemy hits a wall.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/79fa2ac1beeaaecc23735e2bc41068a99838c76ff626a12ac07fcdc5efd70bd9.png"
+      },
+      {
+        "name": "Seismic Slam",
+        "description": "Leap and smash the ground.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bc170a43b0d19921079fefcf16e66d720019271e37303413971b12e0ced9eca.png"
+      },
+      {
+        "name": "Power Block",
+        "description": "Protect yourself from frontal attacks. Blocking heavy damage empowers Rocket Punch.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2af34b2442543da4b3a588ae8791c2b9f8a24cf5e17c935f146a7c88b0d02bd4.png"
+      },
+      {
+        "name": "Meteor Strike",
+        "description": "Press Q to leap up into the air. Move the targeting circle, then press ABILITY 3 to strike the targeted area.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dd68ed0cdc85d2bd688a487dc0778cd64e7dc1d11f8e4d5e7bbf421fb1144315.png"
+      }
+    ]
   },
   {
     "key": "dva",
@@ -684,8 +974,8 @@
     "description": "D.Va is a former professional gamer who now uses her skills to pilot a state-of-the-art mech in defense of her homeland.",
     "age": 21,
     "hitpoints": {
-      "shields": 0,
       "armor": 325,
+      "shields": 0,
       "health": 325,
       "total": 650
     },
@@ -733,7 +1023,49 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt72d062619b59e3d8/63880902bbfd340e8ad2e41b/dva-01.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Fusion Cannons",
+        "description": "Automatic short-range spread weapons.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1b8dd81bd8353ce0a66009578dc4d7b6a51464e5bc7898010053ff46159f4fa1.png"
+      },
+      {
+        "name": "Light Gun",
+        "description": "Automatic weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/969a72050f376bf6ee5ed5550a8033cdd661f2f9883c1229e9ee70dd3ae58ec4.png"
+      },
+      {
+        "name": "Boosters",
+        "description": "Fly in the direction you are facing.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7076c739fe2c1d11f4f118d9e22a3d8f66303242434b71a7e4451e62f5d27b65.png"
+      },
+      {
+        "name": "Defense Matrix",
+        "description": "Block projectiles in an area in front of you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e3806878b38cbab585c4d48e05f2dd63817a36a4f69cedbaf62fd3af6ca5bbd2.png"
+      },
+      {
+        "name": "Micro Missiles",
+        "description": "Launch a volley of explosive rockets.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/adcd1c898f2ab66779554711451303ee83ca15b70a0951e18964520f5f02566a.png"
+      },
+      {
+        "name": "Self-Destruct",
+        "description": "Eject and overload your mech, causing it to explode after a short time.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3ae91694dd2901ced5b3c6789b686fbda4175f807abe602101df6a26bfdf3491.png"
+      },
+      {
+        "name": "Call Mech",
+        "description": "Call down a new mech.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7117851e322ccefb98a710f926daffe1aabee9d47662c26d35c938c633897e71.png"
+      },
+      {
+        "name": "Eject!",
+        "description": "Eject out of your mech when it is destroyed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3aa95031ecc236c99d902971910edece23982e95743630e949b1259ba48f5c63.png"
+      }
+    ]
   },
   {
     "key": "echo",
@@ -745,8 +1077,8 @@
     "description": "Echo is a multirole, adaptive robot with the most sophisticated artificial intelligence in the world, originally designed by Dr. Mina Liao for use during combat missions with Overwatch.",
     "age": 14,
     "hitpoints": {
-      "shields": 75,
       "armor": 0,
+      "shields": 75,
       "health": 150,
       "total": 225
     },
@@ -794,7 +1126,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt770f765476047dd7/637da15d113983111ba8cece/echo-01.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Tri-Shot",
+        "description": "Fires 3 shots at once, in a triangle pattern.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/eda680580d3957d2c06b3006fbe0f0b2f7637a3931c05a266a357984587e4f9f.png"
+      },
+      {
+        "name": "Sticky Bombs",
+        "description": "Fire a volley of sticky bombs that detonate after a delay.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5dd1a8e7c4097e3822db4a36d6bb5277203da4ba6bfd1ebe5ecab0311d199dbc.png"
+      },
+      {
+        "name": "Flight",
+        "description": "Fly forward quickly and then free-fly briefly.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/edbca7879024d5b35a24e942ee5ebdec9780a425ef5e8d64f8113f7d5f2048b3.png"
+      },
+      {
+        "name": "Focusing Beam",
+        "description": "Channel a beam for a few seconds. Deals very high damage to targets under half health.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/864e210890c8ac666d29fdda118a2a8c0ae16fc5471812ef4da4ab322d11bb8e.png"
+      },
+      {
+        "name": "Duplicate",
+        "description": "Become a copy of the targeted hero. They cannot swap heroes for the duration.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d374c55bb34248543dc4b63b73738fd17a488afa29eaa63f800008edda7f3907.png"
+      },
+      {
+        "name": "Glide",
+        "description": "Hold jump to glide while falling.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4668bf556984868ba73b931a45fa61bae503f7c67371f1a4f8085c8f992cd6bd.png"
+      }
+    ]
   },
   {
     "key": "emre",
@@ -806,8 +1170,8 @@
     "description": "Emre disappeared after a lauded tenure on the Overwatch strike team. He has resurfaced years later, his body and mind manipulated by something unknown.",
     "age": 44,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -865,7 +1229,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Synthetic Burst Rifle",
+        "description": "Three-round burst weapon.  Hold to zoom in, tightening accuracy and increasing fall off range.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6db52d088dd5272c7b6aca53746b68a0f6ea7ad23a2ee8143c11d495d602f64b.png"
+      },
+      {
+        "name": "Cyber Frag",
+        "description": "Throw a grenade that detonates shortly after bouncing.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/58eeb3950828ceadc16565163bfc03231a0cecdf3a0a6ce78de34bdff4bf09bf.png"
+      },
+      {
+        "name": "Override Protocol",
+        "description": "An override initiates, transforming you into a living weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fc8088a2968e2850ef438645fd2286ea7abe1779b2eae5cf85638168736ecddc.png"
+      },
+      {
+        "name": "Altered Vitals",
+        "description": "Passive health regeneration activates sooner and instantly restores 30 health when activated.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fec616f100308698fe85eb6c7a36daa8af6d26181de8fa2f0e59ee2414bcb6df.png"
+      }
+    ]
   },
   {
     "key": "freja",
@@ -877,8 +1263,8 @@
     "description": "A search and rescue operative turned bounty hunter, Freja can find anyone for the right price.",
     "age": 34,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -941,7 +1327,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Bola Shot",
+        "description": "Fire an explosive bola. Hitting an enemy wraps them up and pulls in other nearby enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f3b485b68fdf2b703537b38d2c9a30a6377772ca42e5ae6442c3cad5c3cc98be.png"
+      },
+      {
+        "name": "Quick Dash",
+        "description": "Vault in the direction you're moving and refresh Take Aim.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/571c4a87204cad7117e3f127e94f5a54c93f6e81674f46d25b73eddd76eaa2c2.png"
+      },
+      {
+        "name": "Take Aim",
+        "description": "Slow your momentum to take aim with a high speed explosive bolt. Using Quick Dash refreshes Take Aim.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a86fa2849d7ab515d256e390e75387e4ae306f5d64c5cf24a1ba33038da91e45.png"
+      },
+      {
+        "name": "Updraft",
+        "description": "Launch upward with a gust of wind.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cf6b96a730b9a772c6ff9320dfb0723dbb304c52b2ef666651739d8716d5f96e.png"
+      }
+    ]
   },
   {
     "key": "genji",
@@ -953,8 +1361,8 @@
     "description": "The cyborg ninja Genji Shimada has made peace with the augmented body he once rejected, and in doing so, he has discovered a higher humanity.",
     "age": 37,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -1012,7 +1420,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Shuriken",
+        "description": "Throw an accurate burst of 3 projectiles.  Throw a fan of 3 projectiles in an arc.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/75fe50db5b246e9786632963f6e1126029bd270bfaaa8b9f564e303a9b938906.png"
+      },
+      {
+        "name": "Deflect",
+        "description": "Deflect incoming projectiles towards the direction you are aiming and block melee attacks.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6947d8eeddce8d295ed96525cdabfe36c94b3b67b50baf87aabb8ae61d32495a.png"
+      },
+      {
+        "name": "Swift Strike",
+        "description": "Rapidly dash forward and inflict damage on enemies. Eliminations reset the cooldown.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/76519481d06f1a23600eb1f3d3c163268ff6e55ecde410751b508de434a7426b.png"
+      },
+      {
+        "name": "Dragonblade",
+        "description": "Unsheathe a deadly melee weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/12e6d44381805e22db2b69679028bdf5ee626586663d44e8deb20e96ae7657c2.png"
+      },
+      {
+        "name": "Cyber-Agility",
+        "description": "Climb on walls and double jump.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d006aeb97a48941414492f160bf22b9a5c129ddb6e1956275752953eb1b0472e.png"
+      }
+    ]
   },
   {
     "key": "hanzo",
@@ -1024,8 +1459,8 @@
     "description": "Mastering his skills as a bowman and an assassin, Hanzo Shimada strives to prove himself as a warrior without peer.",
     "age": 40,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -1078,7 +1513,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Storm Bow",
+        "description": "Hold to charge then release to launch arrows further.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e38382e38d83492de12d3428bc30ef2f8833f8cef89298daa5a5a6d0b4420269.png"
+      },
+      {
+        "name": "Storm Arrows",
+        "description": "The next 5 arrows ricochet and fire instantly at reduced damage.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b2a2a02cf8087005216db110ab5aba37112eeca29c32f4491abb29caeb1910b.png"
+      },
+      {
+        "name": "Sonic Arrow",
+        "description": "Reveals enemies for a short time upon impact.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3a378bcfc321bb2b2416db2ae3a52d22b2ca771d6f69522c1950132c5fefa59d.png"
+      },
+      {
+        "name": "Lunge",
+        "description": "Double Jump.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8b0423ecd27436f808b99254ad57bc453a839c5590c6a5b925855f13dd4ecc18.png"
+      },
+      {
+        "name": "Dragonstrike",
+        "description": "Launch a deadly Dragon Spirit that devastates enemies it passes through.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ec52a328bd2febd049dddd9f61a0004b0688688d3254929002ef22338e205366.png"
+      },
+      {
+        "name": "Wall Climb",
+        "description": "Jump at walls to climb up them.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d23ec9b85d43aa414b489bf5ccfcc683b9f6b66f866d723ed4c0cb7556a8cbbd.png"
+      }
+    ]
   },
   {
     "key": "hazard",
@@ -1090,8 +1557,8 @@
     "description": "A radical disruptor and an unstoppable weapon, Hazard has rocketed to fame in the criminal underworld as he fights to tear the system down.",
     "age": 24,
     "hitpoints": {
-      "shields": 0,
       "armor": 225,
+      "shields": 0,
       "health": 425,
       "total": 650
     },
@@ -1149,7 +1616,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt2a6563fceaa271f5/67292a380cf88859ae32be7c/Hazard_Upgrades.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Bonespur",
+        "description": "Fire a burst of spikes.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a840d02b1e6b87c8f1884b386be7a216842fac65ad24fa6c8aa88c45c4a4421a.png"
+      },
+      {
+        "name": "Spike Guard",
+        "description": "Protect yourself from frontal damage, firing homing spikes at nearby enemies and regenerating ammo.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d1d1bb23a702a4e9f831b3acf5dd85f2da68459059f84f080b6c519f0f1db1d9.png"
+      },
+      {
+        "name": "Violent Leap",
+        "description": "Lunge forward. Activate again to slash at enemies, knocking them back.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b82ab1a5ed08f039461be720c32b8c54e66cdb78d40b798feb69dbbea807303f.png"
+      },
+      {
+        "name": "Jagged Wall",
+        "description": "Launch a spiked wall that damages and knocks back nearby enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8c82b489f5d8756f98a6671e445d394e93ee5658135c9a54122d079d5d59995b.png"
+      },
+      {
+        "name": "Downpour",
+        "description": "Rain down a torrent of spikes, immobilizing enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/85894376fb7803b87f71e900d73606e2daa14c0ca11122c100871b3d20bd2024.png"
+      },
+      {
+        "name": "Vault",
+        "description": "Scale short walls and grab ledges.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d006aeb97a48941414492f160bf22b9a5c129ddb6e1956275752953eb1b0472e.png"
+      }
+    ]
   },
   {
     "key": "illari",
@@ -1161,8 +1660,8 @@
     "description": "As the last of the Inti Warriors, Illari is a vessel for the power of the sun. She’ll do anything to make up for her past.",
     "age": 18,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -1215,7 +1714,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt19e6b0122e0a2fe1/64c941a6c457599015a1f705/Illari_-_Moving_Forward.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Solar Rifle",
+        "description": "Long range auto-charging rifle.  Medium range healing beam that consumes solar energy.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b5bbee12c4a45526f3ab0c73b0027eae88f4da57192e68e9b30bbc9da3e032a6.png"
+      },
+      {
+        "name": "Captive Sun",
+        "description": "Fire an explosive ball of solar energy. Enemies hit are slowed and explode after taking significant damage.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/853a9ed59d241e1fd477a7c36dc826a1cf3321114b5ee3095780aa800649ff8e.png"
+      },
+      {
+        "name": "Healing Pylon",
+        "description": "Deploy a pylon that heals allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/97656e46d5815627032b7e9783381a09b1dee4c553c802afc3c57767768bd281.png"
+      },
+      {
+        "name": "Outburst",
+        "description": "Launches you in the direction you are moving, knocking back enemies. Hold jump to go higher.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fa2fa52626c761a91588ac62d835ddc7ec2f9a1d9034d06587e39129b8c2a94b.png"
+      }
+    ]
   },
   {
     "key": "jetpack-cat",
@@ -1227,8 +1748,8 @@
     "description": "A fearless feline pilot equipped with Brigitte’s latest jet-propulsion invention, Jetpack Cat brings adorable aerial support to the battlefield.",
     "age": null,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -1281,7 +1802,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt1ff08252116269ec/69864ec55b1f8c26494a0fab/jpc3.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Biotic Pawjectiles",
+        "description": "Mid-range projectile spread that heals allies and damages enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f69a07e928053431f7a1ac72a29c045d3eba5b6ae3bf29fdb21ee24e6f5d41e3.png"
+      },
+      {
+        "name": "Frenetic Flight",
+        "description": "Accelerate in your movement direction. Fuel recovery is slower while carrying another player.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f957b6f5803bd08a99eec642365c30f22e817ad33afb4b95d8e1856c87cba1b2.png"
+      },
+      {
+        "name": "Lifeline",
+        "description": "Toggle into transport mode, allowing an ally to be towed. Increases movement speed and heals your ally.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d0c899ac61aa5b72e7de931b014b02176605fba7c9f022cc7a968b6cc6ebf19b.png"
+      },
+      {
+        "name": "Purr",
+        "description": "Pulsing area heal that increases in frequency over time. Knockback nearby enemies when activated.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4632fb81d5af7bcac3502108fa283f614b98cbeb18e3149808dcc2e50042f927.png"
+      },
+      {
+        "name": "Catnapper",
+        "description": "Dive towards a ground location, knocking down enemies and tethering the nearest one to you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/01fd22b375088be5c2b0e3a00a8e09c97de48d634d939627d3d46b13a2428c28.png"
+      }
+    ]
   },
   {
     "key": "junker-queen",
@@ -1293,8 +1841,8 @@
     "description": "Armed with her axe, Carnage, and her electromagnetic gauntlet, the cutthroat leader of the Junkers is on a mission to rule the world.",
     "age": 31,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 525,
       "total": 525
     },
@@ -1347,7 +1895,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0e50f459f2475212/637da174bbfd340e8ad2e304/junkerqueen-03.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Scattergun",
+        "description": "Pump action shotgun.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2d5df1a8232c23ea96183a39a9ce930b26c53e87dc12ff77bd972e4805690c6f.png"
+      },
+      {
+        "name": "Commanding Shout",
+        "description": "Grants temporary health and movement speed to yourself and allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ef3c2fb9bdb4c913d2b048ef4363fce335553c8f4ee74524f2af86af961ba648.png"
+      },
+      {
+        "name": "Carnage",
+        "description": "Wound all enemies in front of you, dealing damage over time and reducing the cooldown for each enemy hit.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/85c3796fdb062e1038fb130450f1586ce1f3c047886b0baf13f937d93a4e05d4.png"
+      },
+      {
+        "name": "Rampage",
+        "description": "Charge forward. Wounds enemies, dealing damage over time and preventing them from being healed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/17ff06bcf2e7fe6c2f66590573e6b274b416f0a8855f925c4479ac20b4d8d977.png"
+      },
+      {
+        "name": "Adrenaline Rush",
+        "description": "Heal from all damage over time dealt by wounds.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5a05a31b7196b53d751219c5d4d0814cc58e37db5eeb37a1648b37327309f794.png"
+      }
+    ]
   },
   {
     "key": "junkrat",
@@ -1359,8 +1934,8 @@
     "description": "Junkrat is an explosives-obsessed demolitionist who lives to cause chaos and destruction.",
     "age": 27,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -1408,7 +1983,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt5b92f99663062448/637da17932db130e11be7e29/junkrat-01.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Frag Launcher",
+        "description": "Bouncing explosive projectile weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b8ba613f23c771523b25caf8db1d43f518c9267b13fea2a684a2610ae46585f1.png"
+      },
+      {
+        "name": "Concussion Mine",
+        "description": "Throw a knockback mine with LSHIFT then detonate it with ABILITY 1.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/11dd2b5573ebc5ec231911d443733507e5d92822ff5b6d5dd93cd69c9827c92a.png"
+      },
+      {
+        "name": "Steel Trap",
+        "description": "Place an immobilizing trap.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3b231767363675405aeda173403c44740cca76b8d3653730c075f561e513f935.png"
+      },
+      {
+        "name": "RIP-Tire",
+        "description": "Drive and detonate an exploding tire.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/946029ed03ebc3dae775fd0b0ca80faa2f8627cb568c51170190a432ba9e3e50.png"
+      },
+      {
+        "name": "Total Mayhem",
+        "description": "Deals no damage to self with explosives. Drop bombs on death.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4720883e2f44ebac617748f717908183a4cb7e6e90d29226602a54708c4f57d1.png"
+      }
+    ]
   },
   {
     "key": "juno",
@@ -1420,8 +2022,8 @@
     "description": "The first human born on Mars, Juno uses her space-age technology to solve any problem that enters her orbit. She is determined to one day save her home planet.",
     "age": 19,
     "hitpoints": {
-      "shields": 150,
       "armor": 0,
+      "shields": 150,
       "health": 75,
       "total": 225
     },
@@ -1484,7 +2086,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Mediblaster",
+        "description": "Burst fire weapon that heals allies and damages enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d75b0943dbbf45729efb48ab3d40bef9de9e4742d208f887d57ed9fd75d4ed9e.png"
+      },
+      {
+        "name": "Pulsar Torpedoes",
+        "description": "Press  to lock on, then SECONDARY FIRE to fire homing projectiles. Heals allies over time and damages enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/24ad567c5400d4eb7a5d7b9f938a197654e5465dfd2e881754e8f4f699f84088.png"
+      },
+      {
+        "name": "Orbital Ray",
+        "description": "Call down a ray that travels forward, healing allies and increasing their damage.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5723182cddc6719ee19a5b35d840d2fb3ed933c861f3f66514d66fc29630c84a.png"
+      },
+      {
+        "name": "Hyper Ring",
+        "description": "Deploy a ring that increases movement speed of allies that pass through it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bfdddb5d1857a8a13713381d3fe6cc6b690f71efef9131147116adc10b00d245.png"
+      },
+      {
+        "name": "Glide Boost",
+        "description": "Glide horizontally with increased movement speed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/39ea7b359006e25f0b6d373c87e690209c9daefed5196b51f945f3d1a2743af0.png"
+      },
+      {
+        "name": "Martian Overboots",
+        "description": "While airborne, press SPACE to double jump and hold SPACE to hover.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/edb2f175e4231589a8fc9fd2607f8c98c2566ec6f517e699194164274bfee94e.png"
+      }
+    ]
   },
   {
     "key": "kiriko",
@@ -1496,8 +2130,8 @@
     "description": "As Miko of the Kanezaka shrine and daughter of the Shimada's former swordmaster, Kiriko Kamori channels both her spiritual and ninja skills to heal her fractured city.",
     "age": 21,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -1555,7 +2189,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Healing Ofuda",
+        "description": "Channel a burst of healing talismans that can seek targeted allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4ebf8c956da05591160da7416299bb3b641a268fbf334debf7892b8c7b3c326d.png"
+      },
+      {
+        "name": "Kunai",
+        "description": "Thrown long-ranged projectile.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/81466ccd866d29b1edc9884cd0842b2e32ef0b5712198ea137ae212494feb1f4.png"
+      },
+      {
+        "name": "Swift Step",
+        "description": "Teleport directly to an ally.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/155642954764b574f3b6845af58961e941a26a12e5d05053a8f7101f6005cc97.png"
+      },
+      {
+        "name": "Protection Suzu",
+        "description": "Throw a protective charm to make allies become briefly invulnerable and cleansed of most negative effects.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a5c1a2e74ccb598d376aac2c1cd255aa46570a08886e72b06d5a6f64203c8072.png"
+      },
+      {
+        "name": "Kitsune Rush",
+        "description": "Summon a fox spirit that rushes forward, accelerating the movement, attack speed, and cooldowns of allies that follow in its path.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4ad7d2913e24d538c906eaa95c0e87f148d63f8dfe3c443c408f443c2de8bae8.png"
+      }
+    ]
   },
   {
     "key": "lifeweaver",
@@ -1567,8 +2228,8 @@
     "description": "The brilliant creator of biolight, a technology that merges plant matter and hard light. He dreams of healing the world.",
     "age": 31,
     "hitpoints": {
-      "shields": 50,
       "armor": 0,
+      "shields": 50,
       "health": 200,
       "total": 250
     },
@@ -1631,7 +2292,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt18b0e59e299767ca/64236a721d100f6ea425c7ee/lifeweaver-05.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Healing Blossom",
+        "description": "Hold to charge a healing burst. Release to heal a targeted ally. Passively charges at a reduced rate when not in use.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bd2fde345ddbf726922a007add13188566a2810aee2fe14773c5dedf2778d34f.png"
+      },
+      {
+        "name": "Thorn Volley",
+        "description": "Rapidly fires pairs of projectiles.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6f96b55eaf1922f2ea57166062c4cd7f7c373cbcc1795888def7a9aa24abb258.png"
+      },
+      {
+        "name": "Petal Platform",
+        "description": "Throw a platform that springs upwards when stepped on. Resets when not in use.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/040f6c05bfe6a0540c0139034d13ac09f3a4f6e2c611ff75113ac70596a65da7.png"
+      },
+      {
+        "name": "Rejuvenating Dash",
+        "description": "Dash towards your traveling direction and lightly heal yourself.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9be0b14c8d6a1ac5f73ca118487e1fbe0feaae1be7b87c12bd9eb44bd0e82f57.png"
+      },
+      {
+        "name": "Life Grip",
+        "description": "Pull an ally to your location, protecting them as they travel.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7202804f05ffb9fce9f66f7dabfd4104981671fe1d632326c4b3a04a5bbfe2ad.png"
+      },
+      {
+        "name": "Tree of Life",
+        "description": "Place a tree that instantly heals allies upon sprouting and continues healing periodically as it lives.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/03d294ff2fbd7cf4a66220be5734b3607bc5cfc57d3af2a0ce4ad823e1656b75.png"
+      }
+    ]
   },
   {
     "key": "lucio",
@@ -1643,8 +2336,8 @@
     "description": "Lúcio is an international celebrity who inspires social change through his music and activism.",
     "age": 28,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -1699,7 +2392,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Sonic Amplifier",
+        "description": "Sonic projectile launcher.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5dc58c552d2b8ee4018f166b7a1c7eeda839c631fa09fb3bfac3e413e2a6e47d.png"
+      },
+      {
+        "name": "Crossfade",
+        "description": "Switches between two songs: Healing Boost heals nearby allies, and Speed Boost makes nearby allies move faster.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/452af9dde57a4c3c85c9089dd28b57738fe33e225048602196989bea672450bd.png"
+      },
+      {
+        "name": "Amp It Up",
+        "description": "Increase the effectiveness of your current song.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9b1c9a43f51d39286dd9204b24cc590eae9f40fa4970d54676565240285a8339.png"
+      },
+      {
+        "name": "Soundwave",
+        "description": "Create a short-range blast wave to knock enemies away from you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f0ccd9830fc8f3b3a719faf0a6b4babf06677bd136287812efe7c6fa358cc389.png"
+      },
+      {
+        "name": "Sound Barrier",
+        "description": "Create temporary extra health for nearby allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f84b670bff38d0b97c44a084159bb41c140b5cf7e52348782ab9755d47cdbb0a.png"
+      },
+      {
+        "name": "Wall Ride",
+        "description": "Jump onto a wall to ride along it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/20518d53a53b3f8cc26816f7d55182e43331b33b5d0eb2b491d12d6a59ea0941.png"
+      }
+    ]
   },
   {
     "key": "mauga",
@@ -1711,8 +2436,8 @@
     "description": "A charismatic and cunning Samoan warrior, Mauga thrives in the chaos of the battlefield and lives every day like it’s his last.",
     "age": 37,
     "hitpoints": {
-      "shields": 0,
       "armor": 150,
+      "shields": 0,
       "health": 575,
       "total": 725
     },
@@ -1775,7 +2500,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Overrun",
+        "description": "Charge forward and stomp to launch enemies. You are unstoppable while charging.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/10f358f93cd59c2f2b31278cd09bfc7a986c7af6e9a15cdf96db16375b596cee.png"
+      },
+      {
+        "name": "Cardiac Overdrive",
+        "description": "Gain damage reduction and nearby allies heal themselves by dealing damage.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/33ccf2e8708d8625137b15c81528efd8b5c5100dcb29d137ab9a4750be3c9229.png"
+      },
+      {
+        "name": "Berserker",
+        "description": "Gain temporary health when dealing critical damage.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/50b53f48c47c549e7926ef5ab9976a3b03327b0cf6d6df4dea501c8e544aa204.png"
+      },
+      {
+        "name": "Cage Fight",
+        "description": "Deploy a barrier that traps yourself and enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fca5c4296a62de30239f2f372ff70574b74da36d1524101485038e94a86c658d.png"
+      }
+    ]
   },
   {
     "key": "mei",
@@ -1787,8 +2534,8 @@
     "description": "Mei is a scientist who has taken the fight to preserve the environment into her own hands.",
     "age": 33,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 300,
       "total": 300
     },
@@ -1836,7 +2583,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltc6785d42c3a65f1b/63880eb8f9f61910b423588f/mei-01.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Endothermic Blaster",
+        "description": "Short-range spray weapon that slows enemies.  Long-range icicle launcher.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/02f402130df2ecfcedb6c5bdb7dd3eea199d1d1e833c567bb810c7edd7a717e7.png"
+      },
+      {
+        "name": "Cryo-Freeze",
+        "description": "Become invulnerable and heal yourself.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b7d01a56fe14d8b456aa716773760f51581a61e88a889e3e48e6a2f929388c48.png"
+      },
+      {
+        "name": "Ice Wall",
+        "description": "Create a wall in front of you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d5ac85b5a26546ea052de796e1da27090b559bbcda27b7e9613aaaa09813d2f7.png"
+      },
+      {
+        "name": "Blizzard",
+        "description": "Launch a weather control drone that freezes enemies in a wide area.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7d834967543c76f8bccf5ea7b4d33a8ee9b335ec1e7a96ed444c0251b9fe937d.png"
+      }
+    ]
   },
   {
     "key": "mercy",
@@ -1848,8 +2617,8 @@
     "description": "A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace.",
     "age": 39,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -1897,7 +2666,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt9d92a71c1b2111fc/63880edf3b13b1106f74ec5c/mercy-01.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Caduceus Staff",
+        "description": "Hold to heal an ally.  Hold to increase an ally's damage inflicted.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/149e46752f75bc9f6fece61f1a7b8e08bd1d3dbea8a723efd518f6b9aa4a70b0.png"
+      },
+      {
+        "name": "Caduceus Blaster",
+        "description": "Automatic weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d113f98e3c2a70b43ea99d9f4ccf7f9cc3b140c029e4fa9db6733a9ab3474fb0.png"
+      },
+      {
+        "name": "Guardian Angel",
+        "description": "Fly towards an ally. While in flight, Jump launches you forward, and Crouch launches you upward.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b8cee01a366f6c5fb1298426463aa27724bec1dd2b6a92a36b42b3884a73e8d5.png"
+      },
+      {
+        "name": "Resurrect",
+        "description": "Revive a dead teammate.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9dcafd3a6c3cbb12be763d13ee1b06a677fdf7f740eee29f20921927d6cab337.png"
+      },
+      {
+        "name": "Angelic Descent",
+        "description": "Fall very slowly.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8a0f7aad37480b3adbe6e7ebafc2bd253397bec324148812e27caa3d1ee8ab92.png"
+      },
+      {
+        "name": "Valkyrie",
+        "description": "Gain the ability to fly. Abilities are enhanced.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8465f0b6e120a6cdbd7b4b0124adcfe6a1585e6b417275f9c6cf86d248318ffd.png"
+      }
+    ]
   },
   {
     "key": "mizuki",
@@ -1909,8 +2710,8 @@
     "description": "Born under a shadow of misfortune, Mizuki will do anything it takes to break free of his curse and decide his own fate.",
     "age": 22,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -1968,7 +2769,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Spirit Glaive",
+        "description": "Bouncing projectile that damages enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/407d795518aaf89ffd41fda4c392421c7e783c3486292bcabd412274ae8bfe6d.png"
+      },
+      {
+        "name": "Healing Kasa",
+        "description": "Throw your hat to bounce it between allies, healing them.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c97cbb4a6b1e7be7ce6d0f26434efc8e6d18674b24d29bff3d17389b43dedec9.png"
+      },
+      {
+        "name": "Binding Chain",
+        "description": "Launch your chain at an enemy, hindering their movement.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3404150b1babd17665ceced735828eedb701ee1d276debcedcd1a5d95d8d1cf7.png"
+      },
+      {
+        "name": "Katashiro Return",
+        "description": "Leap forward, gaining increased movement speed. Reactivate to teleport back.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/291ad4dfccb3678979f4f5ca8c24d219b9bb61a383731057547760646dcd5c04.png"
+      },
+      {
+        "name": "Kekkai Sanctuary",
+        "description": "Create a sanctuary that heals allies within and absorbs enemy projectiles that pass through it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/79d5017e5ae3c3fb8fa91b5ea13f890add3042c5b0ed9532e62fe4ee138ca033.png"
+      },
+      {
+        "name": "Remedy Aura",
+        "description": "Heal nearby allies. Grows stronger when damaging and healing others.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/11ba949531e0cf7d2fab159f0806c08c31a9e770836ec5efcc408df043b72995.png"
+      }
+    ]
   },
   {
     "key": "moira",
@@ -1980,8 +2813,8 @@
     "description": "Equal parts brilliant and controversial, scientist Moira O'Deorain is on the cutting edge of genetic engineering, searching for a way to rewrite the fundamental building blocks of life.",
     "age": 50,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -2039,7 +2872,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Biotic Grasp",
+        "description": "Hold to heal all allies in front of you. Consumes biotic energy.  Long range beam weapon. Damage dealt heals you and replenishes your biotic energy.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e74ba239c376cb9de7a0f82418f4713e3183092d48988198825dd376da0b0a12.png"
+      },
+      {
+        "name": "Biotic Orb",
+        "description": "Launch a bouncing sphere that either heals nearby allies or damages nearby enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/66a472473965ecbe525afb991bab0f950248542232a13a3d34607d9b71a8ddee.png"
+      },
+      {
+        "name": "Fade",
+        "description": "Disappear, move faster, and become invulnerable, but you cannot shoot.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e71cb3d2a4e880089a87b3a2ff609c5484fb8e04d6151507179646b1b4d97d64.png"
+      },
+      {
+        "name": "Coalescence",
+        "description": "Fire a beam that heals allies and damages enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8791876838df722d9153ecc6d1c7a76445892d13fcec304609435b2f91fcc2c1.png"
+      }
+    ]
   },
   {
     "key": "orisa",
@@ -2051,8 +2906,8 @@
     "description": "Built from parts of one of Numbani's short-lived OR15 defense robots, Orisa is the city's newest protector, though she still has much to learn.",
     "age": 1,
     "hitpoints": {
-      "shields": 0,
       "armor": 300,
+      "shields": 0,
       "health": 300,
       "total": 600
     },
@@ -2105,7 +2960,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Augmented Fusion Driver",
+        "description": "Automatic heat based weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80e4eabdaee092406062ae026ab50f5491d0d634fd27d791e999f03f798ae5ab.png"
+      },
+      {
+        "name": "Energy Javelin",
+        "description": "Launch your javelin at an enemy to stun and knock them back. More effective if the enemy hits a wall.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/50c5f92db1d3688b0395c88270a04f9730e468d0ca63f1c13c259b848b6e1b49.png"
+      },
+      {
+        "name": "Fortify",
+        "description": "Gain temporary health, reducing all damage taken and becoming unstoppable.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a2003ee5e140d12cf850a0e5f1092e47f78b8111464d55489abb194bbbfa5523.png"
+      },
+      {
+        "name": "Javelin Spin",
+        "description": "Spin your javelin to destroy projectiles and block melee attacks, while also pushing enemies and increasing forward speed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3d688c6c6361f15ec3f83e6e42a39accb5b498f4e1fd8de9cd8d7daf805be759.png"
+      },
+      {
+        "name": "Terra Surge",
+        "description": "Sweep in enemies and anchor down, gaining the effects of Fortify and charging up a surge of damage. Use Q to unleash the surge early.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a0e2704fdc1d50a9670c8629b9da8cb7b2491523c3dd4616912e25b477b35427.png"
+      }
+    ]
   },
   {
     "key": "pharah",
@@ -2117,8 +2999,8 @@
     "description": "Fareeha Amari's commitment to duty runs in her blood. She comes from a long line of highly decorated soldiers and burns with the desire to serve with honor.",
     "age": 34,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -2171,7 +3053,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltad9ee72faf5ddb89/637da1ca32db130e11be7e31/pharah-02.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Rocket Launcher",
+        "description": "Long-range explosive projectile weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f41d86b7413491d430cf2bf9802f8110062ab190819b423098a642286443ff74.png"
+      },
+      {
+        "name": "Jet Dash",
+        "description": "Boost horizontally.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/025fb94110f48c67d64e41536962e670410d6ba9fe38f2bb6255ff0750c6b9c8.png"
+      },
+      {
+        "name": "Jump Jet",
+        "description": "Fly rapidly upwards. Grants some fuel.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bf45e79768cc35aadd3ac66e31d19ac75e1bb088480c490866fdafcf9fc49b6.png"
+      },
+      {
+        "name": "Concussive Blast",
+        "description": "Launch an explosive blast to knock back enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/666c55a0b7810194a486e73fddac9dac6b64eb0303a14be8d1453c9f29c210df.png"
+      },
+      {
+        "name": "Barrage",
+        "description": "Launch a continuous volley of mini-rockets.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/69a9067ddf8a7138d200c3bad9d01e09760df5b3f07bfb1cfa82ee70f385576c.png"
+      },
+      {
+        "name": "Hover Jets",
+        "description": "Hold to hover. Slows falling when fuel is empty. Fuel only regenerates while on the ground.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/452f72706d3da3b217d0a2e749aebcd7483f7128b048692ebd86dc905612b866.png"
+      }
+    ]
   },
   {
     "key": "ramattra",
@@ -2183,8 +3097,8 @@
     "description": "The brutal leader of Null Sector will stop at nothing to see his vision for the world realized.",
     "age": 28,
     "hitpoints": {
-      "shields": 0,
       "armor": 100,
+      "shields": 0,
       "health": 425,
       "total": 525
     },
@@ -2237,7 +3151,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Void Accelerator (Omnic Form)",
+        "description": "Fire a stream of projectiles.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b860a9ba344656b591451cf17d419633e75c0c1abf2737e0c3c470fe94b70768.png"
+      },
+      {
+        "name": "Void Barrier (Omnic Form)",
+        "description": "Create a barrier at the targeted location.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/94d29f925b938d4898f440d06d8543e49c772e09cb89ef9812826fb2be54f9c7.png"
+      },
+      {
+        "name": "Pummel (Nemesis Form)",
+        "description": "Punch, creating a wave of piercing energy with every swing.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b38ab7e9dddd67875853b77de9a3b9db270ea1d9d107753debae2c07f1f5061f.png"
+      },
+      {
+        "name": "Ravenous Vortex",
+        "description": "Fire a sphere of energy that detonates on the ground, slowing and pulling down enemies. Re-activate to detonate early.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80e96eddbc10af5e1b08c7392f4f61aabc0e5408e31e72961595a936ccceabcc.png"
+      },
+      {
+        "name": "Annihilation",
+        "description": "Enter Nemesis Form and create a deadly swarm that lashes out at nearby enemies, persisting longer when damaging enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/283267c35bf45ecfaf8f8fdeee5f8b29e36ab6937fda9112f730dce85e963213.png"
+      }
+    ]
   },
   {
     "key": "reaper",
@@ -2249,8 +3190,8 @@
     "description": "Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows.",
     "age": 60,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 300,
       "total": 300
     },
@@ -2303,7 +3244,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Hellfire Shotguns",
+        "description": "Short-range spread weapons.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/903d169dd299e13294d43bf01c61ad5351169ef7cc0bd69bddb3855472b88359.png"
+      },
+      {
+        "name": "Shadow Step",
+        "description": "Teleport to a targeted location.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e20a77100283c55a2e3366eb903936eae445364f96575975005c5373f30d722d.png"
+      },
+      {
+        "name": "Wraith Form",
+        "description": "Move faster and become invulnerable, but you cannot shoot.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b85663ad878344ecf1de8037ff96b4df699d003db95c409b8de46485cdae47c2.png"
+      },
+      {
+        "name": "Death Blossom",
+        "description": "Damage all nearby enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/01b5c2f0f26e964707ff9e382a639a402f9f7b3fff3025dadd79f8e6a3f902d1.png"
+      },
+      {
+        "name": "The Reaping",
+        "description": "Dealing damage heals you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d6efc2a1bddf6bdafd95d6bf650bea70fe83d45000c400a1eaa6a86b042ef0a5.png"
+      }
+    ]
   },
   {
     "key": "reinhardt",
@@ -2315,8 +3283,8 @@
     "description": "Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes of valor, justice, and courage.",
     "age": 63,
     "hitpoints": {
-      "shields": 0,
       "armor": 300,
+      "shields": 0,
       "health": 400,
       "total": 700
     },
@@ -2369,7 +3337,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4c409b02f49f1d4f/63880faf6f080311223b5520/reinhardt-02.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Rocket Hammer",
+        "description": "Devastating melee weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/22c800a8529b46a64f391cd432c94023dca2745ef9c9eec52ad9a7843d7df4e5.png"
+      },
+      {
+        "name": "Charge",
+        "description": "Charge forward and smash an enemy against a wall.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6b7b226ab508dc7a45908b0613dc889558cf2cc217c04d072940e0a539ac56aa.png"
+      },
+      {
+        "name": "Fire Strike",
+        "description": "Launch a fiery projectile.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ca90071b2e0c9cbf5a6e91e580682c73456298b88e34d40d7bf5eb5c098173a1.png"
+      },
+      {
+        "name": "Barrier Field",
+        "description": "Hold  to deploy a frontal energy barrier.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/423dec435587464e24a663cdd4f35178020854e1f924af5902eebba5be9607f2.png"
+      },
+      {
+        "name": "Earthshatter",
+        "description": "Knock down all enemies in front of you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c5c5d0db3af35de00d60dd68e6350a540febbbac094bafaf0663f25ae4dcfd2b.png"
+      }
+    ]
   },
   {
     "key": "roadhog",
@@ -2381,8 +3376,8 @@
     "description": "Roadhog is a powerful enforcer with a well-earned reputation for random and wanton destruction.",
     "age": 50,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 750,
       "total": 750
     },
@@ -2435,7 +3430,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt2c1b0477d4a1c175/637da1d1f9f61910b4235785/roadhog-02.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Scrap Gun",
+        "description": "Short-range spread weapon.  Medium-range projectile that explodes into the weapon's short-range primary fire.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d48d0b264d765e3732abda784e986595f7a6c5ad0e56f1929c008ffc0492a39d.png"
+      },
+      {
+        "name": "Chain Hook",
+        "description": "Drag a targeted enemy to you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7edc1cdef13c2fd21e279043816aa1d2975dc784298502fd121b927729e1e86d.png"
+      },
+      {
+        "name": "Take a Breather",
+        "description": "Heal yourself and reduce damage taken.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/064bde1e9f9f65e2a1ca0898abe09432394dca3b0729da0dcccff41b5f5be69b.png"
+      },
+      {
+        "name": "Whole Hog",
+        "description": "Damage and knock back enemies in front of you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/907eeb4e179b70ea279ca8dd0e276bf45a1b1a13875757ae3b8fd2305f2affa9.png"
+      }
+    ]
   },
   {
     "key": "shion",
@@ -2447,8 +3464,8 @@
     "description": "Once an omnic held captive by the Hashimoto Clan, now its most notorious Elder, Shion has transformed herself into a fearsome icon of hatred.",
     "age": 28,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -2506,7 +3523,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Kira Pistols",
+        "description": "Rapid-fire anima pistols.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/364a8441812d647fb1324804223f963fc904add29b9396bf98f40d9bffa6fe43.png"
+      },
+      {
+        "name": "Execution",
+        "description": "Fire an X-shaped volley. Hold to tighten its spread.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dbd96d63564e1d99cfa5593f86796c9e5ab360214eb0e50c18d6a9503093c7c5.png"
+      },
+      {
+        "name": "Joyride",
+        "description": "Rev your engine. Reactivate to dismount and launch your bike forward.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a0279c43c165fe4f240c61baa6b7a721e73b84d7f940809e2a1897d94b2302ef.png"
+      },
+      {
+        "name": "Evade",
+        "description": "Dash and briefly gain overhealth.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/460c2fb7f11b1ea206f11a72a7c93bfed0cd314bdfb35333287177a966e21c01.png"
+      },
+      {
+        "name": "Satsuriku Spree",
+        "description": "Rush forward 3 times in a storm of gunfire.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/758c015bd3da645e207d99d8a70275e114728101e6a5b7bc15dc24dba6c8962d.png"
+      }
+    ]
   },
   {
     "key": "sierra",
@@ -2518,8 +3562,8 @@
     "description": "A dedicated teammate with enhanced abilities, Sierra has climbed the ranks of Helix Security. With her positive attitude, there's no challenge she can't face.",
     "age": 25,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -2577,7 +3621,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Helix Rifle",
+        "description": "Automatic assault weapon. Shoots in a spiral pattern, gaining accuracy with sustained fire.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d12e2bc19f1619b71d13816c01ef96ad54bb6a7cb4ee00ae8bea8be3d2e2102d.png"
+      },
+      {
+        "name": "Tracking Shot",
+        "description": "Marks an enemy. Helix Rifle shots automatically track marked enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6c77d58daaeaae211088786b8bf9bff92178ef2df3f0ca6ec9a721d6b4258e55.png"
+      },
+      {
+        "name": "Tremor Charge",
+        "description": "Throw a charge that creates a shockwave on impact.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f4b141af6f5e6b6c392cdde07083f29d1b5374303c7fc39e37c3f4ed51985e52.png"
+      },
+      {
+        "name": "Anchor Drone",
+        "description": "Launch an Anchor Drone. Reactivate to grapple to it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f9e6fff99bff3c24a9ea9e57ae7c71b067982e6df9b0acb50529fe58131b6e7b.png"
+      },
+      {
+        "name": "Trailblazer",
+        "description": "Deploy a drone that flies forward and drops explosives.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4a300c381bac87785f406965cf94ef8d75ee2592bb07d867d50d1c738d8312c8.png"
+      }
+    ]
   },
   {
     "key": "sigma",
@@ -2589,8 +3660,8 @@
     "description": "Brilliant astrophysicist Dr. Siebren de Kuiper's life changed forever when an experiment gone wrong gave him the ability to control gravity; now, Talon manipulates him to their own ends.",
     "age": 64,
     "hitpoints": {
-      "shields": 275,
       "armor": 0,
+      "shields": 275,
       "health": 350,
       "total": 625
     },
@@ -2643,7 +3714,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Hyperspheres",
+        "description": "Launch two charges which implode after a short duration, dealing damage in an area.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/30fc5dd8efdcc6aa5a34191c3ff308fb77fdfd542b2bfc36e1536f0db7bdb618.png"
+      },
+      {
+        "name": "Kinetic Grasp",
+        "description": "Absorb projectiles in front of you and convert them into extra health.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c8af801acf16c796c38a8aa8abb571eda481d6490f0562105aa20f319cccdf41.png"
+      },
+      {
+        "name": "Accretion",
+        "description": "Gather a mass of debris and throw it at an enemy to knock them down.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f7fd30ad038cc989f39b28bac6744b6ab0215e9817adfd67d077f3b40bc10fdf.png"
+      },
+      {
+        "name": "Experimental Barrier",
+        "description": "Hold to propel a floating barrier; release to stop. Press again to recall the barrier to you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2ad5aa270071c229fd0a83b49d0ebd6b502489f0a0b5bcb109140eea79a5fb6b.png"
+      },
+      {
+        "name": "Gravitic Flux",
+        "description": "Manipulate gravity to lift enemies into the air and slam them back down.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0a5cda51d0e802e9adbdedefee7461c5abe2b6c6a7027d55903ac9a28281b2e4.png"
+      }
+    ]
   },
   {
     "key": "sojourn",
@@ -2655,8 +3753,8 @@
     "description": "As a leader in the bygone days of Overwatch, Vivian Chase, callsign Sojourn, is determined to ensure its new heroes don’t repeat the mistakes of the past.",
     "age": 51,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -2714,7 +3812,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Railgun",
+        "description": "Rapid firing projectiles that generate energy on hit.  High impact shot that consumes stored energy and pierces enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e5b9de0193dfaf675dd1cd1cbfe4ac96c8cc62059b376a728da56f59f639ee25.png"
+      },
+      {
+        "name": "Power Slide",
+        "description": "Ground slide that can cancel into a high jump.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/96315794f51b0dd88c540803fc3930472d75dca3cf00c02ad89dda1b0551493c.png"
+      },
+      {
+        "name": "Disruptor Shot",
+        "description": "Launch an energy burst that deals damage to enemies within it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/aeee6090d3c14383487584bda86043add0b69c02331ad01dfd01958a545dddcf.png"
+      },
+      {
+        "name": "Overclock",
+        "description": "Railgun energy auto-charges for a short duration.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5772b79f0a9d28125abb69412bce2a025d79f9b6023b561427592ece2b761588.png"
+      }
+    ]
   },
   {
     "key": "soldier-76",
@@ -2726,8 +3846,8 @@
     "description": "The target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse.",
     "age": 58,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -2775,7 +3895,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt43566dc9446cf327/6388100c5148880e83ab70cf/soldier-01.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Heavy Pulse Rifle",
+        "description": "Automatic assault weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/92a278e67041e7d4fa9b1a392a0a632ae61878b166c07bfa4486fc8f331542c5.png"
+      },
+      {
+        "name": "Sprint",
+        "description": "Run faster while moving forward.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b9ad6138762e898cd82c4d4573580004ee603976b7cd8e18362c902a00b496e.png"
+      },
+      {
+        "name": "Biotic Field",
+        "description": "Deploy a field that heals you and your allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a7ff449a9b1d26894358265bedbe1f6cbb75707359f9b5b86266e2ce5d1aa3a3.png"
+      },
+      {
+        "name": "Helix Rockets",
+        "description": "Launch a volley of explosive rockets.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4b430bbf1650e264875441dab1f4bd1083d106375fc1a7ef0e0c88e1d7371bc4.png"
+      },
+      {
+        "name": "Tactical Visor",
+        "description": "Automatically aims your weapon at targets in view.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/be3396e23ba0199441cfa6f3b1ed92400031c662b933c2354288111070210e6f.png"
+      }
+    ]
   },
   {
     "key": "sombra",
@@ -2787,8 +3934,8 @@
     "description": "One of the world's most notorious hackers, Sombra uses information to manipulate those in power.",
     "age": 32,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -2841,7 +3988,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Machine Pistol",
+        "description": "Short-range automatic weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5750af901db77f479be41f01c55a5b3d5e644d2f99c179b77bd824eecf5fcbbc.png"
+      },
+      {
+        "name": "Hack",
+        "description": "Hold to hack. Hacked enemies cannot use abilities and can be seen through walls. Hacked health packs spawn faster and can't be used by enemies. Taking damage interrupts the hack attempt.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8ab2253eef852a5a038df53fe84ff1dfff0dfea2224bddf881797093695f2261.png"
+      },
+      {
+        "name": "Translocator",
+        "description": "Throw a beacon and teleport to it. Become stealthed for a short duration after teleporting.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13259eeec8db36c3158d1d4bd4fe99667067ee7bf678349eec5cbd0d32da3a7f.png"
+      },
+      {
+        "name": "Virus",
+        "description": "Infect enemies with a projectile that deals damage over time. Virus damages hacked enemies at a faster rate.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2e933c2c42fea37400c5e296cfc9ea1fc2958071b04bde8960c0fa7ca17f3251.png"
+      },
+      {
+        "name": "EMP",
+        "description": "Deal damage to all nearby enemies equal to a percentage of their current health, hacking them and destroying barriers around you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9ccf2688b89c3f17c3f6410c3142510ea413718f0d165f78e712184ec636b2e4.png"
+      }
+    ]
   },
   {
     "key": "symmetra",
@@ -2853,8 +4027,8 @@
     "description": "Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the world as she wishes it to be, in hopes of engineering a perfect society.",
     "age": 30,
     "hitpoints": {
-      "shields": 150,
       "armor": 0,
+      "shields": 150,
       "health": 125,
       "total": 275
     },
@@ -2902,7 +4076,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt8f83938a3b4292a5/637da1eb46a48b0e063e4aa1/symmetra-01.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Photon Projector",
+        "description": "Short-range beam weapon with increasing damage.  Hold to charge, release to fire explosive orb.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8a4fdf92378cdc77364729fe493013e913d794975c5a9b94865cd740f471d528.png"
+      },
+      {
+        "name": "Sentry Turret",
+        "description": "Deploy a small turret that damages and slows enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2b4544ab4d75b4499b7cb6b1b6b44e8487b6d3d3857ee119ebbf29d59e903d45.png"
+      },
+      {
+        "name": "Teleporter",
+        "description": "Create two temporary teleporters that enable instant travel between them.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1c4fb9dbd9b6d02c2e75c3ad142b79955ba3e6e73469d676c79bdaef7f7a610f.png"
+      },
+      {
+        "name": "Photon Barrier",
+        "description": "Deploy a massive energy barrier.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/33e5dd2a53729dad19d77e7528de49e2e3e3a6500657d47fe1c331afd1c0a88f.png"
+      }
+    ]
   },
   {
     "key": "torbjorn",
@@ -2914,8 +4110,8 @@
     "description": "At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.",
     "age": 59,
     "hitpoints": {
-      "shields": 0,
       "armor": 75,
+      "shields": 0,
       "health": 225,
       "total": 300
     },
@@ -2968,7 +4164,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Rivet Gun",
+        "description": "Slow firing, long-ranged weapon.  Inaccurate but powerful short-range weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2020ce8ffa1d19edbfa7097499ed5763ac18500a0f76cde75cc37243fd6aab27.png"
+      },
+      {
+        "name": "Forge Hammer",
+        "description": "Swing to repair your turret or damage an enemy.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f88b11b8a6cceb1ba4a15e3d6bc4beb5a1bce9ae5dbcb088b2d51ace54af13bc.png"
+      },
+      {
+        "name": "Deploy Turret",
+        "description": "Deploy a self-building turret.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/856576a7a6b8bc93e8024a152a8a300178ed4030c869edebaaf61469cdbc330c.png"
+      },
+      {
+        "name": "Overload",
+        "description": "Gain additional extra health as well as improved attack, movement, and reload speed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9751ee2ad26041a274f60dab106a3d52eb0f0d7941b4bc48cd14e737e05dc6bd.png"
+      },
+      {
+        "name": "Molten Core",
+        "description": "Create pools of molten slag that damage enemies. Deals additional damage to armor.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f90a17a62ce6d21dfca5f9dd0df6598f582872f88269c76f51efdec1e198ffe4.png"
+      }
+    ]
   },
   {
     "key": "tracer",
@@ -2980,8 +4203,8 @@
     "description": "The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good.",
     "age": 28,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 175,
       "total": 175
     },
@@ -3039,7 +4262,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blte63fa66f1c632a0f/6388105b6f080311223b5528/tracer-03.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Pulse Pistols",
+        "description": "Short-range automatic weapons.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/17a3bc41fc57a8527c4f44a5615e249acca62cb69319e52b61d499e4e91cf346.png"
+      },
+      {
+        "name": "Blink",
+        "description": "Teleport in the direction you are moving.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b8c86be415dba78af80c8f1536aba583096396327e0609607d21acea6a806276.png"
+      },
+      {
+        "name": "Recall",
+        "description": "Travel back in time to your previous location and health.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cfa2264173c1d8a365c514972412fbb802d78cd70451b1d38f37579cea500872.png"
+      },
+      {
+        "name": "Pulse Bomb",
+        "description": "Throw out a powerful sticky explosive.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a2613e52845b252aee119c75e1b527cd0dd1c6d4c0605b3d48983188268d3581.png"
+      }
+    ]
   },
   {
     "key": "vendetta",
@@ -3051,8 +4296,8 @@
     "description": "As champion of the Colosseo and a member of Italy’s elite, Vendetta will stop at nothing to reclaim the throne of her family’s criminal empire. Known for her explosive rage and ruthlessness in battle, the only thing that exceeds her skill in physical combat is her boundless ambition.",
     "age": 29,
     "hitpoints": {
-      "shields": 0,
       "armor": 100,
+      "shields": 0,
       "health": 175,
       "total": 275
     },
@@ -3105,7 +4350,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blte26c692d0d1f1ea4/693084faf4fa3f7085019ffc/OVR_S19_H45_Vendetta_TeamFight_001.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Palatine Fang",
+        "description": "Hard-light greatsword. Combo swings to end with a destructive overhead slash.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9754a770516c07712b3cbababb825972eec78c08b3fbc141dbcee31d9c58c137.png"
+      },
+      {
+        "name": "Warding Stance",
+        "description": "Block with your sword, reducing frontal damage and deflecting melee attacks. Blocking damage depletes energy.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fa9a88278d46e3fc49aad27df9a0b70541f16fb517e96711514e7c736c377243.png"
+      },
+      {
+        "name": "Whirlwind Dash",
+        "description": "Rush forward into a circular slash.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/646af7a4d6b6b65adee6543ec70b33c9ffd36989c8dd4e8b22079c6b9e074c79.png"
+      },
+      {
+        "name": "Soaring Slice",
+        "description": "Hurl your sword in the direction you are facing and then fly to it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/785bffa90ccf067fbfd86c7a6d6729ed12566a02554f28d76974b573d3a5c6a0.png"
+      },
+      {
+        "name": "Projected Edge",
+        "description": "Available while Warding Stance is active. Consume energy to fire a wide projectile.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/82d88959c1044cf01449e6909cb962590a6ff4a188565f367a5b8a3b3a038ccb.png"
+      },
+      {
+        "name": "Sundering Blade",
+        "description": "Cleave through most defenses, dealing severe damage to enemies in front of you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/827e0c55b3d2f335f5950c676f1f52c8668ad33f34ea4c6052c4a122ac005ce8.png"
+      }
+    ]
   },
   {
     "key": "venture",
@@ -3117,8 +4394,8 @@
     "description": "A globe-trotting archaeologist and explorer, Venture has a passion for solving history’s mysteries.",
     "age": 26,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 250,
       "total": 250
     },
@@ -3176,7 +4453,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltb6e0d1b51e54e567/660da28c2c8f665c26848436/Venture4.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "SMART Excavator",
+        "description": "Launch a seismic charge that bursts after a short distance.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b2cc1eb839f7e907defe189101077716373a30e6ee17859521ab558a907a7925.png"
+      },
+      {
+        "name": "Drill Dash",
+        "description": "Dash forward while above or underground, pushing enemies back. The cooldown is accelerated while Burrow is active.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dd98f66d96b860803bd144bb4376d236275bf994228de6f9bd7826ec5c4522e6.png"
+      },
+      {
+        "name": "Burrow",
+        "description": "Move underground and become invulnerable. Press or hold  LSHIFT  to emerge and damage enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/725f02ba7e5bba99db26300cdf1d7478e111b2a4049b7fd41b6ef3a4a6cb0e57.png"
+      },
+      {
+        "name": "Tectonic Shock",
+        "description": "Send out damaging shockwaves.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/41ee94ca95e5e7258fc67aa501aa9972c7a828f4df7b578b4eb44e01490e2679.png"
+      }
+    ]
   },
   {
     "key": "widowmaker",
@@ -3188,8 +4487,8 @@
     "description": "Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.",
     "age": 35,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -3247,7 +4546,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Widow's Kiss",
+        "description": "Automatic assault weapon.  Hold for long-ranged sniper weapon.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/da5b161187088a765de4a40df65e8737bd9b6b09c896c9cc960f8fa322a78f22.png"
+      },
+      {
+        "name": "Grappling Hook",
+        "description": "Launch a hook that pulls you towards a ledge.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9984591b905b66ab69c48c04e2f2829e32ffce04941b57403f1ec21c125fe573.png"
+      },
+      {
+        "name": "Venom Mine",
+        "description": "Launch a poison trap.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/800b4cd6b00024479ac681dc160a50030a3883a334499da6c6918d7c239bec55.png"
+      },
+      {
+        "name": "Infra-Sight",
+        "description": "Provide your team with a view of the enemy's location.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7f5d2bca0cdf2d33170ed1253344059db14755fc69efb524d19cebb4f3dc2903.png"
+      }
+    ]
   },
   {
     "key": "winston",
@@ -3259,8 +4580,8 @@
     "description": "A super-intelligent, genetically engineered gorilla, Winston is a brilliant scientist and a champion for humanity’s potential.",
     "age": 31,
     "hitpoints": {
-      "shields": 0,
       "armor": 200,
+      "shields": 0,
       "health": 425,
       "total": 625
     },
@@ -3313,7 +4634,29 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4df2b92421b1ea3f/638810d75148880e83ab70d7/winston-02.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Tesla Cannon",
+        "description": "Electric frontal-cone weapon.  Hold to charge, release to fire focused electricity.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bee62b73fa25c243366aa1334aaac2d3b14b626156155895c4355dc3601ecb27.png"
+      },
+      {
+        "name": "Jump Pack",
+        "description": "Leap forward into the air. Landing on an enemy damages them.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2bdebd912f34716becf022295dd66d83abd6d156dde2aad43c87498445050f62.png"
+      },
+      {
+        "name": "Barrier Projector",
+        "description": "Deploy a protective energy dome.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/37fc72590a04cbcc4d8ddc3b839e853640a617bad0b6ce8904f6ebe8f07400ba.png"
+      },
+      {
+        "name": "Primal Rage",
+        "description": "Gain immense health, but you can only leap and punch enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3dc843c002049f4c954545f8a11570fb347caddb24365a8839563e2302a2ad7c.png"
+      }
+    ]
   },
   {
     "key": "wrecking-ball",
@@ -3325,8 +4668,8 @@
     "description": "A resourceful and highly intelligent mechanic and fighter, Wrecking Ball rose from the laboratories of Horizon Lunar Colony to become the Junker Queen’s champion.",
     "age": 16,
     "hitpoints": {
-      "shields": 150,
       "armor": 125,
+      "shields": 150,
       "health": 450,
       "total": 725
     },
@@ -3379,7 +4722,39 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0af3da82e5f25a8b/637da2233cbefd11108110ef/wreckingball-02.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Quad Cannons",
+        "description": "Automatic assault weapons.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ac31602c3ce6b5732e1730f3b9745a5d10573b819332f730f6f3f0e9cd7fffba.png"
+      },
+      {
+        "name": "Grappling Claw",
+        "description": "Launch a grappling claw to rapidly swing around the area. Enables high speed collisions to damage and knockback enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/59622a0a190adb30f2ac004485b44e1956cd5fd7a984df1bb4b0e0c156878ed6.png"
+      },
+      {
+        "name": "Roll",
+        "description": "Transform into a ball and increase maximum movement speed.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/657f78a26e980f5fa339edb9cd318f348e00b9a0fd0079e4989584cedad40f52.png"
+      },
+      {
+        "name": "Piledriver",
+        "description": "Slam into the ground below to damage and launch enemies upward.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dfb63a6f4f8f8e4d69109d5db9107be47deaec938b1bac6725e756b0a74b8aaa.png"
+      },
+      {
+        "name": "Adaptive Shield",
+        "description": "Create temporary extra health that increases with more nearby enemies. Some of the health can be transferred to allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0424cbb07a23692153df454ddbab6cbd11d735a7ac4f680d449e36e49d4fbd02.png"
+      },
+      {
+        "name": "Minefield",
+        "description": "Deploy a massive field of proximity mines.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3477845322ea7befaff326fd662ff07eda2d7d49cb1a3518d27ec9531d10afaa.png"
+      }
+    ]
   },
   {
     "key": "wuyang",
@@ -3391,8 +4766,8 @@
     "description": "Wielder of healing technology from Wuxing University’s Water College, Wuyang is always ready to turn the tide of battle.",
     "age": 19,
     "hitpoints": {
-      "shields": 0,
       "armor": 0,
+      "shields": 0,
       "health": 225,
       "total": 225
     },
@@ -3450,7 +4825,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4d7c0ba04932c451/698294b5f2d21820ec8ef828/talon_lore.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Xuanwu Staff",
+        "description": "Fire a damaging water orb. Hold to control its trajectory and empower its explosion.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/51dee96ac9a92d773bfa56a45272db8cf94ade9c051981f7a240782b0d16f8ec.png"
+      },
+      {
+        "name": "Restorative Stream",
+        "description": "Place a passive healing stream on an ally. Hold on the target to manually heal at an improved rate, consuming resource.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f4d4b3abcf4581b0cfb268f571aa1e657533c294d475043b8ef0ca0d3e9696b0.png"
+      },
+      {
+        "name": "Rushing Torrent",
+        "description": "Ride water to move faster and jump higher.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b545f1bee1ec06f66fee071afcece10cee6bf5f4eb2323e4daeacb7861dd8b1d.png"
+      },
+      {
+        "name": "Tidal Blast",
+        "description": "Protect an ally or yourself with water that detonates after a short duration. The explosion knocks down enemies and massively heals the host target.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1c1289f947063b60cdb43226bd997557161910a3ea8f5ffcb1d1ad69e91b24b7.png"
+      },
+      {
+        "name": "Guardian Wave",
+        "description": "Send a water wave forward that increases the amount of healing received by allies and knocks back enemies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a1a3efdb2c0db62876f6e39dc82b6095a1058803e3f428ca12c912391f818d35.png"
+      }
+    ]
   },
   {
     "key": "zarya",
@@ -3462,8 +4864,8 @@
     "description": "Aleksandra Zaryanova is one of the world's strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war.",
     "age": 30,
     "hitpoints": {
-      "shields": 225,
       "armor": 0,
+      "shields": 225,
       "health": 325,
       "total": 550
     },
@@ -3516,7 +4918,34 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blte6e9757272caa5fe/637da229f9f61910b4235799/zarya-02.jpg"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Particle Cannon",
+        "description": "Short-range linear beam weapon.  Energy grenade launcher.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b7f554bd5736dcf6493d9ba6c4961f5b93252d692123c7d10d43a4d1b3db62c3.png"
+      },
+      {
+        "name": "Particle Barrier",
+        "description": "Create a damage barrier around you.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2311738a2f08aa2e72198b01ef5131337d39275fe0722143e53509592b22612a.png"
+      },
+      {
+        "name": "Projected Barrier",
+        "description": "Create a damage barrier around an ally.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80f5c53f2835ef60c6527802de36a603b90ea212af41bce469664817692fc97e.png"
+      },
+      {
+        "name": "Graviton Surge",
+        "description": "Launch a gravity well that pulls enemies to it.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9a3f92c4af25b973f82ea2d8ea9a2ec266e0ccd387b053b317eb3cd977f10073.png"
+      },
+      {
+        "name": "Energy",
+        "description": "Damage blocked by barriers increases Particle Cannon damage.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/34d08df453dae3f8c01cabc9015e43ecfbb5fa764885a6f1f431ee90a98dcee2.png"
+      }
+    ]
   },
   {
     "key": "zenyatta",
@@ -3528,8 +4957,8 @@
     "description": "Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again.",
     "age": 33,
     "hitpoints": {
-      "shields": 175,
       "armor": 0,
+      "shields": 175,
       "health": 75,
       "total": 250
     },
@@ -3587,6 +5016,33 @@
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt8dd18a1766e11a0f/698656d8ad4e7e0740be3ed4/null_sector.png"
         }
       ]
-    }
+    },
+    "abilities": [
+      {
+        "name": "Orb of Destruction",
+        "description": "Energy projectile weapon.  Charge to release more projectiles.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9aaea64b6fd5f024741aab112dea6ef5e3adc706af58122a6beb92505889a5f1.png"
+      },
+      {
+        "name": "Orb of Discord",
+        "description": "Launch this orb at an enemy to increase the damage they take.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4000886b6906480f519f4a87c167bc1877b131f1dc43e8583bfc0fcf7e415904.png"
+      },
+      {
+        "name": "Orb of Harmony",
+        "description": "Launch this orb at an ally to heal them.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c8e37e2f3e147fde823bb9566b57e3e20d238430f0cb4f8aa8b581525a4f225e.png"
+      },
+      {
+        "name": "Transcendence",
+        "description": "Become invulnerable, move faster, and heal nearby allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bb8671b591d6310c3a956c354669fe8ef4b581517dea0813b5172092a8ab420c.png"
+      },
+      {
+        "name": "Snap Kick",
+        "description": "Quick melee damage increased by 50%, and its knockback is significantly increased.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bf9bae454ad8571a99b5418fe14b42b18922ca9521981797b66e9b1a9791fc7.png"
+      }
+    ]
   }
 ]

@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS heroes (
   age INTEGER,
   hitpoints TEXT NOT NULL,
   perks TEXT NOT NULL,
+  abilities TEXT NOT NULL,
   story TEXT NOT NULL
 );
 

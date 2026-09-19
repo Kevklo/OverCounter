@@ -57,6 +57,13 @@ export interface Hero {
   hitpoints: Hitpoints;
   perks: Perks;
   story: Story;
+  abilities: Ability[];
+}
+
+export interface Ability {
+    name: string;
+    description: string;
+    icon: string;
 }
 
 export type HeroData = Omit<Hero, "id" | "archetype">;

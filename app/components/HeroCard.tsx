@@ -28,6 +28,7 @@ export const HeroCard = ({
               <Image
                 src={portrait}
                 alt={"portait of " + name}
+                sizes="(min-width: 640px) 80px 64px"
                 width={512}
                 height={512}
                 className="h-16 w-16 rounded object-cover object-top sm:h-20 sm:w-auto sm:rounded-none"

@@ -27,15 +27,16 @@ const seedHeroes = (): void => {
       age: hero.age,
       hitpoints: JSON.stringify(hero.hitpoints),
       perks: JSON.stringify(hero.perks),
-      story: JSON.stringify(hero.story),
+      abilities: JSON.stringify(hero.abilities),
+      story: JSON.stringify(hero.story)
     };
   });
 
   const upsert = db.prepare(`
     INSERT INTO heroes
-      (id, name, role, archetype, subrole, description, image_url, age, hitpoints, perks, story)
+      (id, name, role, archetype, subrole, description, image_url, age, hitpoints, perks, abilities, story)
     VALUES
-      (@id, @name, @role, @archetype, @subrole, @description, @image_url, @age, @hitpoints, @perks, @story)
+      (@id, @name, @role, @archetype, @subrole, @description, @image_url, @age, @hitpoints, @perks, @abilities, @story)
     ON CONFLICT(id) DO UPDATE SET
       name = excluded.name,
       role = excluded.role,
@@ -46,6 +47,7 @@ const seedHeroes = (): void => {
       age = excluded.age,
       hitpoints = excluded.hitpoints,
       perks = excluded.perks,
+      abilities = excluded.abilities,
       story = excluded.story
   `);
 
