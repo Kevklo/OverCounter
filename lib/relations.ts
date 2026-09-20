@@ -49,6 +49,29 @@ export const getSynergies = (id: string): RelationEntry[] =>
     .all(id, id, id) as RelationEntry[];
 
 
+// All incoming counters grouped by the hero being countered (loser_id).
+export const listWeakAgainst = (): Record<string, RelationEntry[]> => {
+  const rows = db
+    .prepare(`
+      SELECT c.loser_id AS target, h.id, h.name, h.image_url, c.strength
+      FROM counters c
+      JOIN heroes h ON h.id = c.winner_id
+    `)
+    .all() as (RelationEntry & { target: string })[];
+
+  const map: Record<string, RelationEntry[]> = {};
+  for (const row of rows) {
+    (map[row.target] ??= []).push({
+      id: row.id,
+      name: row.name,
+      image_url: row.image_url,
+      strength: row.strength,
+    });
+  }
+  return map;
+};
+
+
 export const getTeamStrongAgainst = (ids: string[]): Hero[] => {
 
   const counters: ScoreType = {};

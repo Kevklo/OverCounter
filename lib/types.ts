@@ -68,6 +68,11 @@ export interface Ability {
 
 export type HeroData = Omit<Hero, "id" | "archetype">;
 
+export type HeroLite = Pick<
+  Hero,
+  "id" | "name" | "role" | "archetype" | "image_url"
+>;
+
 export type FetchedHero = HeroData & { key: string; archetype: null };
 
 export type Serialized<T> = {

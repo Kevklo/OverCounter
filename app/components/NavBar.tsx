@@ -13,7 +13,11 @@ const NavBar = () => {
             Heroes
           </Link>
         </li>
-        <li>Team Counters</li>
+        <li>
+          <Link href="/counters" className="transition-colors hover:text-orange-400">
+            Team Counters
+          </Link>
+        </li>
         <li>Synergies</li>
       </ul>
     </nav>
