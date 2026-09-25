@@ -96,6 +96,24 @@ h3 {
   animation: glow-pulse 6s ease-in-out infinite;
 }
 
+@keyframes vs-glow {
+  0%,
+  100% {
+    text-shadow:
+      0 0 12px rgba(249, 158, 26, 0.55),
+      0 0 28px rgba(249, 158, 26, 0.35);
+  }
+  50% {
+    text-shadow:
+      0 0 18px rgba(249, 158, 26, 0.9),
+      0 0 40px rgba(249, 158, 26, 0.55);
+  }
+}
+
+.vs-text {
+  animation: vs-glow 3s ease-in-out infinite;
+}
+
 .logo-text {
   font-family: var(--font-chakra), sans-serif;
   -webkit-background-clip: text;

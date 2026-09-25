@@ -22,10 +22,8 @@ const CountersPage = () => {
     <main className="mx-auto w-full max-w-6xl px-4 py-8">
       <h1 className="mb-2 text-3xl font-bold text-[var(--text)]">Team Counters</h1>
       <p className="mb-8 text-sm text-[var(--muted)]">
-        Elegí el equipo rival (1 tank, 2 damage, 2 support) y mirá tu mejor
-        counter por rol.
+        Choose your rival team to see your best counter by role.
       </p>
-
       <TeamCounterBuilder heroes={heroes} weakAgainst={weakAgainst} />
     </main>
   );

@@ -14,11 +14,10 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/counters" className="transition-colors hover:text-orange-400">
+          <Link href="/counters" className="transition-colors hover:text-orange-400 mr-10">
             Team Counters
           </Link>
         </li>
-        <li>Synergies</li>
       </ul>
     </nav>
   );
