@@ -36,6 +36,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Background />
         <NavBar />
         {children}
+        <footer className="mt-auto border-t border-[var(--border)] px-4 pt-6 text-center text-xs leading-relaxed text-[var(--muted)]">
+          <p className="mx-auto max-w-3xl">
+            OverCounter is an unofficial, non-commercial fan project and is not
+            affiliated with, endorsed by, or sponsored by Blizzard Entertainment
+            or the Overwatch franchise. Overwatch, its heroes, and all related
+            assets, names and imagery are trademarks and copyrights of Blizzard
+            Entertainment. Hero data is provided by the community-run OverFast
+            API.
+          </p>
+        </footer>
       </body>
     </html>
   );
