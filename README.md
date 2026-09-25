@@ -12,13 +12,6 @@ team that counters a rival composition.
   best counter pick per role, with an average counter score and the best matchup
   per hero.
 
-## Tech stack
-
-- [Next.js 16](https://nextjs.org) (App Router, Server Components) + TypeScript
-- [Tailwind CSS v4](https://tailwindcss.com)
-- SQLite via [better-sqlite3](https://github.com/WiseLibs/better-sqlite3)
-- Hero data generated from the community [OverFast API](https://overfast-api.tekrop.fr)
-
 ## Getting started
 
 ```bash
@@ -30,34 +23,7 @@ npm run dev
 
 Open <http://localhost:3000>.
 
-### Scripts
-
-| Script | Description |
-| --- | --- |
-| `npm run dev` | Start the dev server |
-| `npm run build` | Production build |
-| `npm run start` | Start the production server |
-| `npm run db:migrate` | Create the SQLite schema |
-| `npm run db:seed` | Seed heroes and relations from `lib/*-data.json` |
-| `npm run db:reset` | Drop, recreate and re-seed the database |
-| `npm run db:list` | Print all heroes |
-
-To regenerate hero data from the OverFast API:
-
-```bash
-npx tsx scripts/fetch-heroes.ts
-```
-
-## Data
-
-- `lib/heroes-data.json` — hero data generated from the OverFast API (committed).
-- `lib/relations-data.json` — counters and synergies, curated by hand.
-- The SQLite database lives in `data/` and is generated at seed time (not versioned).
-
-## Deploy
-
-Configured for [Render](https://render.com) via `render.yaml`. The database is
-regenerated on every deploy, so no persistent disk is required.
+Or test it on `link`
 
 ## Disclaimer
 
