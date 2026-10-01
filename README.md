@@ -23,7 +23,7 @@ npm run dev
 
 Open <http://localhost:3000>.
 
-Or test it on `link`
+Or try it out [HERE](https://overcounter.onrender.com/)
 
 ## Disclaimer
 
