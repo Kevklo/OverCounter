@@ -9,17 +9,17 @@
     "description": "One of the founding members of Overwatch, Ana uses her skills and expertise to defend her home and the people she cares for.",
     "age": 62,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
       "minor": [
         {
-          "name": "Groggy",
-          "description": "Enemies waking from Sleep Dart are slowed and take 50 damage over 2 seconds.",
-          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/261f0fabdaf55159b9e13103abd465cfe3bf50a3906f97b1a47e9c2dc961905b.png"
+          "name": "Local Anesthetic",
+          "description": "Sleep dart explodes on impact, slowing enemies and dealing 45 damage over 3 seconds.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ae02fae670005f987ff17803a469c958a1281c236aa2817fd1b8a03e119ad77d.png"
         },
         {
           "name": "Speed Serum",
@@ -102,9 +102,9 @@
     "description": "The star graduate of Wuxing University’s Fire College, Anran is always burning to push her limits.",
     "age": 22,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -210,9 +210,9 @@
     "description": "Ashe is the ambitious and calculating leader of the Deadlock Rebels Gang and a respected figure in the criminal underworld.",
     "age": 41,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -298,9 +298,9 @@
     "description": "An elite combat medic and ex-Talon operative, Baptiste now uses his skills to help those whose lives have been impacted by war.",
     "age": 38,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -396,9 +396,9 @@
     "description": "Once a frontline combatant in the devastating Omnic Crisis, this curious Bastion unit now explores the world, fascinated by nature but wary of a fearful humanity.",
     "age": 32,
     "hitpoints": {
-      "armor": 100,
       "shields": 0,
       "health": 250,
+      "armor": 100,
       "total": 350
     },
     "perks": {
@@ -489,9 +489,9 @@
     "description": "No longer sitting on the sidelines, Brigitte Lindholm has taken up arms to defend those in need of protection.",
     "age": 25,
     "hitpoints": {
-      "armor": 50,
       "shields": 0,
-      "health": 200,
+      "health": 175,
+      "armor": 75,
       "total": 250
     },
     "perks": {
@@ -592,9 +592,9 @@
     "description": "Armed with his Peacekeeper revolver, the outlaw Cole Cassidy doles out justice on his own terms.",
     "age": 39,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -675,10 +675,10 @@
     "description": "As MEKA’s new leader, D.Mon uses unmatched game sense to call the shots and keep her team united through any fight.",
     "age": 28,
     "hitpoints": {
-      "armor": 325,
       "shields": 0,
-      "health": 325,
-      "total": 650
+      "health": 425,
+      "armor": 275,
+      "total": 700
     },
     "perks": {
       "minor": [
@@ -688,7 +688,7 @@
           "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a49a4aa586ec9a0f10b16d299e541fdfeb6da4ee2c1bf75a4f2bab1f4170ee45.png"
         },
         {
-          "name": "MEKA Mobilitiy",
+          "name": "MEKA Mobility",
           "description": "While holding Power Barrier, Propulsors fuel cost is reduced by 30%.",
           "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8d2f97ae5a2dc9b137d45bcf277030fc32754a67155c55d3d7f0525d6ea9ac6e.png"
         }
@@ -779,6 +779,99 @@
     ]
   },
   {
+    "key": "doctrine",
+    "name": "Doctrine",
+    "role": "support",
+    "subrole": "survivor",
+    "archetype": null,
+    "image_url": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2492a15c575c12314907d0d77501ec337b4d56796bc7f03e5dfb50d415612bae.png",
+    "description": "A cyberneticist turned supervillain, Doctrine uses his fleet of life-draining drones to decree destiny.",
+    "age": 77,
+    "hitpoints": {
+      "shields": 0,
+      "health": 250,
+      "armor": 0,
+      "total": 250
+    },
+    "perks": {
+      "minor": [
+        {
+          "name": "Saving Grace",
+          "description": "Invigorating Drones heal for 40 health when applied.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/65d3986853fa5e6fb01fae33f5b50e75956080770eb077149a3fc6438f78f10c.png"
+        },
+        {
+          "name": "Sanguine Siphon",
+          "description": "Heal for 50% of damage dealt with Infused Eternal Scepter.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/32ffd184fd6bf247ca7539d2d3175659acb8bec2be892a2008c2e281c5f5468f.png"
+        }
+      ],
+      "major": [
+        {
+          "name": "Transfusion",
+          "description": "Reduce Infuse's cooldown from damage and healing dealt.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d4231c031993e68b5cd6359ca35be5f1bac7571f0619ada25cd30f48e9091e5a.png"
+        },
+        {
+          "name": "Cost of Life",
+          "description": "Sacrifice 25 maximum health. Eternal Scepter healing is increased by 20%.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1f60c2577f3709fe41fbf494432e7539b4a942374b301b06a97ed7c0bb11017f.png"
+        }
+      ]
+    },
+    "story": {
+      "summary": "Cyberneticist Tamuka Yeukai devoted his entire life to saving his chronically ill brother, Tatenda. When conventional medicine failed, he crossed an unforgivable line, sacrificing the lives of many to preserve the one. Condemned by Tatenda and imprisoned in Watchpoint: Grímsvötn for his crimes, he remained behind bars for decades—until an old ally engineered his escape, unleashing him back into the world.",
+      "media": {
+        "type": "video",
+        "link": "https://youtu.be/h5dwH7nx9do"
+      },
+      "chapters": [
+        {
+          "title": "Ogundimu synergies",
+          "content": "From the very beginning, Tamuka’s life was defined by loss. Orphaned at a young age, his only family left was his younger brother, Tatenda, who suffered from a rare degenerative disease. Fearful of losing the one person he still had, Tamuka devoted himself to finding a way to spare his brother from pain and untimely demise. Hearing of Elaine Esat's achievements in the field of cybernetic engineering, he studied her methods in pursuit of a solution to his woes. As he became a gifted engineer himself, he was hired by Ogundimu Synergies, where his development was supported by Yejide Ogundimu. With each breakthrough in his research, he quietly obsessed over a single question: Could cybernetic evolution be used to reject the inevitability of death?",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt32ef77d83f05773c/6abad4e3dee8848851cbae40/OVR_S4_H54Doctrine_Beauty_Individual_001.png"
+        },
+        {
+          "title": "Grave devotion",
+          "content": "During the Omnic Crisis, Tamuka designed a replacement limb for Yejide's teenage son, Akande, who'd lost his as a casualty of the conflict. But this would be his final contribution as Chief Engineer of Ogundimu Synergies, for he would leave the company behind when an explosion from the escalating conflict put his brother's life in danger. Though his brother had long since accepted death as a natural part of life, Tamuka refused to lose him. He channeled his efforts into increasingly radical cybernetic experiments, developing a technology capable of siphoning life from external sources to transfer to a host. His initial experiments were successful, but they came at a cost: it was evident that to make any true progress, he would need more sources to (siphon) from. Out of desperation and love, he unleashed his invention in swarms upon a nearby Crisis refugee camp, taking the lives of all its inhabitants to grant Tatenda the vitality required for a life unhindered by illness.",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltffcb3c44612f11ed/6abad4e3ad920930de562ade/OVR_S4_H54Doctrine_Gameplay_3p_001.png"
+        },
+        {
+          "title": "Watchpoint: grimsvötn",
+          "content": "Ecstatic to be his brother's savior, Tamuka reveled in overcoming death itself. But Tatenda was anything but thankful. Horrified by the atrocities his brother committed, he denounced him and turned him in to Overwatch. Tamuka was sentenced to spend the rest of his days in Watchpoint: Grímsvötn, where he would he would be forced to suffer the passage of time and all its ill effects. Decades later, his salvation came in the form of Akande Ogundimu, who'd long since taken on the role of Doomfist. Doomfist and his allies staged a jailbreak, reuniting Tamuka with his drone technology, allowing him to restore his youth and rewrite the doctrine of his destiny.",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltca4b2b25e494488e/6abad4e355641d50ecf35908/OVR_S4_H54Doctrine_Beauty_Group_001.png"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "name": "Eternal Scepter",
+        "description": "Mid-range weapon that heals allies and damages enemies.  Infused: Fires a larger piercing blast.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3ffab68d983c0108cb80c8c55e9980ae855342f5d31c94e3a3f9e7bcf8ac7b6d.png"
+      },
+      {
+        "name": "Infuse",
+        "description": "Add a powerful effect to your next ability.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13178efb1b3fceb275829ff4caa894fd883011d49d2ab33b9130ccf5d777597c.png"
+      },
+      {
+        "name": "Invigorating Drones",
+        "description": "Deploy drones to an ally, granting attack speed and healing.  Infused: Also deploy drones to yourself.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a0db060f87598d0c57247dd03d2da4d13ea194e7c5c72d93cde7ed0c5393002c.png"
+      },
+      {
+        "name": "Shrouded Momentum",
+        "description": "Rush horizontally with damage reduction.  Infused: Gain free-flight.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c3d96fb3fe2df91421d82e134385f0fe23b8950af35ac73e50d91eb0371cd18d.png"
+      },
+      {
+        "name": "Deliverance",
+        "description": "Launch a swarm of drones that reduces enemy maximum health and grants allies overhealth.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8ebbedfc4f56c80106e83280513eaf433471ac96900f782ffef8fcf764faeebb.png"
+      }
+    ]
+  },
+  {
     "key": "domina",
     "name": "Domina",
     "role": "tank",
@@ -788,9 +881,9 @@
     "description": "As Vishkar Corporation’s most prized negotiator, Domina uses her masterful command of hard-light to take control of every situation.",
     "age": 32,
     "hitpoints": {
-      "armor": 0,
       "shields": 400,
       "health": 250,
+      "armor": 0,
       "total": 650
     },
     "perks": {
@@ -881,9 +974,9 @@
     "description": "Doomfist was the calculating leader of Talon, a terrorist organization and paramilitary force that works in direct opposition to Overwatch.",
     "age": 47,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 525,
+      "armor": 0,
       "total": 525
     },
     "perks": {
@@ -974,10 +1067,10 @@
     "description": "D.Va is a former professional gamer who now uses her skills to pilot a state-of-the-art mech in defense of her homeland.",
     "age": 21,
     "hitpoints": {
-      "armor": 325,
       "shields": 0,
-      "health": 325,
-      "total": 650
+      "health": 350,
+      "armor": 325,
+      "total": 675
     },
     "perks": {
       "minor": [
@@ -1021,6 +1114,11 @@
           "title": "Meka squad",
           "content": "As the threat continued to adapt, it eventually disrupted MEKA's drone-control networks, forcing the military to place pilots in the mechs. Scrambling to find suitable candidates, the government turned to the country's professional gamers, who possessed the necessary reflexes and instincts to operate the mechs' advanced weapons systems. Top stars willingly joined the effort via the nation's compulsory military service, including reigning world champion Hana Song, also known as \"D.Va.\" Famous for her elite skills, D.Va was a fierce competitor who played to win at all costs, and she had a well-earned reputation for showing no mercy to her opponents. D.Va quickly grew in skill to become MEKA’s top pilot, even streaming combat operations to her adoring fans, but the Gwishin threats’ increasing attacks on South Korea began to take a heavy toll on the MEKA squad. Where MEKA could once count on months of training and downtime between robotic assaults, a sudden attack between predicted intervals forced Hana to repel the Gwishin alone. The media praised D.Va's singlehanded defense of South Korea, though in truth, the superstar was seconds from a real game over. As the Null Sector threat emerged in Korea, D.Va obtained a special dispensation from her commander to join up as one of Overwatch's new guard, assessing the Null Sector threat alongside Cole Cassidy and his latest recruits.",
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt72d062619b59e3d8/63880902bbfd340e8ad2e41b/dva-01.jpg"
+        },
+        {
+          "title": "Reign of talon",
+          "content": "When Vendetta dispatched Talon and the Junkers to strike Busan, Overwatch stepped in to help, giving D.Va the opportunity to fight alongside her old squad again. Faced with the theft of MEKA's EMP bomb prototype and a city under siege, D.Va fell in line to support her best friend and new leader of the MEKA Squad, D.Mon, against the Junker assault. With the MEKA Squad thriving on their own, D.Va returned to her post with Overwatch, knowing Busan was in capable hands.",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
     },
@@ -1077,9 +1175,9 @@
     "description": "Echo is a multirole, adaptive robot with the most sophisticated artificial intelligence in the world, originally designed by Dr. Mina Liao for use during combat missions with Overwatch.",
     "age": 14,
     "hitpoints": {
-      "armor": 0,
       "shields": 75,
       "health": 150,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -1170,9 +1268,9 @@
     "description": "Emre disappeared after a lauded tenure on the Overwatch strike team. He has resurfaced years later, his body and mind manipulated by something unknown.",
     "age": 44,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -1263,9 +1361,9 @@
     "description": "A search and rescue operative turned bounty hunter, Freja can find anyone for the right price.",
     "age": 34,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -1361,9 +1459,9 @@
     "description": "The cyborg ninja Genji Shimada has made peace with the augmented body he once rejected, and in doing so, he has discovered a higher humanity.",
     "age": 37,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -1459,9 +1557,9 @@
     "description": "Mastering his skills as a bowman and an assassin, Hanzo Shimada strives to prove himself as a warrior without peer.",
     "age": 40,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -1557,9 +1655,9 @@
     "description": "A radical disruptor and an unstoppable weapon, Hazard has rocketed to fame in the criminal underworld as he fights to tear the system down.",
     "age": 24,
     "hitpoints": {
-      "armor": 225,
       "shields": 0,
       "health": 425,
+      "armor": 225,
       "total": 650
     },
     "perks": {
@@ -1660,9 +1758,9 @@
     "description": "As the last of the Inti Warriors, Illari is a vessel for the power of the sun. She’ll do anything to make up for her past.",
     "age": 18,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -1748,9 +1846,9 @@
     "description": "A fearless feline pilot equipped with Brigitte’s latest jet-propulsion invention, Jetpack Cat brings adorable aerial support to the battlefield.",
     "age": null,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -1841,9 +1939,9 @@
     "description": "Armed with her axe, Carnage, and her electromagnetic gauntlet, the cutthroat leader of the Junkers is on a mission to rule the world.",
     "age": 31,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 525,
+      "armor": 0,
       "total": 525
     },
     "perks": {
@@ -1893,6 +1991,11 @@
           "title": "Junker queen",
           "content": "After defeating King Howl, Dez took over Junkertown and set to work uniting the factions, one diplomatic beatdown at a time. In time, the Reckoning even produced a champion of her own: Wrecking Ball. Now, as the Junker Queen, Dez uses her wastelander knowledge to control the Junkers and impose order when necessary, training them to fight the omnic menace. That might mean rewarding a faction leader or taking them down. All in a day’s work.",
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0e50f459f2475212/637da174bbfd340e8ad2e304/junkerqueen-03.jpg"
+        },
+        {
+          "title": "Reign of talon",
+          "content": "When Vendetta sent Mauga to strike a deal with the Junkers, the Junker Queen found a new opportunity. In exchange for joining Vendetta's growing campaign, she would receive advanced thrusters for the Junkers’ Crisis-era warship on the condition they would aid in an attack on Busan. With her trusted crew, Wrecking Ball, and the ever-regrettable company of Junkrat and Roadhog, they unleashed carnage across the city. Together, they created the perfect distraction for Vendetta to seize MEKA’s EMP bomb prototype, a weapon whose destructive potential might tip the scales of her unfolding conquest.",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
     },
@@ -1934,9 +2037,9 @@
     "description": "Junkrat is an explosives-obsessed demolitionist who lives to cause chaos and destruction.",
     "age": 27,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -1981,6 +2084,11 @@
           "title": "Wanted criminal",
           "content": "He came to notoriety when he discovered an extremely valuable secret in the bones of the omnium. Though few knew the nature of what he found, he was nonetheless pursued by bounty hunters, gangs, and opportunists wherever he went, until he made a deal with the Junker enforcer Roadhog, who grudgingly agreed to be his personal bodyguard in exchange for a fifty-fifty share of the spoils. After a string of offenses against the Junker Queen, Junkrat and Roadhog were officially exiled from Junkertown. They turned their sights beyond the Outback to embark upon an international crime spree, leaving nothing but havoc and bedlam in their wake. \"No job too big, no score too small.\" Though they racked up a considerable bounty on their heads, they’ve been able to evade capture through the very same methods they’ve used to acquire such a bounty: mainly those involving loads and loads of bombs.",
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt5b92f99663062448/637da17932db130e11be7e29/junkrat-01.jpg"
+        },
+        {
+          "title": "Reign of talon",
+          "content": "Sent by Vendetta to secure powerful new allies, Mauga traveled to Junkertown to strike a bargain with the Junker Queen. In exchange for joining Vendetta's growing campaign, he offered her advanced thrusters for the Junkers’ Crisis-era warship on the condition they would aid in an attack on Busan. Before long, Junkrat found himself aboard the newly restored vessel alongside Roadhog, Wrecking Ball, and the Junker Queen. In a whirlwind of explosions, destruction, and citywide panic, the Junkers rampaged through the streets, creating the perfect diversion for Vendetta to make off with MEKA's EMP bomb prototype.",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
     },
@@ -2022,9 +2130,9 @@
     "description": "The first human born on Mars, Juno uses her space-age technology to solve any problem that enters her orbit. She is determined to one day save her home planet.",
     "age": 19,
     "hitpoints": {
-      "armor": 0,
       "shields": 150,
       "health": 75,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -2130,9 +2238,9 @@
     "description": "As Miko of the Kanezaka shrine and daughter of the Shimada's former swordmaster, Kiriko Kamori channels both her spiritual and ninja skills to heal her fractured city.",
     "age": 21,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -2228,9 +2336,9 @@
     "description": "The brilliant creator of biolight, a technology that merges plant matter and hard light. He dreams of healing the world.",
     "age": 31,
     "hitpoints": {
-      "armor": 0,
       "shields": 50,
       "health": 200,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -2336,9 +2444,9 @@
     "description": "Lúcio is an international celebrity who inspires social change through his music and activism.",
     "age": 28,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -2350,7 +2458,7 @@
         },
         {
           "name": "Beat Drop",
-          "description": "Amp it Up is active during Sound Barrier.",
+          "description": "Amp It Up is active for 4 seconds after casting Sound Barrier.",
           "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4639fbbde04ac4e8ca26a56ebd4ddc3f34ccf5c20add8796fe2282a2b2b739fa.png"
         }
       ],
@@ -2436,9 +2544,9 @@
     "description": "A charismatic and cunning Samoan warrior, Mauga thrives in the chaos of the battlefield and lives every day like it’s his last.",
     "age": 37,
     "hitpoints": {
-      "armor": 150,
       "shields": 0,
       "health": 575,
+      "armor": 150,
       "total": 725
     },
     "perks": {
@@ -2534,9 +2642,9 @@
     "description": "Mei is a scientist who has taken the fight to preserve the environment into her own hands.",
     "age": 33,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 300,
+      "armor": 0,
       "total": 300
     },
     "perks": {
@@ -2617,9 +2725,9 @@
     "description": "A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace.",
     "age": 39,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -2710,9 +2818,9 @@
     "description": "Born under a shadow of misfortune, Mizuki will do anything it takes to break free of his curse and decide his own fate.",
     "age": 22,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -2813,9 +2921,9 @@
     "description": "Equal parts brilliant and controversial, scientist Moira O'Deorain is on the cutting edge of genetic engineering, searching for a way to rewrite the fundamental building blocks of life.",
     "age": 50,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -2906,9 +3014,9 @@
     "description": "Built from parts of one of Numbani's short-lived OR15 defense robots, Orisa is the city's newest protector, though she still has much to learn.",
     "age": 1,
     "hitpoints": {
-      "armor": 300,
       "shields": 0,
       "health": 300,
+      "armor": 300,
       "total": 600
     },
     "perks": {
@@ -2999,9 +3107,9 @@
     "description": "Fareeha Amari's commitment to duty runs in her blood. She comes from a long line of highly decorated soldiers and burns with the desire to serve with honor.",
     "age": 34,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -3097,9 +3205,9 @@
     "description": "The brutal leader of Null Sector will stop at nothing to see his vision for the world realized.",
     "age": 28,
     "hitpoints": {
-      "armor": 100,
       "shields": 0,
       "health": 425,
+      "armor": 100,
       "total": 525
     },
     "perks": {
@@ -3190,9 +3298,9 @@
     "description": "Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows.",
     "age": 60,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 300,
+      "armor": 0,
       "total": 300
     },
     "perks": {
@@ -3283,9 +3391,9 @@
     "description": "Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes of valor, justice, and courage.",
     "age": 63,
     "hitpoints": {
-      "armor": 300,
       "shields": 0,
       "health": 400,
+      "armor": 300,
       "total": 700
     },
     "perks": {
@@ -3376,22 +3484,22 @@
     "description": "Roadhog is a powerful enforcer with a well-earned reputation for random and wanton destruction.",
     "age": 50,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 750,
+      "armor": 0,
       "total": 750
     },
     "perks": {
       "minor": [
         {
           "name": "Scrap Hook",
-          "description": "Chain Hook hits reload 2 ammo.",
+          "description": "Chain Hook hits reload 4 ammo.",
           "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2ca8a50b6b369d47a33ec5d4a3e42e12ca1aebb8144a29d959a134fb4226934a.png"
         },
         {
-          "name": "Shrapnel Launcher",
-          "description": "Extend the range of Scrap Gun's secondary fire by 50% and tighten its burst spread by 25%.",
-          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d48d0b264d765e3732abda784e986595f7a6c5ad0e56f1929c008ffc0492a39d.png"
+          "name": "Here, Piggy Piggy",
+          "description": "During Whole Hog, Chain Hook's cooldown is reduced by 80%.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4b0364924157ffcb8dc2673e4e1daf86c8e3651b664bc9c1cc494a281dfaabba.png"
         }
       ],
       "major": [
@@ -3401,9 +3509,9 @@
           "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bbeb9d0110d04466eda5f4a845bd27685f80703264c967c0cf224f1b99d6f49d.png"
         },
         {
-          "name": "Pulled Pork",
-          "description": "Gain overhealth based on how far you pull enemies with Chain Hook, up to 300.",
-          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/db9a0129262448dad0c5f70558b561d77b40c9bc721c0cae1dd75a7ed647d4b7.png"
+          "name": "Toxic Exhaust",
+          "description": "Enemies in front of Roadhog while Trash Compactor is active are slowed by 30% and take 20 damage per second.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d9dcccfe7fb8e200ca9b3eec39dc3eec0789f99f8d6de38d26997bd591963eae.png"
         }
       ]
     },
@@ -3428,18 +3536,28 @@
           "title": "Wanted criminal",
           "content": "Exiled from Junkertown, the pair roamed Australia for a short while and even met with the CEO of Hyde Global, who hired them to reclaim a warehouse taken over by omnic terrorists. The duo soon realized they had been set up as part of an insurance scam. Though the job was a bust, it gave them the kick they needed to launch an international crime spree. Roadhog eventually returned to Junkertown, where Junkrat loudly disclosed their big plan to get payback on the Queen for their exile. The plan immediately failed thanks to the gate warden within earshot. Now, the duo has nothing left but money, useless disguises, and soon-to-detonate explosives.",
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt2c1b0477d4a1c175/637da1d1f9f61910b4235785/roadhog-02.jpg"
+        },
+        {
+          "title": "Reign of talon",
+          "content": "Sent by Vendetta to secure powerful new allies, Mauga traveled to Junkertown to strike a bargain with the Junker Queen. In exchange for joining Vendetta's growing campaign, he offered her advanced thrusters for the Junkers’ Crisis-era warship on the condition they would aid in an attack on Busan. Before long, Roadhog found himself aboard the newly restored vessel alongside Junkrat, Wrecking Ball, and the Junker Queen. In a whirlwind of explosions, destruction, and citywide panic, the Junkers rampaged through the streets, creating the perfect diversion for Vendetta to make off with MEKA's EMP bomb prototype.",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
     },
     "abilities": [
       {
         "name": "Scrap Gun",
-        "description": "Short-range spread weapon.  Medium-range projectile that explodes into the weapon's short-range primary fire.",
+        "description": "Short-range shotgun that fires in two bursts.",
         "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d48d0b264d765e3732abda784e986595f7a6c5ad0e56f1929c008ffc0492a39d.png"
       },
       {
+        "name": "Trash Compactor",
+        "description": "Absorb enemy projectiles, compacting them into an explosive ball of scrap.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/23bd9bc7960a9958d04584375c5ea81c6615da668e9ad8c6cbb4920561f7c199.png"
+      },
+      {
         "name": "Chain Hook",
-        "description": "Drag a targeted enemy to you.",
+        "description": "Drag a targeted enemy towards you.",
         "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7edc1cdef13c2fd21e279043816aa1d2975dc784298502fd121b927729e1e86d.png"
       },
       {
@@ -3464,17 +3582,17 @@
     "description": "Once an omnic held captive by the Hashimoto Clan, now its most notorious Elder, Shion has transformed herself into a fearsome icon of hatred.",
     "age": 28,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
       "minor": [
         {
-          "name": "Rapid Reload",
-          "description": "Evade reloads 9 ammo.",
-          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/89b16eb9226b933934040d80842d3bf395e058d7bfebc98f71250ddfcd86e2a4.png"
+          "name": "Survival Instinct",
+          "description": "Evade's overhealth duration is increased by 1 second.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2785c741990d138c080612ae2edccaf84fc913b437c559b5f56db2da5244d10c.png"
         },
         {
           "name": "X Machina",
@@ -3562,9 +3680,9 @@
     "description": "A dedicated teammate with enhanced abilities, Sierra has climbed the ranks of Helix Security. With her positive attitude, there's no challenge she can't face.",
     "age": 25,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -3660,10 +3778,10 @@
     "description": "Brilliant astrophysicist Dr. Siebren de Kuiper's life changed forever when an experiment gone wrong gave him the ability to control gravity; now, Talon manipulates him to their own ends.",
     "age": 64,
     "hitpoints": {
-      "armor": 0,
-      "shields": 275,
+      "shields": 250,
       "health": 350,
-      "total": 625
+      "armor": 0,
+      "total": 600
     },
     "perks": {
       "minor": [
@@ -3753,9 +3871,9 @@
     "description": "As a leader in the bygone days of Overwatch, Vivian Chase, callsign Sojourn, is determined to ensure its new heroes don’t repeat the mistakes of the past.",
     "age": 51,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -3846,9 +3964,9 @@
     "description": "The target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse.",
     "age": 58,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -3927,24 +4045,24 @@
   {
     "key": "sombra",
     "name": "Sombra",
-    "role": "damage",
-    "subrole": "recon",
+    "role": "support",
+    "subrole": "tactician",
     "archetype": null,
     "image_url": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/47727b02a16e3bd7b2447d86ae1edf11587bc320b2aecb4f2f16a7ca4ad4e8a0.png",
     "description": "One of the world's most notorious hackers, Sombra uses information to manipulate those in power.",
     "age": 32,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
       "minor": [
         {
-          "name": "Encrypted Upload",
-          "description": "Hack can be used while invisible, successful hacks increase the duration of stealth by 3 seconds.",
-          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/282c6799d179564162500a2baff9dd78add8c67aab0142ae4164f7da39a95acb.png"
+          "name": "Life Hack",
+          "description": "EMP applies Hotfix to all nearby allies.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/34e108b70ea2d33e67e973b4e3d62d8c6587a0ea3eea3a9645630f469f3321ae.png"
         },
         {
           "name": "CTRL ALT ESC",
@@ -3954,14 +4072,14 @@
       ],
       "major": [
         {
-          "name": "High-Speed Bandwidth",
-          "description": "Hacked health packs provide allies with 25% increased movement speed and 50 overhealth for 4 seconds.",
-          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/74aaa7eed6e3eda7d9336006455230e43c769500027b95e68062ddf836a237ab.png"
+          "name": "Data Packet",
+          "description": "Hacking health packs with Hotfix reduces its main cooldown by 4 seconds.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/87fec003fc9753ad1d6233bc54f163ef280684396101f9088727e886f15b24fd.png"
         },
         {
-          "name": "Viral Replication",
-          "description": "Hitting a hacked enemy with Virus spreads Virus to enemies within 8 meters.",
-          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f07dadc22d6b469a372f58031769729390acbcbd3541d0d4f9f69b98153b5b25.png"
+          "name": "Cybersecurity",
+          "description": "Cyberspace's healing is doubled on allies below half health.",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/28a09178c65bff6e100c872bf029d5c8f98f13f57679ad793b30782546eb027b.png"
         }
       ]
     },
@@ -3996,19 +4114,19 @@
         "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5750af901db77f479be41f01c55a5b3d5e644d2f99c179b77bd824eecf5fcbbc.png"
       },
       {
-        "name": "Hack",
-        "description": "Hold to hack. Hacked enemies cannot use abilities and can be seen through walls. Hacked health packs spawn faster and can't be used by enemies. Taking damage interrupts the hack attempt.",
-        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8ab2253eef852a5a038df53fe84ff1dfff0dfea2224bddf881797093695f2261.png"
+        "name": "Hotfix",
+        "description": "Heal an ally over time for a set amount of health. Can also freely hack health packs and most enemy deployables.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8646a0e19104f5185b6296c0123fd768c3333a18ffe4aa922e2724df9b2aa041.png"
+      },
+      {
+        "name": "Cyberspace",
+        "description": "Launch a projectile that explodes on impact, creating a zone that weakens enemies and heals allies.",
+        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/22bfcf655c54a065b149c3359ce2447f6c4c09835fd957ce72fa8a4e023ba7ef.png"
       },
       {
         "name": "Translocator",
         "description": "Throw a beacon and teleport to it. Become stealthed for a short duration after teleporting.",
         "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13259eeec8db36c3158d1d4bd4fe99667067ee7bf678349eec5cbd0d32da3a7f.png"
-      },
-      {
-        "name": "Virus",
-        "description": "Infect enemies with a projectile that deals damage over time. Virus damages hacked enemies at a faster rate.",
-        "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2e933c2c42fea37400c5e296cfc9ea1fc2958071b04bde8960c0fa7ca17f3251.png"
       },
       {
         "name": "EMP",
@@ -4027,9 +4145,9 @@
     "description": "Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the world as she wishes it to be, in hopes of engineering a perfect society.",
     "age": 30,
     "hitpoints": {
-      "armor": 0,
       "shields": 150,
       "health": 125,
+      "armor": 0,
       "total": 275
     },
     "perks": {
@@ -4110,9 +4228,9 @@
     "description": "At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.",
     "age": 59,
     "hitpoints": {
-      "armor": 75,
       "shields": 0,
       "health": 225,
+      "armor": 75,
       "total": 300
     },
     "perks": {
@@ -4203,9 +4321,9 @@
     "description": "The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good.",
     "age": 28,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 175,
+      "armor": 0,
       "total": 175
     },
     "perks": {
@@ -4296,9 +4414,9 @@
     "description": "As champion of the Colosseo and a member of Italy’s elite, Vendetta will stop at nothing to reclaim the throne of her family’s criminal empire. Known for her explosive rage and ruthlessness in battle, the only thing that exceeds her skill in physical combat is her boundless ambition.",
     "age": 29,
     "hitpoints": {
-      "armor": 100,
       "shields": 0,
       "health": 175,
+      "armor": 100,
       "total": 275
     },
     "perks": {
@@ -4394,9 +4512,9 @@
     "description": "A globe-trotting archaeologist and explorer, Venture has a passion for solving history’s mysteries.",
     "age": 26,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 250,
+      "armor": 0,
       "total": 250
     },
     "perks": {
@@ -4487,9 +4605,9 @@
     "description": "Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.",
     "age": 35,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -4580,9 +4698,9 @@
     "description": "A super-intelligent, genetically engineered gorilla, Winston is a brilliant scientist and a champion for humanity’s potential.",
     "age": 31,
     "hitpoints": {
-      "armor": 200,
       "shields": 0,
       "health": 425,
+      "armor": 200,
       "total": 625
     },
     "perks": {
@@ -4668,9 +4786,9 @@
     "description": "A resourceful and highly intelligent mechanic and fighter, Wrecking Ball rose from the laboratories of Horizon Lunar Colony to become the Junker Queen’s champion.",
     "age": 16,
     "hitpoints": {
-      "armor": 125,
       "shields": 150,
       "health": 450,
+      "armor": 125,
       "total": 725
     },
     "perks": {
@@ -4720,6 +4838,11 @@
           "title": "Junker",
           "content": "Hammond modified his escape pod to enter the lucrative mech battle arena of the Scrapyard. Working his way up the ranks, \"Wrecking Ball\" went from contender to champion, though the pilot's identity remained a mystery to all except one. While Hammond journeys into the wider world from time to time, he’s found a happy—if somewhat chaotic—home at the Junker Queen’s side. After all, as reigning champion of the Scrapyard, he has a title to defend.",
           "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0af3da82e5f25a8b/637da2233cbefd11108110ef/wreckingball-02.jpg"
+        },
+        {
+          "title": "Reign of talon",
+          "content": "During the Junkers' assault on Busan, Wrecking Ball was captured by the MEKA squad after a fierce battle through the city. Despite repeated attempts to interrogate him, Hammond refused to reveal anything about the Vendetta's larger scheme. In response, Overwatch called in Winston, who was shocked to find his old friend in the captured mech. As Winston and Hammond reflected on their past on Horizon Lunar Colony, two began making amends. But when Overwatch and MEKA relaxed their guard, Hammond escaped the facility, heading back to his new home with the Junkers.",
+          "picture": "https://blz-contentstack-images.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltf8ebeac5659e26aa/69864239e7959c7b85bb36a9/talon_lore.png"
         }
       ]
     },
@@ -4766,9 +4889,9 @@
     "description": "Wielder of healing technology from Wuxing University’s Water College, Wuyang is always ready to turn the tide of battle.",
     "age": 19,
     "hitpoints": {
-      "armor": 0,
       "shields": 0,
       "health": 225,
+      "armor": 0,
       "total": 225
     },
     "perks": {
@@ -4864,9 +4987,9 @@
     "description": "Aleksandra Zaryanova is one of the world's strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war.",
     "age": 30,
     "hitpoints": {
-      "armor": 0,
       "shields": 225,
       "health": 325,
+      "armor": 0,
       "total": 550
     },
     "perks": {
@@ -4957,9 +5080,9 @@
     "description": "Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again.",
     "age": 33,
     "hitpoints": {
-      "armor": 0,
       "shields": 175,
       "health": 75,
+      "armor": 0,
       "total": 250
     },
     "perks": {

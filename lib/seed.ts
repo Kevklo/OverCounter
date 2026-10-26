@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { db } from "@/lib/db";
 import { ARCHETYPES } from "@/lib/archetypes";
+import { fetchHeroes } from "@/lib/fetch-heroes";
 import type { FetchedHero, HeroRow, RelationsData } from "@/lib/types";
 
 const fileHeroes = path.join(process.cwd(), "lib", "heroes-data.json");
@@ -86,7 +87,8 @@ const seedRelations = (): void => {
   })();
 };
 
-export const seed = (): void => {
+export const seed = async (options: { refreshHeroes?: boolean } = {}): Promise<void> => {
+  if (options.refreshHeroes !== false) await fetchHeroes();
   seedHeroes();
   seedRelations();
 }
