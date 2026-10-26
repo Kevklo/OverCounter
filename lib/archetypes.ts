@@ -11,6 +11,7 @@ export const ARCHETYPES: Record<string, HeroArchetype | null> = {
   "brigitte": "brawl",
   "cassidy": "brawl",
   "dmon": "dive",
+  "doctrine": "poke",
   "domina": "poke",
   "doomfist": "dive",
   "dva": "dive",
