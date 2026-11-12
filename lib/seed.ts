@@ -73,6 +73,9 @@ const seedRelations = (): void => {
   `);
 
   db.transaction(() => {
+    // relations-data.json is the source of truth: replace the previous meta.
+    db.exec("DELETE FROM counters; DELETE FROM synergies;");
+
     for (const [hero, block] of Object.entries(relations)) {
       for (const { hero: other, strength } of block.counters) {
         if (!other) continue;

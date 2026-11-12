@@ -3,9 +3,9 @@ type LogoProps = {
 };
 
 const SIZES = {
-  sm: "text-xl",
-  md: "text-4xl",
-  lg: "text-7xl",
+  sm: "text-lg sm:text-xl",
+  md: "text-3xl sm:text-4xl",
+  lg: "text-[clamp(2.5rem,11vw,4.5rem)]",
 } as const;
 
 export const Logo = ({ size = "md" }: LogoProps) => {

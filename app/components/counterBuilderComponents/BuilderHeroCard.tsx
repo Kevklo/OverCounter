@@ -35,7 +35,7 @@ const BuilderHeroCard = ({
                 width={48}
                 height={48}
                 sizes="48px"
-                className="h-12 w-12 object-cover"
+                className="h-12 w-12 object-cover object-top"
               />
             ) : (
               <span className="text-lg font-bold text-slate-300">
@@ -49,7 +49,7 @@ const BuilderHeroCard = ({
 
         {hero ? (
           <>
-            <span className="col-start-2 row-start-1 truncate text-sm font-semibold text-[var(--text)]">
+            <span className="col-start-2 row-start-1 truncate pr-4 text-sm font-semibold text-[var(--text)]">
               {hero.name}
             </span>
             <span className="col-start-2 row-start-2 text-xs uppercase tracking-wide text-[var(--muted)]">

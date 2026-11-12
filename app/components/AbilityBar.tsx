@@ -23,7 +23,7 @@ const AbilityBar = ({ abilities }: AbilityBarProps) => {
 
   return (
     <div className="flex w-full flex-col gap-4">
-      <div className="flex flex-row flex-wrap gap-3">
+      <div className="flex flex-row flex-wrap gap-2 sm:gap-3">
         {abilities.map((ability, index) => {
           const isActive = index === active;
           return (
@@ -46,8 +46,8 @@ const AbilityBar = ({ abilities }: AbilityBarProps) => {
                 alt={ability.name}
                 width={64}
                 height={64}
-                sizes="64px"
-                className="h-16 w-16 object-cover"
+                sizes="(min-width: 640px) 64px, 56px"
+                className="h-14 w-14 object-cover sm:h-16 sm:w-16"
               />
             </button>
           );

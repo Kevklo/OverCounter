@@ -18,10 +18,12 @@ type YourTeamRowProps = {
 const YourTeamRow = ({ members, divisor, average, hasRivals }: YourTeamRowProps) => {
   return (
     <section className="flex flex-col gap-4">
-      <div className="flex flex-row items-baseline justify-between gap-4">
-        <h2 className="text-xl font-bold text-[var(--text)]">Your team</h2>
+      <div className="flex flex-row flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+        <h2 className="text-lg font-bold text-[var(--text)] sm:text-xl">
+          Your team
+        </h2>
         {hasRivals && (
-          <span className="text-sm text-[var(--muted)]">
+          <span className="text-xs text-[var(--muted)] sm:text-sm">
             Average counter: {(average * 100).toFixed(0)}%
           </span>
         )}

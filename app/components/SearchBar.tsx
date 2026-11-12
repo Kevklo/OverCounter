@@ -1,5 +1,7 @@
 "use client";
 
+import { useId } from "react";
+
 type SearchBarProps = {
   placeholder?: string;
   value: string;
@@ -11,9 +13,11 @@ const SearchBar = ({
   onChange,
   placeholder = "Search hero...",
 }: SearchBarProps) => {
+  const inputId = useId();
+
   return (
     <div className="w-full max-w-md">
-      <label htmlFor="search" className="sr-only">
+      <label htmlFor={inputId} className="sr-only">
         Search
       </label>
 
@@ -36,11 +40,13 @@ const SearchBar = ({
         </span>
         <input
           type="search"
-          id="search"
+          id={inputId}
           value={value}
           placeholder={placeholder}
+          autoComplete="off"
+          enterKeyHint="search"
           onChange={(e) => onChange(e.target.value)}
-          className="m-1 w-full min-w-0 bg-transparent px-2 py-2 text-sm text-[var(--text)] placeholder:text-[var(--muted)] focus:outline-none"
+          className="m-1 w-full min-w-0 bg-transparent px-2 py-2 text-base text-[var(--text)] placeholder:text-[var(--muted)] focus:outline-none sm:text-sm"
         />
       </div>
     </div>

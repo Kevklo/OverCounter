@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #171717;
   --brand-orange: #f99e1a;
@@ -18,6 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    color-scheme: dark;
     --background: #000000;
     --text: #ffffff;
     --muted: #b3bec9;
@@ -31,10 +33,21 @@
   }
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
+  min-width: 320px;
+  overflow-x: clip;
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: var(--brand-orange);
+  color: #111111;
 }
 
 h1,
@@ -69,6 +82,24 @@ h3 {
 .card-laser {
   position: relative;
   isolation: isolate;
+  border-radius: 0.75rem;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.card-laser:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -22px rgba(15, 23, 42, 0.65);
+}
+
+.card-laser:focus-visible {
+  outline: 2px solid var(--brand-orange);
+  outline-offset: 3px;
+}
+
+.card-laser > article {
+  border-radius: inherit;
 }
 
 .card-laser:hover::before {
@@ -129,5 +160,24 @@ h3 {
 
 .logo-text-rest {
   background-color: var(--logo-rest);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-pulse,
+  .vs-text {
+    animation: none;
+  }
+
+  .card-laser {
+    transition: none;
+  }
+
+  .card-laser:hover {
+    transform: none;
+  }
+
+  .card-laser:hover::before {
+    animation: none;
+  }
 }
 

@@ -11,53 +11,62 @@ type ExplorerProps = {
   filters?: ReactNode;
 };
 
+const ROLE_SECTIONS: { role: HeroRole; label: string }[] = [
+  { role: "damage", label: "Damage" },
+  { role: "support", label: "Support" },
+  { role: "tank", label: "Tank" },
+];
+
 const HeroExplorer = ({ heroes = [], filters }: ExplorerProps) => {
   const [query, setQuery] = useState("");
 
-  const filtered = heroes.filter((h) =>
-    h.name.toLowerCase().includes(query.trim().toLowerCase())
-  );
-  
-  const filterByRole = (heroes: Hero[] = [], role: HeroRole = "damage") => {
-    const heroesRole = heroes.filter((h) => h.role == role);
-    return heroesRole.map((h) => (
-      <HeroCard
-        key={h.id}
-        name={h.name}
-        archetype={h.archetype}
-        id={h.id}
-        description={h.description}
-        portrait={h.image_url}
-      />
-    ))}
+  const normalizedQuery = query.trim().toLowerCase();
+  const filtered = normalizedQuery
+    ? heroes.filter((hero) => hero.name.toLowerCase().includes(normalizedQuery))
+    : heroes;
 
   return (
     <>
-      <div className="mx-auto mb-5 flex w-full max-w-5xl flex-col items-center justify-center gap-4 md:flex-row">
+      <div className="mx-auto mb-6 flex w-full max-w-5xl flex-col items-center justify-center gap-4 px-4 sm:px-0 md:flex-row">
         <SearchBar value={query} onChange={setQuery} />
         {filters}
       </div>
-      <div className="mx-8">
-        <ul className="text-[var(--text)] grid grid-cols-3 gap-16">
+      <div className="mx-4 sm:mx-8">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-16">
+          {ROLE_SECTIONS.map(({ role, label }) => {
+            const roleHeroes = filtered.filter((hero) => hero.role === role);
 
-          <ul className="flex flex-col gap-3">
-            <h2 className="font-bold text-2xl">Damage</h2>
-            {filterByRole(filtered, "damage")}
-          </ul>
-
-          <ul className="flex flex-col gap-3">
-            <h2 className="font-bold text-2xl">Support</h2>
-            {filterByRole(filtered, "support")}
-          </ul>
-
-          <ul className="flex flex-col gap-3">
-            <h2 className="font-bold text-2xl">Tank</h2>
-            {filterByRole(filtered, "tank")}
-          </ul>
-        </ul>
+            return (
+              <section key={role} className="flex min-w-0 flex-col gap-3">
+                <h2 className="font-bold text-2xl text-[var(--text)]">
+                  {label}
+                </h2>
+                {roleHeroes.length > 0 ? (
+                  <ul className="flex flex-col gap-3">
+                    {roleHeroes.map((hero) => (
+                      <li key={hero.id}>
+                        <HeroCard
+                          name={hero.name}
+                          archetype={hero.archetype}
+                          id={hero.id}
+                          description={hero.description}
+                          portrait={hero.image_url}
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-sm text-[var(--muted)]">
+                    No {label.toLowerCase()} heroes match your search.
+                  </p>
+                )}
+              </section>
+            );
+          })}
+        </div>
       </div>
     </>
-)
-}
+  );
+};
 
 export default HeroExplorer;

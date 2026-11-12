@@ -43,7 +43,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             or the Overwatch franchise. Overwatch, its heroes, and all related
             assets, names and imagery are trademarks and copyrights of Blizzard
             Entertainment. Hero data is provided by the community-run OverFast
-            API.
+            API, and counter/synergy ratings use community match data from
+            Counterwatch.
           </p>
         </footer>
       </body>

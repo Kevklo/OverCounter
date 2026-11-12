@@ -11,6 +11,9 @@ team that counters a rival composition.
 - **Team Counters**: pick a rival team (1 tank / 2 damage / 2 support) and get the
   best counter pick per role, with an average counter score and the best matchup
   per hero.
+- **Current meta data**: counter and synergy scores are tuned to the Season 5
+  meta using community match data from Counterwatch (November 2026), with up to
+  10 relevant relations per hero.
 
 ## Getting started
 

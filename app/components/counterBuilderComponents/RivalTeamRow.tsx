@@ -12,7 +12,9 @@ type RivalTeamRowProps = {
 const RivalTeamRow = ({ slots, heroes, onOpen, onClear }: RivalTeamRowProps) => {
   return (
     <section className="flex flex-col gap-4">
-      <h2 className="text-xl font-bold text-[var(--text)]">Rival team</h2>
+      <h2 className="text-lg font-bold text-[var(--text)] sm:text-xl">
+        Rival team
+      </h2>
       <div className="flex flex-col gap-3">
         {slots.map((role, slot) => (
           <BuilderHeroCard

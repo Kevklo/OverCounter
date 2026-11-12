@@ -1,646 +1,4514 @@
 {
   "ana": {
     "counters": [
-      { "hero": "anran", "strength": 0.8 },
-      { "hero": "winston", "strength": 0.5 },
-      { "hero": "moira", "strength": 0.5 }
+      {
+        "hero": "anran",
+        "strength": 0.68
+      },
+      {
+        "hero": "winston",
+        "strength": 0.64
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.62
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.61
+      },
+      {
+        "hero": "venture",
+        "strength": 0.61
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.61
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.6
+      },
+      {
+        "hero": "moira",
+        "strength": 0.6
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.6
+      },
+      {
+        "hero": "genji",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "dva", "strength": 0.5 },
-      { "hero": "reinhardt", "strength": 0.5 },
-      { "hero": "genji", "strength": 0.5 },
-      { "hero": "brigitte", "strength": 0.5 },
-      { "hero": "baptiste", "strength": 0.5 }
+      {
+        "hero": "reinhardt",
+        "strength": 0.73
+      },
+      {
+        "hero": "echo",
+        "strength": 0.63
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.63
+      },
+      {
+        "hero": "emre",
+        "strength": 0.58
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.58
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.57
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.57
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.57
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.57
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.55
+      }
     ]
   },
   "anran": {
     "counters": [
-      { "hero": "winston", "strength": 0.7 },
-      { "hero": "pharah", "strength": 0.7 },
-      { "hero": "brigitte", "strength": 0.4 },
-      { "hero": "kiriko", "strength": 0.7 }
+      {
+        "hero": "winston",
+        "strength": 0.73
+      },
+      {
+        "hero": "moira",
+        "strength": 0.72
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.72
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.69
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.67
+      },
+      {
+        "hero": "venture",
+        "strength": 0.67
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.66
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.65
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.64
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.62
+      }
     ],
     "synergies": [
-      { "hero": "mauga", "strength": 0.7 },
-      { "hero": "lucio", "strength": 0.5 },
-      { "hero": "symmetra", "strength": 0.6 },
-      { "hero": "ashe", "strength": 0.7 }
+      {
+        "hero": "freja",
+        "strength": 0.77
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.77
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.7
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.68
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.67
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.65
+      },
+      {
+        "hero": "domina",
+        "strength": 0.62
+      },
+      {
+        "hero": "dva",
+        "strength": 0.62
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.6
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.58
+      }
     ]
   },
   "ashe": {
     "counters": [
-      { "hero": "doomfist", "strength": 0.6 },
-      { "hero": "widowmaker", "strength": 0.9 },
-      { "hero": "hanzo", "strength": 0.7 },
-      { "hero": "kiriko", "strength": 0.6 }
+      {
+        "hero": "widowmaker",
+        "strength": 0.74
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.67
+      },
+      {
+        "hero": "winston",
+        "strength": 0.66
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.65
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.65
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.64
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.63
+      },
+      {
+        "hero": "anran",
+        "strength": 0.61
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.61
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.61
+      }
     ],
     "synergies": [
-      { "hero": "pharah", "strength": 0.8 },
-      { "hero": "mercy", "strength": 0.4 },
-      { "hero": "domina", "strength": 0.5 }
+      {
+        "hero": "genji",
+        "strength": 0.75
+      },
+      {
+        "hero": "mei",
+        "strength": 0.67
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.67
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.65
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.63
+      },
+      {
+        "hero": "winston",
+        "strength": 0.63
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.6
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.6
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.6
+      },
+      {
+        "hero": "ana",
+        "strength": 0.57
+      }
     ]
   },
   "baptiste": {
     "counters": [
-      { "hero": "dmon", "strength": 0.6 },
-      { "hero": "anran", "strength": 0.8 },
-      { "hero": "sojourn", "strength": 0.6 },
-      { "hero": "illari", "strength": 0.7 }
+      {
+        "hero": "illari",
+        "strength": 0.66
+      },
+      {
+        "hero": "anran",
+        "strength": 0.63
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.62
+      },
+      {
+        "hero": "emre",
+        "strength": 0.58
+      },
+      {
+        "hero": "genji",
+        "strength": 0.58
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.58
+      },
+      {
+        "hero": "mei",
+        "strength": 0.57
+      },
+      {
+        "hero": "shion",
+        "strength": 0.57
+      },
+      {
+        "hero": "venture",
+        "strength": 0.57
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.56
+      }
     ],
     "synergies": [
-      { "hero": "mizuki", "strength": 0.8 },
-      { "hero": "zenyatta", "strength": 0.8 },
-      { "hero": "bastion", "strength": 0.6 },
-      { "hero": "sigma", "strength": 0.7 }
+      {
+        "hero": "zenyatta",
+        "strength": 0.88
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.75
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.75
+      },
+      {
+        "hero": "echo",
+        "strength": 0.73
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.73
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.72
+      },
+      {
+        "hero": "emre",
+        "strength": 0.7
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.7
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.63
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.62
+      }
     ]
   },
   "bastion": {
     "counters": [
-      { "hero": "junker-queen", "strength": 0.6 },
-      { "hero": "genji", "strength": 0.8 },
-      { "hero": "tracer", "strength": 0.7 },
-      { "hero": "ana", "strength": 0.5 }
+      {
+        "hero": "doctrine",
+        "strength": 0.7
+      },
+      {
+        "hero": "genji",
+        "strength": 0.7
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.67
+      },
+      {
+        "hero": "illari",
+        "strength": 0.63
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.63
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.62
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.61
+      },
+      {
+        "hero": "anran",
+        "strength": 0.6
+      },
+      {
+        "hero": "dva",
+        "strength": 0.6
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.6
+      }
     ],
     "synergies": [
-      { "hero": "domina", "strength": 0.5 },
-      { "hero": "sombra", "strength": 0.7 },
-      { "hero": "venture", "strength": 0.6 },
-      { "hero": "illari", "strength": 0.5 }
+      {
+        "hero": "symmetra",
+        "strength": 0.75
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.67
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.63
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.63
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.62
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.62
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.62
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.6
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.57
+      }
     ]
   },
   "brigitte": {
     "counters": [
-      { "hero": "ramattra", "strength": 0.9 },
-      { "hero": "dmon", "strength": 0.8 },
-      { "hero": "pharah", "strength": 0.8 },
-      { "hero": "wuyang", "strength": 0.5 }
+      {
+        "hero": "pharah",
+        "strength": 0.75
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.73
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.67
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.62
+      },
+      {
+        "hero": "freja",
+        "strength": 0.62
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.62
+      },
+      {
+        "hero": "winston",
+        "strength": 0.61
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.58
+      },
+      {
+        "hero": "emre",
+        "strength": 0.57
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.57
+      }
     ],
     "synergies": [
-      { "hero": "winston", "strength": 0.7 },
-      { "hero": "vendetta", "strength": 0.6 },
-      { "hero": "mauga", "strength": 0.6 }
+      {
+        "hero": "dva",
+        "strength": 0.85
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.78
+      },
+      {
+        "hero": "juno",
+        "strength": 0.77
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.77
+      },
+      {
+        "hero": "shion",
+        "strength": 0.75
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.72
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.68
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.67
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.67
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.63
+      }
     ]
   },
   "cassidy": {
     "counters": [
-      { "hero": "domina", "strength": 0.7 },
-      { "hero": "widowmaker", "strength": 0.9 },
-      { "hero": "hanzo", "strength": 0.7 },
-      { "hero": "wuyang", "strength": 0.6 }
+      {
+        "hero": "widowmaker",
+        "strength": 0.68
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.63
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.62
+      },
+      {
+        "hero": "domina",
+        "strength": 0.6
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.59
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.59
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.59
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.57
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.57
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.57
+      }
     ],
     "synergies": [
-      { "hero": "junker-queen", "strength": 0.7 },
-      { "hero": "mercy", "strength": 0.6 },
-      { "hero": "junkrat", "strength": 0.6 },
-      { "hero": "jetpack-cat", "strength": 0.7 }
+      {
+        "hero": "junker-queen",
+        "strength": 0.67
+      },
+      {
+        "hero": "genji",
+        "strength": 0.65
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.65
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.63
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.62
+      },
+      {
+        "hero": "venture",
+        "strength": 0.62
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.6
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.6
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.6
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.57
+      }
     ]
   },
   "dmon": {
     "counters": [
-      { "hero": "dva", "strength": 0.9 },
-      { "hero": "mauga", "strength": 0.9 },
-      { "hero": "torbjorn", "strength": 1 },
-      { "hero": "illari", "strength": 1 }
+      {
+        "hero": "mauga",
+        "strength": 0.76
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.68
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.67
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.66
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.65
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.64
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.62
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.62
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.6
+      },
+      {
+        "hero": "freja",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "sombra", "strength": 0.7 },
-      { "hero": "tracer", "strength": 0.6 },
-      { "hero": "zenyatta", "strength": 0.5 },
-      { "hero": "ana", "strength": 0.4 }
+      {
+        "hero": "tracer",
+        "strength": 0.77
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.68
+      },
+      {
+        "hero": "echo",
+        "strength": 0.65
+      },
+      {
+        "hero": "mei",
+        "strength": 0.62
+      },
+      {
+        "hero": "juno",
+        "strength": 0.6
+      },
+      {
+        "hero": "genji",
+        "strength": 0.58
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.57
+      },
+      {
+        "hero": "ana",
+        "strength": 0.55
+      }
+    ]
+  },
+  "doctrine": {
+    "counters": [
+      {
+        "hero": "tracer",
+        "strength": 0.73
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.7
+      },
+      {
+        "hero": "genji",
+        "strength": 0.69
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.69
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.67
+      },
+      {
+        "hero": "winston",
+        "strength": 0.67
+      },
+      {
+        "hero": "anran",
+        "strength": 0.66
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.66
+      },
+      {
+        "hero": "juno",
+        "strength": 0.64
+      },
+      {
+        "hero": "venture",
+        "strength": 0.64
+      }
+    ],
+    "synergies": [
+      {
+        "hero": "zenyatta",
+        "strength": 0.65
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.63
+      },
+      {
+        "hero": "winston",
+        "strength": 0.63
+      },
+      {
+        "hero": "genji",
+        "strength": 0.62
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.62
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.62
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.6
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.58
+      },
+      {
+        "hero": "ana",
+        "strength": 0.57
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.53
+      }
     ]
   },
   "domina": {
     "counters": [
-      { "hero": "reinhardt", "strength": 0.7 },
-      { "hero": "symmetra", "strength": 0.8 },
-      { "hero": "ana", "strength": 0.7 },
-      { "hero": "dmon", "strength": 0.6 }
+      {
+        "hero": "symmetra",
+        "strength": 0.77
+      },
+      {
+        "hero": "ana",
+        "strength": 0.71
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.65
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.65
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.65
+      },
+      {
+        "hero": "dva",
+        "strength": 0.64
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.64
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.61
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.61
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.6
+      }
     ],
     "synergies": [
-      { "hero": "torbjorn", "strength": 0.7 },
-      { "hero": "illari", "strength": 0.6 },
-      { "hero": "mei", "strength": 0.6 },
-      { "hero": "jetpack-cat", "strength": 0.5 }
+      {
+        "hero": "illari",
+        "strength": 0.77
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.73
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.68
+      },
+      {
+        "hero": "anran",
+        "strength": 0.62
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.6
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.58
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.58
+      }
     ]
   },
   "doomfist": {
     "counters": [
-      { "hero": "mauga", "strength": 0.9 },
-      { "hero": "roadhog", "strength": 0.8 },
-      { "hero": "pharah", "strength": 0.7 },
-      { "hero": "baptiste", "strength": 0.6 }
+      {
+        "hero": "mauga",
+        "strength": 0.95
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.74
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.73
+      },
+      {
+        "hero": "domina",
+        "strength": 0.72
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.71
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.71
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.7
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.69
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.68
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.66
+      }
     ],
     "synergies": [
-      { "hero": "shion", "strength": 0.7 },
-      { "hero": "lucio", "strength": 0.8 },
-      { "hero": "emre", "strength": 0.5 },
-      { "hero": "brigitte", "strength": 0.6 }
+      {
+        "hero": "freja",
+        "strength": 0.83
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.73
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.67
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.63
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.62
+      },
+      {
+        "hero": "echo",
+        "strength": 0.58
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.58
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.57
+      }
     ]
   },
   "dva": {
     "counters": [
-      { "hero": "brigitte", "strength": 0.5 },
-      { "hero": "symmetra", "strength": 0.5 },
-      { "hero": "zarya", "strength": 0.5 },
-      { "hero": "ramattra", "strength": 0.5 }
+      {
+        "hero": "brigitte",
+        "strength": 0.86
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.69
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.67
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.67
+      },
+      {
+        "hero": "mei",
+        "strength": 0.65
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.65
+      },
+      {
+        "hero": "moira",
+        "strength": 0.63
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.62
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.62
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.61
+      }
     ],
     "synergies": [
-      { "hero": "pharah", "strength": 0.5 },
-      { "hero": "venture", "strength": 0.5 },
-      { "hero": "brigitte", "strength": 0.5 }
+      {
+        "hero": "venture",
+        "strength": 0.88
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.85
+      },
+      {
+        "hero": "mei",
+        "strength": 0.85
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.82
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.68
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.65
+      },
+      {
+        "hero": "anran",
+        "strength": 0.62
+      },
+      {
+        "hero": "moira",
+        "strength": 0.57
+      }
     ]
   },
   "echo": {
     "counters": [
-      { "hero": "shion", "strength": 0.7 },
-      { "hero": "soldier-76", "strength": 0.6 },
-      { "hero": "baptiste", "strength": 0.7 },
-      { "hero": "dmon", "strength": 0.5 }
+      {
+        "hero": "moira",
+        "strength": 0.62
+      },
+      {
+        "hero": "shion",
+        "strength": 0.61
+      },
+      {
+        "hero": "illari",
+        "strength": 0.6
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.6
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.6
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.59
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.59
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.59
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.57
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.57
+      }
     ],
     "synergies": [
-      { "hero": "sojourn", "strength": 0.6 },
-      { "hero": "winston", "strength": 0.7 },
-      { "hero": "mizuki", "strength": 0.6 }
+      {
+        "hero": "torbjorn",
+        "strength": 0.88
+      },
+      {
+        "hero": "venture",
+        "strength": 0.8
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.73
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.72
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.65
+      },
+      {
+        "hero": "genji",
+        "strength": 0.65
+      },
+      {
+        "hero": "ana",
+        "strength": 0.63
+      },
+      {
+        "hero": "winston",
+        "strength": 0.62
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.58
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.57
+      }
     ]
   },
   "emre": {
     "counters": [
-      { "hero": "zarya", "strength": 0.6 },
-      { "hero": "widowmaker", "strength": 0.7 },
-      { "hero": "mercy", "strength": 0.7 },
-      { "hero": "junker-queen", "strength": 0.5 }
+      {
+        "hero": "lifeweaver",
+        "strength": 0.61
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.61
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.6
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.59
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.59
+      },
+      {
+        "hero": "anran",
+        "strength": 0.58
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.58
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.58
+      },
+      {
+        "hero": "dva",
+        "strength": 0.56
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.56
+      }
     ],
     "synergies": [
-      { "hero": "ana", "strength": 0.6 },
-      { "hero": "venture", "strength": 0.8 },
-      { "hero": "winston", "strength": 0.6 },
-      { "hero": "lifeweaver", "strength": 0.7 }
+      {
+        "hero": "mei",
+        "strength": 0.99
+      },
+      {
+        "hero": "shion",
+        "strength": 0.75
+      },
+      {
+        "hero": "genji",
+        "strength": 0.73
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.73
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.7
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.68
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.68
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.65
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.63
+      },
+      {
+        "hero": "ana",
+        "strength": 0.58
+      }
     ]
   },
   "freja": {
     "counters": [
-      { "hero": "dva", "strength": 0.8 },
-      { "hero": "cassidy", "strength": 0.6 },
-      { "hero": "illari", "strength": 0.9 }
+      {
+        "hero": "dva",
+        "strength": 0.67
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.6
+      },
+      {
+        "hero": "juno",
+        "strength": 0.6
+      },
+      {
+        "hero": "moira",
+        "strength": 0.6
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.6
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.6
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.59
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.59
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.58
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.58
+      }
     ],
     "synergies": [
-      { "hero": "winston", "strength": 0.6 },
-      { "hero": "zenyatta", "strength": 0.7 },
-      { "hero": "anran", "strength": 0.6 },
-      { "hero": "symmetra", "strength": 0.6 }
+      {
+        "hero": "doomfist",
+        "strength": 0.83
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.83
+      },
+      {
+        "hero": "anran",
+        "strength": 0.77
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.7
+      },
+      {
+        "hero": "winston",
+        "strength": 0.68
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.68
+      },
+      {
+        "hero": "venture",
+        "strength": 0.67
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.65
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.62
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.6
+      }
     ]
   },
   "genji": {
     "counters": [
-      { "hero": "wrecking-ball", "strength": 0.9 },
-      { "hero": "winston", "strength": 0.9 },
-      { "hero": "moira", "strength": 0.8 },
-      { "hero": "anran", "strength": 0.7 }
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.85
+      },
+      {
+        "hero": "winston",
+        "strength": 0.8
+      },
+      {
+        "hero": "moira",
+        "strength": 0.77
+      },
+      {
+        "hero": "anran",
+        "strength": 0.7
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.7
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.7
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.66
+      },
+      {
+        "hero": "domina",
+        "strength": 0.64
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.6
+      },
+      {
+        "hero": "echo",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "reinhardt", "strength": 0.6 },
-      { "hero": "juno", "strength": 0.5 },
-      { "hero": "sojourn", "strength": 0.7 },
-      { "hero": "soldier-76", "strength": 0.6 }
+      {
+        "hero": "soldier-76",
+        "strength": 0.78
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.75
+      },
+      {
+        "hero": "emre",
+        "strength": 0.73
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.72
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.65
+      },
+      {
+        "hero": "echo",
+        "strength": 0.65
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.63
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.62
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.58
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.58
+      }
     ]
   },
   "hanzo": {
     "counters": [
-      { "hero": "wrecking-ball", "strength": 0.8 },
-      { "hero": "doomfist", "strength": 0.7 },
-      { "hero": "genji", "strength": 0.7 },
-      { "hero": "mercy", "strength": 0.6 }
+      {
+        "hero": "zarya",
+        "strength": 0.68
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.66
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.66
+      },
+      {
+        "hero": "genji",
+        "strength": 0.65
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.65
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.64
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.63
+      },
+      {
+        "hero": "venture",
+        "strength": 0.62
+      },
+      {
+        "hero": "anran",
+        "strength": 0.6
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.6
+      }
     ],
     "synergies": [
-      { "hero": "mei", "strength": 0.8 },
-      { "hero": "zarya", "strength": 0.6 },
-      { "hero": "zenyatta", "strength": 0.5 },
-      { "hero": "reinhardt", "strength": 0.6 }
+      {
+        "hero": "venture",
+        "strength": 0.73
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.67
+      },
+      {
+        "hero": "moira",
+        "strength": 0.65
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.65
+      },
+      {
+        "hero": "juno",
+        "strength": 0.62
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.6
+      },
+      {
+        "hero": "winston",
+        "strength": 0.57
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.55
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.55
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.53
+      }
     ]
   },
   "hazard": {
     "counters": [
-      { "hero": "mauga", "strength": 1 },
-      { "hero": "sigma", "strength": 0.9 },
-      { "hero": "reinhardt", "strength": 0.8 }
+      {
+        "hero": "mauga",
+        "strength": 0.85
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.73
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.7
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.7
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.7
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.68
+      },
+      {
+        "hero": "domina",
+        "strength": 0.67
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.64
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.63
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.62
+      }
     ],
     "synergies": [
-      { "hero": "vendetta", "strength": 0.9 },
-      { "hero": "lifeweaver", "strength": 0.9 },
-      { "hero": "pharah", "strength": 0.8 }
+      {
+        "hero": "sombra",
+        "strength": 0.73
+      },
+      {
+        "hero": "genji",
+        "strength": 0.72
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.68
+      },
+      {
+        "hero": "shion",
+        "strength": 0.68
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.68
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.65
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.63
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.63
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.63
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.62
+      }
     ]
   },
   "illari": {
     "counters": [
-      { "hero": "sombra", "strength": 0.9 },
-      { "hero": "genji", "strength": 0.8 },
-      { "hero": "tracer", "strength": 0.7 }
+      {
+        "hero": "anran",
+        "strength": 0.67
+      },
+      {
+        "hero": "moira",
+        "strength": 0.63
+      },
+      {
+        "hero": "winston",
+        "strength": 0.63
+      },
+      {
+        "hero": "venture",
+        "strength": 0.6
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.59
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.58
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.58
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.57
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.57
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.56
+      }
     ],
     "synergies": [
-      { "hero": "sigma", "strength": 0.9 },
-      { "hero": "baptiste", "strength": 0.8 },
-      { "hero": "soldier-76", "strength": 0.8 }
+      {
+        "hero": "venture",
+        "strength": 0.78
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.78
+      },
+      {
+        "hero": "domina",
+        "strength": 0.77
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.7
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.68
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.68
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.65
+      },
+      {
+        "hero": "moira",
+        "strength": 0.65
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.62
+      },
+      {
+        "hero": "winston",
+        "strength": 0.6
+      }
     ]
   },
   "jetpack-cat": {
     "counters": [
-      { "hero": "dva", "strength": 0.8 },
-      { "hero": "ashe", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.8 },
-      { "hero": "illari", "strength": 0.7 }
+      {
+        "hero": "ashe",
+        "strength": 0.79
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.76
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.69
+      },
+      {
+        "hero": "winston",
+        "strength": 0.66
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.65
+      },
+      {
+        "hero": "emre",
+        "strength": 0.64
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.61
+      },
+      {
+        "hero": "moira",
+        "strength": 0.61
+      },
+      {
+        "hero": "dva",
+        "strength": 0.59
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "bastion", "strength": 0.8 },
-      { "hero": "hazard", "strength": 0.6 },
-      { "hero": "ashe", "strength": 0.7 },
-      { "hero": "mercy", "strength": 0.7 }
+      {
+        "hero": "venture",
+        "strength": 0.78
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.73
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.72
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.7
+      },
+      {
+        "hero": "juno",
+        "strength": 0.68
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.63
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.63
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.63
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.62
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.62
+      }
     ]
   },
   "junker-queen": {
     "counters": [
-      { "hero": "ana", "strength": 0.9 },
-      { "hero": "kiriko", "strength": 0.9 },
-      { "hero": "mei", "strength": 0.8 }
+      {
+        "hero": "sombra",
+        "strength": 0.79
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.67
+      },
+      {
+        "hero": "moira",
+        "strength": 0.66
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.61
+      },
+      {
+        "hero": "mei",
+        "strength": 0.61
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.6
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.6
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.59
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.59
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "lucio", "strength": 1 },
-      { "hero": "brigitte", "strength": 0.8 },
-      { "hero": "genji", "strength": 0.8 }
+      {
+        "hero": "brigitte",
+        "strength": 0.78
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.67
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.67
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.65
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.63
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.62
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.62
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.62
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.6
+      },
+      {
+        "hero": "genji",
+        "strength": 0.58
+      }
     ]
   },
   "junkrat": {
     "counters": [
-      { "hero": "pharah", "strength": 1 },
-      { "hero": "echo", "strength": 0.9 },
-      { "hero": "zarya", "strength": 0.9 }
+      {
+        "hero": "pharah",
+        "strength": 0.68
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.67
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.65
+      },
+      {
+        "hero": "echo",
+        "strength": 0.62
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.62
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.61
+      },
+      {
+        "hero": "emre",
+        "strength": 0.61
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.6
+      },
+      {
+        "hero": "juno",
+        "strength": 0.6
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.6
+      }
     ],
     "synergies": [
-      { "hero": "mercy", "strength": 0.8 },
-      { "hero": "zarya", "strength": 0.8 },
-      { "hero": "roadhog", "strength": 0.7 }
+      {
+        "hero": "dva",
+        "strength": 0.68
+      },
+      {
+        "hero": "illari",
+        "strength": 0.68
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.62
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.62
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.62
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.6
+      },
+      {
+        "hero": "freja",
+        "strength": 0.6
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.6
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.58
+      }
     ]
   },
   "juno": {
     "counters": [
-      { "hero": "sombra", "strength": 0.9 },
-      { "hero": "tracer", "strength": 0.8 },
-      { "hero": "widowmaker", "strength": 0.8 }
+      {
+        "hero": "soldier-76",
+        "strength": 0.69
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.68
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.68
+      },
+      {
+        "hero": "winston",
+        "strength": 0.67
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.65
+      },
+      {
+        "hero": "anran",
+        "strength": 0.63
+      },
+      {
+        "hero": "moira",
+        "strength": 0.62
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.62
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.61
+      },
+      {
+        "hero": "dva",
+        "strength": 0.6
+      }
     ],
     "synergies": [
-      { "hero": "reinhardt", "strength": 0.9 },
-      { "hero": "ramattra", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.8 }
+      {
+        "hero": "brigitte",
+        "strength": 0.77
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.72
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.68
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.67
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.65
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.62
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.6
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.58
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.58
+      },
+      {
+        "hero": "mei",
+        "strength": 0.57
+      }
     ]
   },
   "kiriko": {
     "counters": [
-      { "hero": "tracer", "strength": 0.8 },
-      { "hero": "sombra", "strength": 0.7 },
-      { "hero": "winston", "strength": 0.7 }
+      {
+        "hero": "vendetta",
+        "strength": 0.71
+      },
+      {
+        "hero": "genji",
+        "strength": 0.68
+      },
+      {
+        "hero": "venture",
+        "strength": 0.67
+      },
+      {
+        "hero": "winston",
+        "strength": 0.66
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.65
+      },
+      {
+        "hero": "anran",
+        "strength": 0.64
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.62
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.62
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.59
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "winston", "strength": 0.9 },
-      { "hero": "tracer", "strength": 0.9 },
-      { "hero": "genji", "strength": 0.9 }
+      {
+        "hero": "mauga",
+        "strength": 0.77
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.73
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.68
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.68
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.67
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.62
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.6
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.6
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.6
+      },
+      {
+        "hero": "domina",
+        "strength": 0.58
+      }
     ]
   },
   "lifeweaver": {
     "counters": [
-      { "hero": "sombra", "strength": 0.8 },
-      { "hero": "ramattra", "strength": 0.8 },
-      { "hero": "tracer", "strength": 0.7 }
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.8
+      },
+      {
+        "hero": "winston",
+        "strength": 0.77
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.76
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.76
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.71
+      },
+      {
+        "hero": "dva",
+        "strength": 0.7
+      },
+      {
+        "hero": "genji",
+        "strength": 0.7
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.69
+      },
+      {
+        "hero": "anran",
+        "strength": 0.65
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.64
+      }
     ],
     "synergies": [
-      { "hero": "zarya", "strength": 0.9 },
-      { "hero": "bastion", "strength": 0.8 },
-      { "hero": "reinhardt", "strength": 0.8 }
+      {
+        "hero": "venture",
+        "strength": 0.68
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.67
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.65
+      },
+      {
+        "hero": "ana",
+        "strength": 0.63
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.62
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.62
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.62
+      },
+      {
+        "hero": "anran",
+        "strength": 0.6
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.6
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.6
+      }
     ]
   },
   "lucio": {
     "counters": [
-      { "hero": "pharah", "strength": 0.8 },
-      { "hero": "sombra", "strength": 0.8 },
-      { "hero": "torbjorn", "strength": 0.7 }
+      {
+        "hero": "hazard",
+        "strength": 0.65
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.65
+      },
+      {
+        "hero": "winston",
+        "strength": 0.64
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.61
+      },
+      {
+        "hero": "venture",
+        "strength": 0.6
+      },
+      {
+        "hero": "moira",
+        "strength": 0.57
+      },
+      {
+        "hero": "domina",
+        "strength": 0.56
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.56
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.56
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.56
+      }
     ],
     "synergies": [
-      { "hero": "reinhardt", "strength": 0.9 },
-      { "hero": "ramattra", "strength": 0.9 }
+      {
+        "hero": "pharah",
+        "strength": 0.93
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.73
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.73
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.67
+      },
+      {
+        "hero": "dva",
+        "strength": 0.65
+      },
+      {
+        "hero": "venture",
+        "strength": 0.65
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.63
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.62
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.62
+      },
+      {
+        "hero": "moira",
+        "strength": 0.6
+      }
     ]
   },
   "mauga": {
     "counters": [
-      { "hero": "ana", "strength": 1 },
-      { "hero": "zarya", "strength": 0.9 },
-      { "hero": "zenyatta", "strength": 0.8 }
+      {
+        "hero": "symmetra",
+        "strength": 0.81
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.8
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.79
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.7
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.7
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.69
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.67
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.66
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.65
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.64
+      }
     ],
     "synergies": [
-      { "hero": "kiriko", "strength": 0.9 },
-      { "hero": "ana", "strength": 0.9 },
-      { "hero": "bastion", "strength": 0.8 }
+      {
+        "hero": "anran",
+        "strength": 0.77
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.77
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.62
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.62
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.62
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.6
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.58
+      }
     ]
   },
   "mei": {
     "counters": [
-      { "hero": "pharah", "strength": 0.9 },
-      { "hero": "echo", "strength": 0.9 },
-      { "hero": "widowmaker", "strength": 0.8 }
+      {
+        "hero": "pharah",
+        "strength": 0.64
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.63
+      },
+      {
+        "hero": "juno",
+        "strength": 0.61
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.6
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.59
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.58
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.58
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.57
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.56
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.56
+      }
     ],
     "synergies": [
-      { "hero": "reinhardt", "strength": 0.9 },
-      { "hero": "ramattra", "strength": 0.9 },
-      { "hero": "lucio", "strength": 0.8 }
+      {
+        "hero": "emre",
+        "strength": 0.99
+      },
+      {
+        "hero": "dva",
+        "strength": 0.85
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.67
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.67
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.65
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.62
+      },
+      {
+        "hero": "juno",
+        "strength": 0.57
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.57
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.55
+      }
     ]
   },
   "mercy": {
     "counters": [
-      { "hero": "sombra", "strength": 0.9 },
-      { "hero": "widowmaker", "strength": 0.8 },
-      { "hero": "soldier-76", "strength": 0.8 }
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.84
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.69
+      },
+      {
+        "hero": "dva",
+        "strength": 0.69
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.69
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.68
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.66
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.66
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.65
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.63
+      },
+      {
+        "hero": "winston",
+        "strength": 0.61
+      }
     ],
     "synergies": [
-      { "hero": "pharah", "strength": 1 },
-      { "hero": "sojourn", "strength": 0.9 }
+      {
+        "hero": "pharah",
+        "strength": 0.77
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.67
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.63
+      },
+      {
+        "hero": "freja",
+        "strength": 0.62
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.62
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.6
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.6
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.6
+      },
+      {
+        "hero": "juno",
+        "strength": 0.58
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.58
+      }
     ]
   },
   "mizuki": {
     "counters": [
-      { "hero": "ana", "strength": 0.8 },
-      { "hero": "sombra", "strength": 0.8 },
-      { "hero": "mauga", "strength": 0.8 }
+      {
+        "hero": "genji",
+        "strength": 0.64
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.62
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.61
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.59
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.59
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.57
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.57
+      },
+      {
+        "hero": "juno",
+        "strength": 0.55
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.55
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.55
+      }
     ],
     "synergies": [
-      { "hero": "genji", "strength": 0.9 },
-      { "hero": "tracer", "strength": 0.9 },
-      { "hero": "winston", "strength": 0.8 }
+      {
+        "hero": "baptiste",
+        "strength": 0.75
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.75
+      },
+      {
+        "hero": "echo",
+        "strength": 0.72
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.7
+      },
+      {
+        "hero": "domina",
+        "strength": 0.68
+      },
+      {
+        "hero": "juno",
+        "strength": 0.67
+      },
+      {
+        "hero": "illari",
+        "strength": 0.65
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.62
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.62
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.62
+      }
     ]
   },
   "moira": {
     "counters": [
-      { "hero": "dva", "strength": 0.8 },
-      { "hero": "ana", "strength": 0.8 },
-      { "hero": "widowmaker", "strength": 0.7 }
+      {
+        "hero": "roadhog",
+        "strength": 0.69
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.68
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.66
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.66
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.62
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.62
+      },
+      {
+        "hero": "winston",
+        "strength": 0.61
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.6
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.59
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.57
+      }
     ],
     "synergies": [
-      { "hero": "reinhardt", "strength": 0.9 },
-      { "hero": "lucio", "strength": 0.8 },
-      { "hero": "reaper", "strength": 0.8 }
+      {
+        "hero": "hanzo",
+        "strength": 0.65
+      },
+      {
+        "hero": "illari",
+        "strength": 0.65
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.63
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.63
+      },
+      {
+        "hero": "shion",
+        "strength": 0.62
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.6
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.6
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.6
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.58
+      },
+      {
+        "hero": "dva",
+        "strength": 0.57
+      }
     ]
   },
   "orisa": {
     "counters": [
-      { "hero": "zarya", "strength": 0.9 },
-      { "hero": "zenyatta", "strength": 0.8 },
-      { "hero": "sombra", "strength": 0.8 }
+      {
+        "hero": "symmetra",
+        "strength": 0.71
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.63
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.62
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.61
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.6
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.6
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.59
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.59
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.58
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.58
+      }
     ],
     "synergies": [
-      { "hero": "baptiste", "strength": 0.9 },
-      { "hero": "torbjorn", "strength": 0.8 },
-      { "hero": "bastion", "strength": 0.8 }
+      {
+        "hero": "baptiste",
+        "strength": 0.7
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.67
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.63
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.62
+      },
+      {
+        "hero": "moira",
+        "strength": 0.6
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.58
+      }
     ]
   },
   "pharah": {
     "counters": [
-      { "hero": "widowmaker", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.9 },
-      { "hero": "soldier-76", "strength": 0.8 }
+      {
+        "hero": "juno",
+        "strength": 0.8
+      },
+      {
+        "hero": "echo",
+        "strength": 0.78
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.77
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.76
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.72
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.71
+      },
+      {
+        "hero": "emre",
+        "strength": 0.7
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.7
+      },
+      {
+        "hero": "illari",
+        "strength": 0.68
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.68
+      }
     ],
     "synergies": [
-      { "hero": "lifeweaver", "strength": 0.8 },
-      { "hero": "zenyatta", "strength": 0.7 }
+      {
+        "hero": "lucio",
+        "strength": 0.93
+      },
+      {
+        "hero": "dva",
+        "strength": 0.82
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.77
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.77
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.73
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.68
+      },
+      {
+        "hero": "anran",
+        "strength": 0.65
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.65
+      },
+      {
+        "hero": "emre",
+        "strength": 0.63
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.63
+      }
     ]
   },
   "ramattra": {
     "counters": [
-      { "hero": "bastion", "strength": 0.9 },
-      { "hero": "ana", "strength": 0.8 },
-      { "hero": "zenyatta", "strength": 0.8 }
+      {
+        "hero": "zenyatta",
+        "strength": 0.76
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.74
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.66
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.66
+      },
+      {
+        "hero": "ana",
+        "strength": 0.65
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.65
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.62
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.61
+      },
+      {
+        "hero": "echo",
+        "strength": 0.6
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "ana", "strength": 0.9 }
+      {
+        "hero": "venture",
+        "strength": 0.68
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.62
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.62
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.62
+      },
+      {
+        "hero": "anran",
+        "strength": 0.58
+      },
+      {
+        "hero": "ana",
+        "strength": 0.57
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.55
+      }
     ]
   },
   "reaper": {
     "counters": [
-      { "hero": "pharah", "strength": 0.9 },
-      { "hero": "echo", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.8 }
+      {
+        "hero": "brigitte",
+        "strength": 0.69
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.65
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.64
+      },
+      {
+        "hero": "genji",
+        "strength": 0.62
+      },
+      {
+        "hero": "shion",
+        "strength": 0.61
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.61
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.58
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.58
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.58
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.57
+      }
     ],
     "synergies": [
-      { "hero": "lucio", "strength": 0.9 },
-      { "hero": "kiriko", "strength": 0.8 },
-      { "hero": "winston", "strength": 0.8 }
+      {
+        "hero": "widowmaker",
+        "strength": 0.75
+      },
+      {
+        "hero": "emre",
+        "strength": 0.73
+      },
+      {
+        "hero": "illari",
+        "strength": 0.7
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.67
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.63
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.6
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.6
+      },
+      {
+        "hero": "domina",
+        "strength": 0.58
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.58
+      }
     ]
   },
   "reinhardt": {
     "counters": [
-      { "hero": "bastion", "strength": 0.9 },
-      { "hero": "ramattra", "strength": 0.9 },
-      { "hero": "junkrat", "strength": 0.8 }
+      {
+        "hero": "pharah",
+        "strength": 0.81
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.74
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.74
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.73
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.7
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.7
+      },
+      {
+        "hero": "ana",
+        "strength": 0.68
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.68
+      },
+      {
+        "hero": "echo",
+        "strength": 0.67
+      },
+      {
+        "hero": "juno",
+        "strength": 0.67
+      }
     ],
     "synergies": [
-
+      {
+        "hero": "ana",
+        "strength": 0.73
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.7
+      },
+      {
+        "hero": "juno",
+        "strength": 0.65
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.57
+      },
+      {
+        "hero": "echo",
+        "strength": 0.57
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.55
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.55
+      }
     ]
   },
   "roadhog": {
     "counters": [
-      { "hero": "ana", "strength": 1 },
-      { "hero": "zenyatta", "strength": 0.9 },
-      { "hero": "reaper", "strength": 0.8 }
+      {
+        "hero": "baptiste",
+        "strength": 0.82
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.79
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.75
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.74
+      },
+      {
+        "hero": "ana",
+        "strength": 0.73
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.72
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.71
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.71
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.66
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.66
+      }
     ],
     "synergies": [
-      { "hero": "kiriko", "strength": 1 },
-      { "hero": "cassidy", "strength": 0.7 }
+      {
+        "hero": "pharah",
+        "strength": 0.73
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.7
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.7
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.67
+      },
+      {
+        "hero": "mei",
+        "strength": 0.65
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.63
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.62
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.62
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.6
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.58
+      }
     ]
   },
   "shion": {
     "counters": [
-      { "hero": "pharah", "strength": 0.9 },
-      { "hero": "echo", "strength": 0.8 },
-      { "hero": "zarya", "strength": 0.8 }
+      {
+        "hero": "vendetta",
+        "strength": 0.63
+      },
+      {
+        "hero": "anran",
+        "strength": 0.62
+      },
+      {
+        "hero": "venture",
+        "strength": 0.61
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.6
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.59
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.58
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.57
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.57
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.57
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.56
+      }
     ],
     "synergies": [
-      { "hero": "kiriko", "strength": 0.9 },
-      { "hero": "hazard", "strength": 0.8 },
-      { "hero": "lucio", "strength": 0.8 }
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.77
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.75
+      },
+      {
+        "hero": "emre",
+        "strength": 0.75
+      },
+      {
+        "hero": "winston",
+        "strength": 0.72
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.68
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.67
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.65
+      },
+      {
+        "hero": "moira",
+        "strength": 0.62
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.58
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.57
+      }
     ]
   },
   "sierra": {
     "counters": [
-      { "hero": "widowmaker", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.8 },
-      { "hero": "sigma", "strength": 0.8 }
+      {
+        "hero": "moira",
+        "strength": 0.67
+      },
+      {
+        "hero": "genji",
+        "strength": 0.66
+      },
+      {
+        "hero": "winston",
+        "strength": 0.64
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.62
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.6
+      },
+      {
+        "hero": "anran",
+        "strength": 0.59
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.58
+      },
+      {
+        "hero": "dva",
+        "strength": 0.58
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.58
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.58
+      }
     ],
     "synergies": [
-      { "hero": "mercy", "strength": 0.9 },
-      { "hero": "winston", "strength": 0.8 },
-      { "hero": "baptiste", "strength": 0.8 }
+      {
+        "hero": "anran",
+        "strength": 0.68
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.65
+      },
+      {
+        "hero": "venture",
+        "strength": 0.65
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.65
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.6
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.55
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.55
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.55
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.55
+      }
     ]
   },
   "sigma": {
     "counters": [
-      { "hero": "symmetra", "strength": 0.9 },
-      { "hero": "reinhardt", "strength": 0.8 },
-      { "hero": "winston", "strength": 0.8 }
+      {
+        "hero": "symmetra",
+        "strength": 0.85
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.68
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.67
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.67
+      },
+      {
+        "hero": "echo",
+        "strength": 0.65
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.65
+      },
+      {
+        "hero": "moira",
+        "strength": 0.62
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.62
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.62
+      },
+      {
+        "hero": "mei",
+        "strength": 0.61
+      }
     ],
     "synergies": [
-      { "hero": "widowmaker", "strength": 0.8 }
+      {
+        "hero": "baptiste",
+        "strength": 0.75
+      },
+      {
+        "hero": "illari",
+        "strength": 0.68
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.65
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.63
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.6
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.6
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.58
+      }
     ]
   },
   "sojourn": {
     "counters": [
-      { "hero": "genji", "strength": 0.8 },
-      { "hero": "tracer", "strength": 0.8 },
-      { "hero": "widowmaker", "strength": 0.7 }
+      {
+        "hero": "winston",
+        "strength": 0.61
+      },
+      {
+        "hero": "genji",
+        "strength": 0.59
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.59
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.59
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.59
+      },
+      {
+        "hero": "anran",
+        "strength": 0.58
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.58
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.57
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.56
+      },
+      {
+        "hero": "venture",
+        "strength": 0.56
+      }
     ],
     "synergies": [
-      { "hero": "winston", "strength": 0.9 },
-      { "hero": "kiriko", "strength": 0.8 }
+      {
+        "hero": "baptiste",
+        "strength": 0.73
+      },
+      {
+        "hero": "anran",
+        "strength": 0.67
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.67
+      },
+      {
+        "hero": "genji",
+        "strength": 0.63
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.62
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.6
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.6
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.6
+      },
+      {
+        "hero": "ana",
+        "strength": 0.58
+      }
     ]
   },
   "soldier-76": {
     "counters": [
-      { "hero": "reinhardt", "strength": 0.8 },
-      { "hero": "sigma", "strength": 0.8 },
-      { "hero": "widowmaker", "strength": 0.7 }
+      {
+        "hero": "doomfist",
+        "strength": 0.66
+      },
+      {
+        "hero": "genji",
+        "strength": 0.63
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.63
+      },
+      {
+        "hero": "anran",
+        "strength": 0.62
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.62
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.62
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.59
+      },
+      {
+        "hero": "winston",
+        "strength": 0.59
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.58
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.58
+      }
     ],
     "synergies": [
-      { "hero": "mercy", "strength": 0.9 },
-      { "hero": "ana", "strength": 0.8 }
+      {
+        "hero": "genji",
+        "strength": 0.78
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.75
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.67
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.63
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.63
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.62
+      },
+      {
+        "hero": "domina",
+        "strength": 0.6
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.58
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.57
+      }
     ]
   },
   "sombra": {
     "counters": [
-      { "hero": "brigitte", "strength": 0.9 },
-      { "hero": "winston", "strength": 0.8 },
-      { "hero": "torbjorn", "strength": 0.8 }
+      {
+        "hero": "venture",
+        "strength": 0.68
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.66
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.64
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.61
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.61
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.6
+      },
+      {
+        "hero": "moira",
+        "strength": 0.6
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.6
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.59
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.58
+      }
     ],
     "synergies": [
-      { "hero": "tracer", "strength": 0.9 },
-      { "hero": "winston", "strength": 0.9 },
-      { "hero": "wrecking-ball", "strength": 0.8 }
+      {
+        "hero": "winston",
+        "strength": 0.75
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.73
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.73
+      },
+      {
+        "hero": "juno",
+        "strength": 0.72
+      },
+      {
+        "hero": "anran",
+        "strength": 0.7
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.67
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.65
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.65
+      },
+      {
+        "hero": "moira",
+        "strength": 0.63
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.62
+      }
     ]
   },
   "symmetra": {
     "counters": [
-      { "hero": "pharah", "strength": 0.9 },
-      { "hero": "echo", "strength": 0.9 },
-      { "hero": "winston", "strength": 0.8 }
+      {
+        "hero": "widowmaker",
+        "strength": 0.72
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.65
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.64
+      },
+      {
+        "hero": "moira",
+        "strength": 0.62
+      },
+      {
+        "hero": "ana",
+        "strength": 0.61
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.61
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.61
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.6
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.59
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "sigma", "strength": 0.8 },
-      { "hero": "reinhardt", "strength": 0.8 },
-      { "hero": "baptiste", "strength": 0.8 }
+      {
+        "hero": "bastion",
+        "strength": 0.75
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.7
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.67
+      },
+      {
+        "hero": "freja",
+        "strength": 0.65
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.65
+      },
+      {
+        "hero": "orisa",
+        "strength": 0.63
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.62
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.6
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.6
+      },
+      {
+        "hero": "illari",
+        "strength": 0.58
+      }
     ]
   },
   "torbjorn": {
     "counters": [
-      { "hero": "pharah", "strength": 0.9 },
-      { "hero": "widowmaker", "strength": 0.8 },
-      { "hero": "hanzo", "strength": 0.8 }
+      {
+        "hero": "lifeweaver",
+        "strength": 0.74
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.69
+      },
+      {
+        "hero": "juno",
+        "strength": 0.67
+      },
+      {
+        "hero": "ana",
+        "strength": 0.66
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.66
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.65
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.64
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.62
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.61
+      },
+      {
+        "hero": "illari",
+        "strength": 0.61
+      }
     ],
     "synergies": [
-      { "hero": "ana", "strength": 0.8 },
-      { "hero": "baptiste", "strength": 0.8 }
+      {
+        "hero": "echo",
+        "strength": 0.88
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.8
+      },
+      {
+        "hero": "domina",
+        "strength": 0.73
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.72
+      },
+      {
+        "hero": "freja",
+        "strength": 0.7
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.7
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.68
+      },
+      {
+        "hero": "shion",
+        "strength": 0.67
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.65
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.65
+      }
     ]
   },
   "tracer": {
     "counters": [
-      { "hero": "torbjorn", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.8 },
-      { "hero": "brigitte", "strength": 0.8 }
+      {
+        "hero": "cassidy",
+        "strength": 0.71
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.71
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.66
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.65
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.63
+      },
+      {
+        "hero": "shion",
+        "strength": 0.62
+      },
+      {
+        "hero": "sigma",
+        "strength": 0.62
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.62
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.61
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.61
+      }
     ],
     "synergies": [
-      { "hero": "winston", "strength": 1 }
+      {
+        "hero": "dmon",
+        "strength": 0.77
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.75
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.7
+      },
+      {
+        "hero": "emre",
+        "strength": 0.68
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.68
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.68
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.67
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.65
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.6
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.6
+      }
     ]
   },
   "vendetta": {
     "counters": [
-      { "hero": "mauga", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.8 },
-      { "hero": "ana", "strength": 0.8 }
+      {
+        "hero": "pharah",
+        "strength": 0.73
+      },
+      {
+        "hero": "junkrat",
+        "strength": 0.7
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.7
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.67
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.64
+      },
+      {
+        "hero": "winston",
+        "strength": 0.64
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.63
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.63
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.62
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.61
+      }
     ],
     "synergies": [
-      { "hero": "kiriko", "strength": 0.9 },
-      { "hero": "junker-queen", "strength": 0.8 }
+      {
+        "hero": "freja",
+        "strength": 0.83
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.73
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.73
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.7
+      },
+      {
+        "hero": "mei",
+        "strength": 0.67
+      },
+      {
+        "hero": "shion",
+        "strength": 0.65
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.63
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.62
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.62
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.6
+      }
     ]
   },
   "venture": {
     "counters": [
-      { "hero": "pharah", "strength": 0.9 },
-      { "hero": "echo", "strength": 0.9 },
-      { "hero": "cassidy", "strength": 0.8 }
+      {
+        "hero": "pharah",
+        "strength": 0.71
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.7
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.66
+      },
+      {
+        "hero": "winston",
+        "strength": 0.66
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.65
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.65
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.64
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.63
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.61
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.6
+      }
     ],
     "synergies": [
-      { "hero": "winston", "strength": 0.9 },
-      { "hero": "zarya", "strength": 0.8 },
-      { "hero": "kiriko", "strength": 0.8 }
+      {
+        "hero": "dva",
+        "strength": 0.88
+      },
+      {
+        "hero": "echo",
+        "strength": 0.8
+      },
+      {
+        "hero": "illari",
+        "strength": 0.78
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.78
+      },
+      {
+        "hero": "hanzo",
+        "strength": 0.73
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.68
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.68
+      },
+      {
+        "hero": "freja",
+        "strength": 0.67
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.65
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.65
+      }
     ]
   },
   "widowmaker": {
     "counters": [
-      { "hero": "sombra", "strength": 0.9 },
-      { "hero": "genji", "strength": 0.9 },
-      { "hero": "winston", "strength": 0.9 }
+      {
+        "hero": "winston",
+        "strength": 0.93
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.91
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.82
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.71
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.71
+      },
+      {
+        "hero": "dmon",
+        "strength": 0.69
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.69
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.69
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.69
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.68
+      }
     ],
     "synergies": [
-      { "hero": "mercy", "strength": 0.9 },
-      { "hero": "zenyatta", "strength": 0.8 }
+      {
+        "hero": "torbjorn",
+        "strength": 0.8
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.75
+      },
+      {
+        "hero": "zenyatta",
+        "strength": 0.73
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.72
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.72
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.7
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.67
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.63
+      },
+      {
+        "hero": "mizuki",
+        "strength": 0.62
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.62
+      }
     ]
   },
   "winston": {
     "counters": [
-      { "hero": "bastion", "strength": 0.9 },
-      { "hero": "reaper", "strength": 0.9 },
-      { "hero": "mauga", "strength": 0.9 }
+      {
+        "hero": "roadhog",
+        "strength": 1.0
+      },
+      {
+        "hero": "mauga",
+        "strength": 0.97
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.8
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.77
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.75
+      },
+      {
+        "hero": "ramattra",
+        "strength": 0.74
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.7
+      },
+      {
+        "hero": "domina",
+        "strength": 0.69
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.67
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.66
+      }
     ],
     "synergies": [
-      { "hero": "ana", "strength": 0.9 },
-      { "hero": "genji", "strength": 0.9 }
+      {
+        "hero": "sombra",
+        "strength": 0.75
+      },
+      {
+        "hero": "shion",
+        "strength": 0.72
+      },
+      {
+        "hero": "freja",
+        "strength": 0.68
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.65
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.63
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.63
+      },
+      {
+        "hero": "echo",
+        "strength": 0.62
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.62
+      },
+      {
+        "hero": "illari",
+        "strength": 0.6
+      },
+      {
+        "hero": "emre",
+        "strength": 0.58
+      }
     ]
   },
   "wrecking-ball": {
     "counters": [
-      { "hero": "sombra", "strength": 1 },
-      { "hero": "cassidy", "strength": 0.9 },
-      { "hero": "ana", "strength": 0.8 }
+      {
+        "hero": "mauga",
+        "strength": 1.0
+      },
+      {
+        "hero": "domina",
+        "strength": 0.78
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.76
+      },
+      {
+        "hero": "symmetra",
+        "strength": 0.76
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.75
+      },
+      {
+        "hero": "junker-queen",
+        "strength": 0.73
+      },
+      {
+        "hero": "dva",
+        "strength": 0.68
+      },
+      {
+        "hero": "reaper",
+        "strength": 0.67
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.67
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.67
+      }
     ],
     "synergies": [
-      { "hero": "tracer", "strength": 0.9 },
-      { "hero": "zenyatta", "strength": 0.8 }
+      {
+        "hero": "shion",
+        "strength": 0.77
+      },
+      {
+        "hero": "torbjorn",
+        "strength": 0.7
+      },
+      {
+        "hero": "emre",
+        "strength": 0.65
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.65
+      },
+      {
+        "hero": "moira",
+        "strength": 0.63
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.62
+      },
+      {
+        "hero": "sombra",
+        "strength": 0.62
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.6
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.6
+      },
+      {
+        "hero": "sojourn",
+        "strength": 0.6
+      }
     ]
   },
   "wuyang": {
     "counters": [
-      { "hero": "sombra", "strength": 0.9 },
-      { "hero": "tracer", "strength": 0.8 },
-      { "hero": "genji", "strength": 0.8 }
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.74
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.67
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.64
+      },
+      {
+        "hero": "winston",
+        "strength": 0.64
+      },
+      {
+        "hero": "juno",
+        "strength": 0.62
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.62
+      },
+      {
+        "hero": "doomfist",
+        "strength": 0.6
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.59
+      },
+      {
+        "hero": "moira",
+        "strength": 0.59
+      },
+      {
+        "hero": "pharah",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "sigma", "strength": 0.9 },
-      { "hero": "orisa", "strength": 0.8 },
-      { "hero": "soldier-76", "strength": 0.8 }
+      {
+        "hero": "doomfist",
+        "strength": 0.73
+      },
+      {
+        "hero": "tracer",
+        "strength": 0.7
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.68
+      },
+      {
+        "hero": "winston",
+        "strength": 0.65
+      },
+      {
+        "hero": "cassidy",
+        "strength": 0.63
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.62
+      },
+      {
+        "hero": "soldier-76",
+        "strength": 0.62
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.6
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.58
+      }
     ]
   },
   "zarya": {
     "counters": [
-      { "hero": "bastion", "strength": 0.8 },
-      { "hero": "widowmaker", "strength": 0.8 },
-      { "hero": "pharah", "strength": 0.7 }
+      {
+        "hero": "symmetra",
+        "strength": 0.87
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.72
+      },
+      {
+        "hero": "brigitte",
+        "strength": 0.71
+      },
+      {
+        "hero": "sierra",
+        "strength": 0.64
+      },
+      {
+        "hero": "baptiste",
+        "strength": 0.62
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.62
+      },
+      {
+        "hero": "reinhardt",
+        "strength": 0.61
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.61
+      },
+      {
+        "hero": "domina",
+        "strength": 0.6
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.6
+      }
     ],
     "synergies": [
-      { "hero": "genji", "strength": 0.9 },
-      { "hero": "reaper", "strength": 0.8 }
+      {
+        "hero": "mizuki",
+        "strength": 0.75
+      },
+      {
+        "hero": "vendetta",
+        "strength": 0.73
+      },
+      {
+        "hero": "emre",
+        "strength": 0.68
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.68
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.67
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.67
+      },
+      {
+        "hero": "ashe",
+        "strength": 0.65
+      },
+      {
+        "hero": "venture",
+        "strength": 0.63
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.6
+      },
+      {
+        "hero": "bastion",
+        "strength": 0.57
+      }
     ]
   },
   "zenyatta": {
     "counters": [
-      { "hero": "sombra", "strength": 1 },
-      { "hero": "tracer", "strength": 0.9 },
-      { "hero": "genji", "strength": 0.8 }
+      {
+        "hero": "mercy",
+        "strength": 0.68
+      },
+      {
+        "hero": "lucio",
+        "strength": 0.67
+      },
+      {
+        "hero": "jetpack-cat",
+        "strength": 0.66
+      },
+      {
+        "hero": "juno",
+        "strength": 0.66
+      },
+      {
+        "hero": "kiriko",
+        "strength": 0.66
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.66
+      },
+      {
+        "hero": "wuyang",
+        "strength": 0.64
+      },
+      {
+        "hero": "genji",
+        "strength": 0.62
+      },
+      {
+        "hero": "zarya",
+        "strength": 0.6
+      },
+      {
+        "hero": "illari",
+        "strength": 0.59
+      }
     ],
     "synergies": [
-      { "hero": "brigitte", "strength": 0.9 },
-      { "hero": "sigma", "strength": 0.8 }
+      {
+        "hero": "baptiste",
+        "strength": 0.88
+      },
+      {
+        "hero": "illari",
+        "strength": 0.78
+      },
+      {
+        "hero": "widowmaker",
+        "strength": 0.73
+      },
+      {
+        "hero": "freja",
+        "strength": 0.68
+      },
+      {
+        "hero": "doctrine",
+        "strength": 0.65
+      },
+      {
+        "hero": "hazard",
+        "strength": 0.65
+      },
+      {
+        "hero": "mercy",
+        "strength": 0.63
+      },
+      {
+        "hero": "roadhog",
+        "strength": 0.63
+      },
+      {
+        "hero": "lifeweaver",
+        "strength": 0.6
+      },
+      {
+        "hero": "wrecking-ball",
+        "strength": 0.58
+      }
     ]
   }
 }

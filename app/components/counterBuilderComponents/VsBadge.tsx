@@ -31,7 +31,7 @@ const VsBadge = () => {
     <div className="flex items-center justify-center">
       <div
         ref={ref}
-        className="vs-text select-none text-6xl font-black text-[var(--brand-orange)] transition-transform duration-200 ease-out will-change-transform"
+        className="vs-text select-none text-5xl font-black text-[var(--brand-orange)] transition-transform duration-200 ease-out will-change-transform sm:text-6xl"
       >
         VS
       </div>

@@ -74,11 +74,18 @@ const TeamCounterBuilder = ({ heroes, weakAgainst }: TeamCounterBuilderProps) =>
 
   useEffect(() => {
     if (openSlot === null) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setOpenSlot(null);
     };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = previousOverflow;
+    };
   }, [openSlot]);
 
   const rivalHeroes = ROLE_SLOTS.map((_, index) => {
@@ -111,7 +118,7 @@ const TeamCounterBuilder = ({ heroes, weakAgainst }: TeamCounterBuilderProps) =>
   };
 
   return (
-    <div className="grid grid-cols-1 items-stretch gap-8 md:grid-cols-3">
+    <div className="grid grid-cols-1 items-stretch gap-6 md:grid-cols-3 md:gap-8">
       <RivalTeamRow
         slots={ROLE_SLOTS}
         heroes={rivalHeroes}

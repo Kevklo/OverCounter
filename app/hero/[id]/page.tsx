@@ -29,10 +29,10 @@ const PerkItem = ({ perk }: { perk: Perk }) => (
 );
 
 const RelationRow = ({ entry }: { entry: RelationEntry }) => (
-  <li className="flex items-center gap-3">
+  <li className="flex items-center gap-2 sm:gap-3">
     <Link
       href={`/hero/${entry.id}`}
-      className="flex w-28 shrink-0 items-center gap-2 sm:w-40"
+      className="flex w-24 shrink-0 items-center gap-2 sm:w-40"
     >
       {entry.image_url ? (
         <Image
@@ -48,7 +48,7 @@ const RelationRow = ({ entry }: { entry: RelationEntry }) => (
           {entry.name.charAt(0)}
         </span>
       )}
-      <span className="truncate font-semibold text-slate-900 hover:underline dark:text-slate-100">
+      <span className="truncate text-sm font-semibold text-slate-900 hover:underline sm:text-base dark:text-slate-100">
         {entry.name}
       </span>
     </Link>
@@ -73,8 +73,8 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
   const counters = getWeakAgainst(id);
 
   return (
-    <div className="mx-auto grid w-full max-w-5xl grid-cols-1 gap-8 px-4 py-8 md:grid-cols-4 md:gap-x-6 md:gap-y-10">
-      <div className="mx-auto w-full max-w-[320px] md:col-start-1 md:row-span-2 md:row-start-1 md:mx-0">
+    <div className="mx-auto grid w-full max-w-5xl grid-cols-1 gap-6 px-3 py-6 sm:gap-8 sm:px-4 sm:py-8 md:grid-cols-4 md:gap-x-6 md:gap-y-10">
+      <div className="mx-auto w-full max-w-[280px] sm:max-w-[320px] md:col-start-1 md:row-span-2 md:row-start-1 md:mx-0">
         {hero.image_url ? (
           <Image
             src={hero.image_url}
@@ -82,7 +82,7 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
             width={512}
             height={512}
             sizes="(max-width: 768px) 80vw, 320px"
-            className="h-auto w-full rounded-xl"
+            className="h-auto w-full rounded-2xl"
           />
         ) : (
           <div className="flex aspect-square w-full items-center justify-center rounded-xl bg-slate-100 text-7xl font-bold text-slate-400 dark:bg-slate-800 dark:text-slate-500">
@@ -91,7 +91,7 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
         )}
       </div>
 
-      <h1 className="min-w-0 text-center text-4xl text-slate-900 sm:text-5xl md:col-start-2 md:row-start-1 md:text-left dark:text-slate-100">
+      <h1 className="min-w-0 text-center text-3xl text-slate-900 sm:text-5xl md:col-start-2 md:row-start-1 md:text-left dark:text-slate-100">
         {hero.name}
       </h1>
 
@@ -104,25 +104,25 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
         <Pills kind="archetype" value={hero.archetype} />
       </div>
 
-      <p className="text-lg font-[200] text-[var(--muted)] sm:text-xl md:col-span-3 md:col-start-2 md:row-start-2">
+      <p className="text-base font-[200] text-[var(--muted)] sm:text-xl md:col-span-3 md:col-start-2 md:row-start-2">
         {hero.description}
       </p>
 
       <section className="flex flex-col gap-3 md:col-span-4">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+        <h2 className="text-xl font-bold text-slate-900 sm:text-2xl dark:text-slate-100">
           Abilities
         </h2>
         <AbilityBar abilities={hero.abilities} />
       </section>
 
       <section className="flex flex-col gap-6 md:col-span-4">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+        <h2 className="text-xl font-bold text-slate-900 sm:text-2xl dark:text-slate-100">
           Perks
         </h2>
         <div className="flex flex-col gap-6">
           {(["minor", "major"] as const).map((tier) => (
             <div key={tier} className="flex flex-col gap-3">
-              <h3 className="text-xl font-semibold capitalize text-slate-900 dark:text-slate-100">
+              <h3 className="text-lg font-semibold capitalize text-slate-900 sm:text-xl dark:text-slate-100">
                 {tier} perks
               </h3>
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -135,8 +135,8 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
         </div>
       </section>
 
-      <section className="flex flex-col gap-4 rounded-xl border border-slate-300 bg-white/60 p-6 shadow-sm backdrop-blur-sm md:col-span-2 dark:border-slate-700 dark:bg-slate-900/40">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+      <section className="flex flex-col gap-4 rounded-2xl border border-slate-300 bg-white/60 p-4 shadow-sm backdrop-blur-sm sm:p-6 md:col-span-2 dark:border-slate-700 dark:bg-slate-900/40">
+        <h2 className="text-xl font-bold text-slate-900 sm:text-2xl dark:text-slate-100">
           Synergies
         </h2>
         {synergies.length === 0 ? (
@@ -152,8 +152,8 @@ const HeroDetailPage = async (props: PageProps<"/hero/[id]">) => {
         )}
       </section>
 
-      <section className="flex flex-col gap-4 rounded-xl border border-slate-300 bg-white/60 p-6 shadow-sm backdrop-blur-sm md:col-span-2 dark:border-slate-700 dark:bg-slate-900/40">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+      <section className="flex flex-col gap-4 rounded-2xl border border-slate-300 bg-white/60 p-4 shadow-sm backdrop-blur-sm sm:p-6 md:col-span-2 dark:border-slate-700 dark:bg-slate-900/40">
+        <h2 className="text-xl font-bold text-slate-900 sm:text-2xl dark:text-slate-100">
           Best counters
         </h2>
         {counters.length === 0 ? (

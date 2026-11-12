@@ -20,15 +20,15 @@ export const HeroCard = ({
 }: HeroCardProps) => {
 
   return (
-    <Link href={`/hero/${id}`} className="card-laser">
+    <Link href={`/hero/${id}`} className="card-laser block">
       <article className="bg-[var(--surface)] p-3 sm:p-4">
-        <div className="flex flex-row items-center gap-4 sm:grid sm:grid-cols-[1fr_3fr] sm:items-start sm:gap-4">
+        <div className="flex flex-row items-center gap-3 sm:grid sm:grid-cols-[1fr_3fr] sm:items-start sm:gap-4">
           <div className="w-16 shrink-0 sm:col-start-1 sm:row-start-2 sm:w-full">
             {portrait ? (
               <Image
                 src={portrait}
                 alt={"portait of " + name}
-                sizes="(min-width: 640px) 80px 64px"
+                sizes="(min-width: 640px) 160px, 64px"
                 width={512}
                 height={512}
                 className="h-16 w-16 rounded object-cover object-top sm:h-20 sm:w-auto sm:rounded-none"
@@ -39,11 +39,16 @@ export const HeroCard = ({
               </span>
             )}
           </div>
-          <div className="flex min-w-0 flex-col items-start gap-1 sm:contents">
-            <h1 className="col-start-1 row-start-1 min-w-0 text-base font-semibold text-[var(--text)] sm:text-xl">{name}</h1>
+          <div className="flex min-w-0 flex-1 flex-col items-start gap-1 sm:contents">
+            <h3 className="col-start-1 row-start-1 min-w-0 text-base font-semibold text-[var(--text)] sm:text-xl">
+              {name}
+            </h3>
             <div className="col-start-2 row-start-1 justify-self-start">
               <Pills kind={"archetype"} value={archetype}></Pills>
             </div>
+            <p className="line-clamp-2 text-sm leading-snug text-[var(--muted)] sm:hidden">
+              {description}
+            </p>
           </div>
           <p className="hidden text-[var(--muted)] sm:col-start-2 sm:row-start-2 sm:line-clamp-3 sm:block sm:text-sm">
             {description}
